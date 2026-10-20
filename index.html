@@ -450,7 +450,7 @@
       var row=document.createElement("div");
       row.className="match-row"; row.dataset.type=ty.id;
       var svgIcon=ty.svg?'<div class="match-icon">'+ty.svg+'</div>':'';
-      row.innerHTML=svgIcon+'<div class="match-label"><span class="match-num">'+ty.id+'</span>'+ty.label+'</div>'+
+      row.innerHTML=svgIcon+
         '<select aria-label="'+ty.label+'">'+optionsHtml+'</select>'+
         '<span class="solved"></span>';
       wrap.appendChild(row);

@@ -1,0 +1,342 @@
+{
+  "subject": "Technology",
+  "subjectId": "tecnologia",
+  "unitId": "unit-01",
+  "unit": "Unit 1",
+  "title": "The workshop, the environment and safety",
+  "lang": "en",
+  "questions": [
+    {
+      "t": "Technology",
+      "q": "What is “technology”?",
+      "o": [
+        "A set of rules we follow to do things by hand.",
+        "Technical and scientific knowledge used to create objects that make our lives easier.",
+        "A machine that works with electricity.",
+        "The study of the stars."
+      ],
+      "a": 1,
+      "e": "Technology = technical + scientific knowledge used to make useful objects."
+    },
+    {
+      "t": "Technology",
+      "q": "What is a “technique”?",
+      "o": [
+        "The combination of processes and rules we must follow to achieve something.",
+        "A type of computer.",
+        "A scientific law.",
+        "A kind of tool."
+      ],
+      "a": 0,
+      "e": "A technique is the set of processes and rules used to achieve something."
+    },
+    {
+      "t": "Impact",
+      "q": "In the book, asbestos is an example of a material that…",
+      "o": [
+        "is completely safe and modern.",
+        "was useful but was later found to be a carcinogen and was banned.",
+        "is a renewable resource.",
+        "is used to make batteries."
+      ],
+      "a": 1,
+      "e": "Asbestos was used for years, then found to be a carcinogen and banned."
+    },
+    {
+      "t": "Impact",
+      "q": "How can pollution reach human beings?",
+      "o": [
+        "It travels up the food chain.",
+        "It is always easy to see.",
+        "It only affects plants.",
+        "It disappears very quickly."
+      ],
+      "a": 0,
+      "e": "Pollutants move up the food chain until they reach us at the top."
+    },
+    {
+      "t": "Environment",
+      "q": "How does acid rain form?",
+      "o": [
+        "When it rains on the mountains.",
+        "When polluting gases mix with water in the atmosphere and form acids.",
+        "When the sea evaporates.",
+        "When new trees are planted."
+      ],
+      "a": 1,
+      "e": "Polluting gases + water in the air form acids that fall as acid rain."
+    },
+    {
+      "t": "Environment",
+      "q": "Which of these is a water pollutant named in the book?",
+      "o": [
+        "Oxygen.",
+        "Persistent Organic Pollutants (POPs).",
+        "Clean rainwater.",
+        "Sand."
+      ],
+      "a": 1,
+      "e": "POPs — Persistent Organic Pollutants — are a main water pollutant."
+    },
+    {
+      "t": "Environment",
+      "q": "What does “self-purification” of the soil mean?",
+      "o": [
+        "The soil can absorb some pollution by itself.",
+        "The soil makes plants grow faster.",
+        "Farmers wash the soil every day.",
+        "The soil never gets dirty."
+      ],
+      "a": 0,
+      "e": "Soil can absorb some pollution by itself — but not when it is excessive."
+    },
+    {
+      "t": "Environment",
+      "q": "What is the main cause of today’s rapid climate change?",
+      "o": [
+        "Only natural volcanic eruptions.",
+        "The increase in greenhouse gases from human activity.",
+        "The rotation of the Earth.",
+        "Normal rain."
+      ],
+      "a": 1,
+      "e": "Extra greenhouse gases from human activity drive today’s warming."
+    },
+    {
+      "t": "Environment",
+      "q": "What do the “3 Rs” stand for?",
+      "o": [
+        "Read, Repeat, Remember.",
+        "Reduce, Reuse, Recycle.",
+        "Run, Rest, Relax.",
+        "Reduce, Reserve, Replace."
+      ],
+      "a": 1,
+      "e": "The 3 Rs are Reduce, Reuse and Recycle."
+    },
+    {
+      "t": "Project",
+      "q": "What is the correct order of the project method?",
+      "o": [
+        "Design → Define → Verify → Search.",
+        "Define → Search for solutions → Decision-making → Design → Planning and production → Verification.",
+        "Verify → Build → Think → Sell.",
+        "Search → Build → Define → Paint."
+      ],
+      "a": 1,
+      "e": "Define → Search → Decide → Design → Plan & produce → Verify."
+    },
+    {
+      "t": "Project",
+      "q": "What does “brainstorming” mean?",
+      "o": [
+        "Choosing the most expensive idea.",
+        "Quickly proposing many ideas, even if they are not all possible.",
+        "Copying a solution from a book.",
+        "Testing the final product."
+      ],
+      "a": 1,
+      "e": "Brainstorming = propose many ideas fast, even impossible ones."
+    },
+    {
+      "t": "Project",
+      "q": "Morphological analysis studies…",
+      "o": [
+        "the price of an object.",
+        "the shape, parts, size and colour of an object.",
+        "only how the object is used.",
+        "the name of the inventor."
+      ],
+      "a": 1,
+      "e": "Morphological analysis looks at shape, parts, size and colour."
+    },
+    {
+      "t": "Project",
+      "q": "What is a Gantt chart used for?",
+      "o": [
+        "To draw the object.",
+        "To control the time given to each task.",
+        "To calculate the price.",
+        "To choose the team leader."
+      ],
+      "a": 1,
+      "e": "A Gantt chart controls the time given to each task."
+    },
+    {
+      "t": "Project",
+      "q": "Which team member writes down everything the team agrees?",
+      "o": [
+        "The team leader.",
+        "The secretary.",
+        "The tools manager.",
+        "The materials manager."
+      ],
+      "a": 1,
+      "e": "The secretary writes down and stores what the team agrees."
+    },
+    {
+      "t": "Safety",
+      "q": "If there is an accident, what is the PAA approach?",
+      "o": [
+        "Play, Ask, Assist.",
+        "Protect, Alert, Assist.",
+        "Prevent, Act, Analyse.",
+        "Push, Alarm, Avoid."
+      ],
+      "a": 1,
+      "e": "PAA = Protect, Alert, Assist."
+    },
+    {
+      "t": "Safety",
+      "q": "In Spain, what is the emergency phone number?",
+      "o": [
+        "091",
+        "112",
+        "061",
+        "080"
+      ],
+      "a": 1,
+      "e": "112 is the emergency number in Spain and across the EU."
+    },
+    {
+      "t": "Safety",
+      "q": "When does an electrical risk happen?",
+      "o": [
+        "When you touch live wiring or handle a power supply carelessly.",
+        "When you use a low-voltage battery.",
+        "When you tidy up the workshop.",
+        "When you wear gloves."
+      ],
+      "a": 0,
+      "e": "Electrical risk comes from live wiring or careless power handling."
+    },
+    {
+      "t": "Safety",
+      "q": "A triangular yellow sign with a black pictogram is a…",
+      "svg": "<svg viewBox=\"0 0 48 48\"><path d=\"M24 5 44 41H4Z\" fill=\"#F2B01E\" stroke=\"#14213D\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><rect x=\"22\" y=\"18\" width=\"4\" height=\"12\" rx=\"1.4\" fill=\"#14213D\"/><circle cx=\"24\" cy=\"35\" r=\"2.4\" fill=\"#14213D\"/></svg>",
+      "o": [
+        "prohibition sign.",
+        "warning sign.",
+        "obligation sign.",
+        "fire-fighting sign."
+      ],
+      "a": 1,
+      "e": "A yellow triangle with a black pictogram is a warning sign."
+    },
+    {
+      "t": "Safety",
+      "q": "Which colour is used for prohibition or to show danger?",
+      "o": [
+        "Green.",
+        "Blue.",
+        "Red.",
+        "Yellow."
+      ],
+      "a": 2,
+      "e": "Red is used for prohibition and to point out danger."
+    },
+    {
+      "t": "Environment",
+      "q": "What is air pollution?",
+      "o": [
+        "Clean air in the mountains.",
+        "The presence of harmful or irritating substances in the air.",
+        "A kind of weather.",
+        "Air with lots of oxygen."
+      ],
+      "a": 1,
+      "e": "Air pollution = harmful or irritating substances in the air."
+    },
+    {
+      "t": "Environment",
+      "q": "What is “sustainability”?",
+      "o": [
+        "Using up resources as fast as possible.",
+        "Meeting our needs without exhausting natural resources.",
+        "Building more and more factories.",
+        "Throwing away old things."
+      ],
+      "a": 1,
+      "e": "Sustainability means using resources without depleting them."
+    },
+    {
+      "t": "Environment",
+      "q": "In the book, “barren” soil is soil that…",
+      "o": [
+        "is great for growing crops.",
+        "has no plants growing in it.",
+        "is always wet.",
+        "is full of animals."
+      ],
+      "a": 1,
+      "e": "“Barren” describes soil where no plants can grow."
+    },
+    {
+      "t": "Safety",
+      "q": "A round sign with a red ring tells you…",
+      "o": [
+        "something you must do.",
+        "something you must never do.",
+        "where the exit is.",
+        "where the extinguisher is."
+      ],
+      "a": 1,
+      "e": "A round sign with a red ring is a prohibition sign: never do it."
+    },
+    {
+      "t": "Safety",
+      "q": "What does a round blue sign mean?",
+      "o": [
+        "A warning.",
+        "An obligation — something you must do.",
+        "A prohibition.",
+        "An emergency exit."
+      ],
+      "a": 1,
+      "e": "Round blue signs are obligation signs: something you must do."
+    },
+    {
+      "t": "Safety",
+      "q": "Which colour is used for emergency information, like exits and first aid?",
+      "o": [
+        "Red.",
+        "Green.",
+        "Yellow.",
+        "Blue."
+      ],
+      "a": 1,
+      "e": "Green is used for emergency information (exits and first aid)."
+    }
+  ],
+  "matching": {
+    "title": "Match the safety signs",
+    "prompt": "Choose the sign type that matches each icon.",
+    "types": [
+      {
+        "id": 1,
+        "label": "Warning sign",
+        "svg": "<svg viewBox=\"0 0 48 48\"><path d=\"M24 5 44 41H4Z\" fill=\"#F2B01E\" stroke=\"#14213D\" stroke-width=\"2.5\" stroke-linejoin=\"round\"/><rect x=\"22\" y=\"18\" width=\"4\" height=\"12\" rx=\"1.4\" fill=\"#14213D\"/><circle cx=\"24\" cy=\"35\" r=\"2.4\" fill=\"#14213D\"/></svg>"
+      },
+      {
+        "id": 2,
+        "label": "Prohibition sign",
+        "svg": "<svg viewBox=\"0 0 48 48\"><circle cx=\"24\" cy=\"24\" r=\"18\" fill=\"#fff\" stroke=\"#D23B37\" stroke-width=\"4.5\"/><line x1=\"12\" y1=\"12\" x2=\"36\" y2=\"36\" stroke=\"#D23B37\" stroke-width=\"4.5\"/></svg>"
+      },
+      {
+        "id": 3,
+        "label": "Obligation sign",
+        "svg": "<svg viewBox=\"0 0 48 48\"><circle cx=\"24\" cy=\"24\" r=\"19\" fill=\"#1565C0\"/><path d=\"M16 24.5 22 30.5 33 18\" fill=\"none\" stroke=\"#fff\" stroke-width=\"4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "id": 4,
+        "label": "Emergency information sign",
+        "svg": "<svg viewBox=\"0 0 48 48\"><rect x=\"6\" y=\"6\" width=\"36\" height=\"36\" rx=\"5\" fill=\"#1F9254\"/><path d=\"M31 24H17m0 0 6-6m-6 6 6 6\" fill=\"none\" stroke=\"#fff\" stroke-width=\"3.4\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+      },
+      {
+        "id": 5,
+        "label": "Fire-fighting sign",
+        "svg": "<svg viewBox=\"0 0 48 48\"><rect x=\"6\" y=\"6\" width=\"36\" height=\"36\" fill=\"#D23B37\"/><path d=\"M24 12v20m-8-8h16\" fill=\"none\" stroke=\"#fff\" stroke-width=\"3.5\" stroke-linecap=\"round\" stroke-linejoin=\"round\"/></svg>"
+      }
+    ]
+  }
+}

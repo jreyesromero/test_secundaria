@@ -1,0 +1,21 @@
+{
+  "title": "Study Quizzes",
+  "subtitle": "Pick a subject and a topic to practise.",
+  "subjects": [
+    {
+      "id": "tecnologia",
+      "name": "Technology",
+      "lang": "en",
+      "icon": "🛠️",
+      "units": [
+        {
+          "id": "unit-01",
+          "unit": "Unit 1",
+          "title": "The workshop, the environment and safety",
+          "file": "data/tecnologia/unit-01.json",
+          "count": 25
+        }
+      ]
+    }
+  ]
+}

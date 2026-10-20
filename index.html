@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Technology Quiz — Unit 1</title>
+<title>Study Quizzes</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
@@ -29,8 +29,7 @@
     background-color:var(--paper);
     background-image:linear-gradient(var(--grid) 1px,transparent 1px),linear-gradient(90deg,var(--grid) 1px,transparent 1px);
     background-size:26px 26px;
-    -webkit-font-smoothing:antialiased;
-    line-height:1.5;
+    -webkit-font-smoothing:antialiased;line-height:1.5;
   }
   @media (prefers-color-scheme:dark){
     :root:not([data-theme="light"]){
@@ -56,8 +55,6 @@
   .wrap{max-width:680px;margin:0 auto;padding:clamp(16px,4vw,40px) clamp(14px,4vw,24px);min-height:100%;display:flex;flex-direction:column;justify-content:center}
   .card{background:var(--surface);border:1px solid var(--line);border-radius:16px;box-shadow:var(--shadow);overflow:hidden}
   .pad{padding:clamp(20px,5vw,34px)}
-
-  /* top strip = coloured safety ribbon */
   .ribbon{height:6px;display:flex}
   .ribbon i{flex:1}
   .ribbon i:nth-child(1){background:var(--bad)}
@@ -69,30 +66,43 @@
   .sub{color:var(--ink-soft);margin:10px 0 0;font-size:clamp(15px,3.6vw,17px)}
   .q{font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:clamp(20px,5vw,26px);line-height:1.25;letter-spacing:-.01em;margin:4px 0 0}
 
-  /* data readout */
-  .mono{font-family:"IBM Plex Mono",monospace;font-weight:600;font-variant-numeric:tabular-nums}
   .meta{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px}
   .tag{font-family:"IBM Plex Mono",monospace;font-size:12.5px;color:var(--ink-soft);border:1px solid var(--line);border-radius:999px;padding:4px 10px;background:color-mix(in srgb,var(--surface) 85%,var(--paper))}
   .counter{font-family:"IBM Plex Mono",monospace;font-size:13px;color:var(--ink-soft)}
   .counter b{color:var(--ink)}
 
+  /* home */
+  .subject{margin-top:26px}
+  .subject:first-of-type{margin-top:20px}
+  .subject-head{display:flex;align-items:center;gap:12px;margin-bottom:12px}
+  .subject-ico{width:40px;height:40px;border-radius:10px;background:color-mix(in srgb,var(--brand) 14%,var(--surface));display:grid;place-items:center;font-size:22px;flex:none}
+  .subject-name{font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:19px}
+  .subject-lang{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--ink-soft);border:1px solid var(--line);border-radius:999px;padding:2px 8px;text-transform:uppercase}
+  .unit-grid{display:grid;grid-template-columns:1fr;gap:10px}
+  .unit-card{display:flex;align-items:center;gap:14px;text-align:left;width:100%;cursor:pointer;background:var(--surface);
+    border:1.5px solid var(--line);border-radius:12px;padding:15px 16px;font-family:inherit;color:var(--ink);transition:border-color .15s,transform .05s}
+  .unit-card:hover{border-color:var(--brand)}
+  .unit-card:active{transform:translateY(1px)}
+  .unit-card:focus-visible{outline:3px solid color-mix(in srgb,var(--brand) 45%,transparent);outline-offset:2px}
+  .unit-num{font-family:"IBM Plex Mono",monospace;font-size:13px;font-weight:600;color:var(--brand-ink);background:var(--brand);min-width:34px;height:34px;padding:0 8px;border-radius:8px;display:grid;place-items:center;flex:none}
+  .unit-info{flex:1;min-width:0}
+  .unit-title{font-weight:600;font-size:16px}
+  .unit-meta{font-size:13px;color:var(--ink-soft);margin-top:1px}
+  .unit-go{color:var(--ink-soft);font-size:20px;flex:none}
+
   /* ruler progress */
   .ruler{height:12px;border:1px solid var(--line-strong);border-radius:999px;background:
-    repeating-linear-gradient(90deg,transparent 0,transparent 24px,var(--grid) 24px,var(--grid) 25px);
-    overflow:hidden;position:relative;margin-bottom:22px}
+    repeating-linear-gradient(90deg,transparent 0,transparent 24px,var(--grid) 24px,var(--grid) 25px);overflow:hidden;position:relative;margin-bottom:22px}
   .ruler>span{position:absolute;inset:0;width:0;background:var(--brand);border-radius:999px;transition:width .45s cubic-bezier(.22,.61,.36,1)}
 
-  /* options */
   .opts{display:flex;flex-direction:column;gap:10px;margin-top:20px}
-  .opt{display:flex;gap:12px;align-items:flex-start;text-align:left;width:100%;cursor:pointer;
-    font-family:inherit;font-size:16px;color:var(--ink);background:var(--surface);
-    border:1.5px solid var(--line);border-radius:12px;padding:14px 15px;transition:border-color .15s,background .15s,transform .05s}
+  .opt{display:flex;gap:12px;align-items:flex-start;text-align:left;width:100%;cursor:pointer;font-family:inherit;font-size:16px;color:var(--ink);
+    background:var(--surface);border:1.5px solid var(--line);border-radius:12px;padding:14px 15px;transition:border-color .15s,background .15s,transform .05s}
   .opt:hover:not(:disabled){border-color:var(--brand)}
   .opt:active:not(:disabled){transform:translateY(1px)}
   .opt:focus-visible{outline:3px solid color-mix(in srgb,var(--brand) 45%,transparent);outline-offset:2px}
   .opt:disabled{cursor:default}
-  .opt .key{flex:none;width:26px;height:26px;border-radius:7px;border:1.5px solid var(--line-strong);
-    display:grid;place-items:center;font-family:"IBM Plex Mono",monospace;font-size:13px;color:var(--ink-soft);margin-top:-1px}
+  .opt .key{flex:none;width:26px;height:26px;border-radius:7px;border:1.5px solid var(--line-strong);display:grid;place-items:center;font-family:"IBM Plex Mono",monospace;font-size:13px;color:var(--ink-soft);margin-top:-1px}
   .opt.correct{border-color:var(--ok-line);background:var(--ok-bg)}
   .opt.correct .key{border-color:var(--ok);background:var(--ok);color:#fff}
   .opt.wrong{border-color:var(--bad-line);background:var(--bad-bg)}
@@ -106,9 +116,7 @@
   .feedback b{font-family:"Space Grotesk",sans-serif}
   @keyframes pop{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
 
-  /* buttons */
-  .btn{font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:16px;cursor:pointer;
-    border:1.5px solid transparent;border-radius:11px;padding:13px 22px;transition:filter .15s,transform .05s,border-color .15s}
+  .btn{font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:16px;cursor:pointer;border:1.5px solid transparent;border-radius:11px;padding:13px 22px;transition:filter .15s,transform .05s,border-color .15s}
   .btn:active{transform:translateY(1px)}
   .btn:focus-visible{outline:3px solid color-mix(in srgb,var(--brand) 45%,transparent);outline-offset:2px}
   .btn-primary{background:var(--brand);color:var(--brand-ink)}
@@ -118,26 +126,22 @@
   .btn-row{display:flex;gap:10px;justify-content:flex-end;margin-top:22px;flex-wrap:wrap}
   .btn[disabled]{opacity:.4;cursor:not-allowed}
 
-  /* hero signs */
-  .signs{display:flex;gap:14px;margin:26px 0 30px;flex-wrap:wrap}
-  .signs svg{width:54px;height:54px;flex:none}
-  .legend{display:flex;flex-direction:column;gap:7px;margin:22px 0 4px;font-size:13.5px;color:var(--ink-soft)}
-  .legend span{display:inline-flex;align-items:center;gap:9px}
-  .dot{width:13px;height:13px;border-radius:4px;flex:none;border:1px solid rgba(0,0,0,.12)}
+  .question-img{max-width:280px;max-height:280px;width:100%;height:auto;margin:1.5rem auto;display:block;border-radius:8px;border:2px solid var(--line);box-shadow:var(--shadow)}
+  .question-svg{max-width:280px;height:200px;margin:1.3rem auto;display:flex;align-items:center;justify-content:center}
+  .question-svg svg{width:100%;height:auto}
 
-  /* matching */
-  .match-row{display:grid;grid-template-columns:1fr;gap:8px;padding:14px 0;border-top:1px solid var(--line)}
+  .match-row{display:grid;grid-template-columns:48px 1fr;gap:12px;align-items:center;padding:14px 0;border-top:1px solid var(--line)}
   .match-row:first-of-type{border-top:0}
-  .match-label{font-weight:600;display:flex;align-items:center;gap:10px}
-  .match-num{font-family:"IBM Plex Mono",monospace;font-size:13px;color:var(--brand-ink);background:var(--brand);width:24px;height:24px;border-radius:6px;display:grid;place-items:center;flex:none}
+  .match-icon{width:48px;height:48px;flex-shrink:0;display:flex;align-items:center;justify-content:center}
+  .match-icon svg{width:100%;height:100%}
+  .match-pick{display:flex;flex-direction:column;gap:6px}
   select{font-family:inherit;font-size:15px;color:var(--ink);background:var(--surface);border:1.5px solid var(--line);border-radius:10px;padding:11px 12px;width:100%}
   select:focus-visible{outline:3px solid color-mix(in srgb,var(--brand) 45%,transparent);outline-offset:1px;border-color:var(--brand)}
   .match-row.ok select{border-color:var(--ok-line);background:var(--ok-bg)}
   .match-row.no select{border-color:var(--bad-line);background:var(--bad-bg)}
-  .solved{font-size:13px;color:var(--ok);font-family:"IBM Plex Mono",monospace;display:none}
-  .match-row.no .solved{display:block;color:var(--bad)}
+  .solved{font-size:12.5px;color:var(--bad);font-family:"IBM Plex Mono",monospace;display:none}
+  .match-row.no .solved{display:block}
 
-  /* results */
   .score-big{font-family:"IBM Plex Mono",monospace;font-weight:600;font-size:clamp(46px,14vw,74px);line-height:1;letter-spacing:-.02em}
   .score-big small{font-size:.4em;color:var(--ink-soft)}
   .badge{display:inline-block;font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:14px;padding:6px 14px;border-radius:999px;margin-top:6px}
@@ -146,45 +150,10 @@
   .stat .n{font-family:"IBM Plex Mono",monospace;font-size:24px;font-weight:600}
   .stat .l{font-size:13px;color:var(--ink-soft);margin-top:2px}
   .best{margin-top:16px;font-size:13.5px;color:var(--ink-soft);font-family:"IBM Plex Mono",monospace}
+  .note{margin-top:14px;font-size:14px;color:var(--ink-soft)}
 
   .hidden{display:none}
   @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
-
-  .question-img {
-    max-width: 280px;
-    max-height: 280px;
-    width: 100%;
-    height: auto;
-    margin: 1.5rem auto;
-    display: block;
-    border-radius: 8px;
-    border: 2px solid var(--line);
-    box-shadow: var(--shadow);
-  }
-  .question-svg {
-    max-width: 280px;
-    height: 280px;
-    margin: 1.5rem auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .question-svg svg {
-    width: 100%;
-    height: auto;
-  }
-  .match-icon {
-    width: 48px;
-    height: 48px;
-    flex-shrink: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .match-icon svg {
-    width: 100%;
-    height: 100%;
-  }
 </style>
 </head>
 <body>
@@ -192,42 +161,26 @@
   <div class="card">
     <div class="ribbon"><i></i><i></i><i></i><i></i></div>
 
-    <!-- START -->
-    <section id="start" class="pad">
-      <h1>Technology Quiz</h1>
-      <p class="sub">Unit 1 — the workshop, the environment, the project method and safety. <span id="qCountHero">26</span> questions + a safety-sign match. Ready?</p>
-
-      <div class="signs" aria-hidden="true">
-        <!-- warning -->
-        <svg viewBox="0 0 48 48"><path d="M24 5 44 41H4Z" fill="#F2B01E" stroke="#14213D" stroke-width="2.5" stroke-linejoin="round"/><rect x="22" y="18" width="4" height="12" rx="1.4" fill="#14213D"/><circle cx="24" cy="35" r="2.4" fill="#14213D"/></svg>
-        <!-- prohibition -->
-        <svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="18" fill="#fff" stroke="#D23B37" stroke-width="4.5"/><line x1="12" y1="12" x2="36" y2="36" stroke="#D23B37" stroke-width="4.5"/></svg>
-        <!-- obligation -->
-        <svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="19" fill="#1565C0"/><path d="M16 24.5 22 30.5 33 18" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        <!-- emergency -->
-        <svg viewBox="0 0 48 48"><rect x="6" y="6" width="36" height="36" rx="5" fill="#1F9254"/><path d="M31 24H17m0 0 6-6m-6 6 6 6" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </div>
-
-      <div class="btn-row" style="justify-content:flex-start">
-        <button class="btn btn-primary" id="startBtn">Start quiz</button>
-      </div>
-      <p class="best" id="bestStart"></p>
+    <!-- HOME -->
+    <section id="home" class="pad">
+      <h1 id="homeTitle">Study Quizzes</h1>
+      <p class="sub" id="homeSub">Pick a subject and a topic to practise.</p>
+      <div id="subjectList"></div>
+      <p class="note" id="homeNote"></p>
     </section>
 
     <!-- QUIZ -->
     <section id="quiz" class="pad hidden">
       <div class="meta">
         <span class="tag" id="topicTag">Topic</span>
-        <span class="counter">Q <b id="qNow">01</b> / <span id="qTotal">25</span></span>
+        <span class="counter">Q <b id="qNow">01</b> / <span id="qTotal">20</span></span>
       </div>
       <div class="ruler"><span id="rulerFill"></span></div>
-
       <p class="q" id="qText"></p>
       <div class="opts" id="opts"></div>
-
       <div class="feedback" id="feedback" aria-live="polite"></div>
-
       <div class="btn-row">
+        <button class="btn btn-ghost" id="quitBtn">Exit</button>
         <button class="btn btn-primary" id="nextBtn" disabled>Next</button>
       </div>
     </section>
@@ -236,10 +189,10 @@
     <section id="matching" class="pad hidden">
       <div class="meta">
         <span class="tag">Part B</span>
-        <span class="counter">Matching · 5 points</span>
+        <span class="counter" id="matchCounter">Matching</span>
       </div>
-      <h1 style="font-size:clamp(22px,5.5vw,30px)">Match the safety signs</h1>
-      <p class="sub">Choose the sign type that matches each icon.</p>
+      <h1 id="matchTitle" style="font-size:clamp(22px,5.5vw,30px)">Matching</h1>
+      <p class="sub" id="matchPrompt"></p>
       <div id="matchRows" style="margin-top:14px"></div>
       <div class="btn-row">
         <button class="btn btn-primary" id="finishBtn">Check &amp; finish</button>
@@ -248,18 +201,18 @@
 
     <!-- RESULTS -->
     <section id="results" class="pad hidden">
-      <div class="meta"><span class="tag">Results</span><span class="counter" id="resDate"></span></div>
-      <div class="score-big" id="scoreBig">0<small>/25</small></div>
+      <div class="meta"><span class="tag" id="resTag">Results</span><span class="counter" id="resDate"></span></div>
+      <div class="score-big" id="scoreBig">0<small>/0</small></div>
       <div><span class="badge" id="badge"></span></div>
       <p class="sub" id="resMsg"></p>
       <div class="breakdown">
-        <div class="stat"><div class="n" id="mcqStat">0/20</div><div class="l">Multiple choice</div></div>
-        <div class="stat"><div class="n" id="matchStat">0/5</div><div class="l">Safety signs</div></div>
+        <div class="stat"><div class="n" id="mcqStat">0/0</div><div class="l">Multiple choice</div></div>
+        <div class="stat" id="matchStatWrap"><div class="n" id="matchStat">0/0</div><div class="l">Matching</div></div>
       </div>
       <p class="best" id="bestEnd"></p>
       <div class="btn-row" style="justify-content:flex-start">
         <button class="btn btn-primary" id="againBtn">Play again</button>
-        <button class="btn btn-ghost" id="reviewBtn">Back to start</button>
+        <button class="btn btn-ghost" id="homeBtn">Back to subjects</button>
       </div>
     </section>
   </div>
@@ -268,161 +221,93 @@
 <script>
 (function(){
   "use strict";
-
-  // ---- Question bank ----
-  var QUESTIONS = [
-    {t:"Technology", q:`What is “technology”?`,
-     o:[`A set of rules we follow to do things by hand.`,`Technical and scientific knowledge used to create objects that make our lives easier.`,`A machine that works with electricity.`,`The study of the stars.`],
-     a:1, e:`Technology = technical + scientific knowledge used to make useful objects.`},
-    {t:"Technology", q:`What is a “technique”?`,
-     o:[`The combination of processes and rules we must follow to achieve something.`,`A type of computer.`,`A scientific law.`,`A kind of tool.`],
-     a:0, e:`A technique is the set of processes and rules used to achieve something.`},
-    {t:"Impact", q:`In the book, asbestos is an example of a material that…`,
-     o:[`is completely safe and modern.`,`was useful but was later found to be a carcinogen and was banned.`,`is a renewable resource.`,`is used to make batteries.`],
-     a:1, e:`Asbestos was used for years, then found to be a carcinogen and banned.`},
-    {t:"Impact", q:`How can pollution reach human beings?`,
-     o:[`It travels up the food chain.`,`It is always easy to see.`,`It only affects plants.`,`It disappears very quickly.`],
-     a:0, e:`Pollutants move up the food chain until they reach us at the top.`},
-    {t:"Environment", q:`How does acid rain form?`,
-     o:[`When it rains on the mountains.`,`When polluting gases mix with water in the atmosphere and form acids.`,`When the sea evaporates.`,`When new trees are planted.`],
-     a:1, e:`Polluting gases + water in the air form acids that fall as acid rain.`},
-    {t:"Environment", q:`Which of these is a water pollutant named in the book?`,
-     o:[`Oxygen.`,`Persistent Organic Pollutants (POPs).`,`Clean rainwater.`,`Sand.`],
-     a:1, e:`POPs — Persistent Organic Pollutants — are a main water pollutant.`},
-    {t:"Environment", q:`What does “self-purification” of the soil mean?`,
-     o:[`The soil can absorb some pollution by itself.`,`The soil makes plants grow faster.`,`Farmers wash the soil every day.`,`The soil never gets dirty.`],
-     a:0, e:`Soil can absorb some pollution by itself — but not when it is excessive.`},
-    {t:"Environment", q:`What is the main cause of today’s rapid climate change?`,
-     o:[`Only natural volcanic eruptions.`,`The increase in greenhouse gases from human activity.`,`The rotation of the Earth.`,`Normal rain.`],
-     a:1, e:`Extra greenhouse gases from human activity drive today’s warming.`},
-    {t:"Environment", q:`What do the “3 Rs” stand for?`,
-     o:[`Read, Repeat, Remember.`,`Reduce, Reuse, Recycle.`,`Run, Rest, Relax.`,`Reduce, Reserve, Replace.`],
-     a:1, e:`The 3 Rs are Reduce, Reuse and Recycle.`},
-    {t:"Project", q:`What is the correct order of the project method?`,
-     o:[`Design → Define → Verify → Search.`,`Define → Search for solutions → Decision-making → Design → Planning and production → Verification.`,`Verify → Build → Think → Sell.`,`Search → Build → Define → Paint.`],
-     a:1, e:`Define → Search → Decide → Design → Plan & produce → Verify.`},
-    {t:"Project", q:`What does “brainstorming” mean?`,
-     o:[`Choosing the most expensive idea.`,`Quickly proposing many ideas, even if they are not all possible.`,`Copying a solution from a book.`,`Testing the final product.`],
-     a:1, e:`Brainstorming = propose many ideas fast, even impossible ones.`},
-    {t:"Project", q:`Morphological analysis studies…`,
-     o:[`the price of an object.`,`the shape, parts, size and colour of an object.`,`only how the object is used.`,`the name of the inventor.`],
-     a:1, e:`Morphological analysis looks at shape, parts, size and colour.`},
-    {t:"Project", q:`What is a Gantt chart used for?`,
-     o:[`To draw the object.`,`To control the time given to each task.`,`To calculate the price.`,`To choose the team leader.`],
-     a:1, e:`A Gantt chart controls the time given to each task.`},
-    {t:"Project", q:`Which team member writes down everything the team agrees?`,
-     o:[`The team leader.`,`The secretary.`,`The tools manager.`,`The materials manager.`],
-     a:1, e:`The secretary writes down and stores what the team agrees.`},
-    {t:"Safety", q:`If there is an accident, what is the PAA approach?`,
-     o:[`Play, Ask, Assist.`,`Protect, Alert, Assist.`,`Prevent, Act, Analyse.`,`Push, Alarm, Avoid.`],
-     a:1, e:`PAA = Protect, Alert, Assist.`},
-    {t:"Safety", q:`In Spain, what is the emergency phone number?`,
-     o:[`091`,`112`,`061`,`080`],
-     a:1, e:`112 is the emergency number in Spain and across the EU.`},
-    {t:"Safety", q:`When does an electrical risk happen?`,
-     o:[`When you touch live wiring or handle a power supply carelessly.`,`When you use a low-voltage battery.`,`When you tidy up the workshop.`,`When you wear gloves.`],
-     a:0, e:`Electrical risk comes from live wiring or careless power handling.`},
-    {t:"Safety", q:`A triangular yellow sign with a black pictogram is a…`,
-     svg:`<svg viewBox="0 0 48 48"><path d="M24 5 44 41H4Z" fill="#F2B01E" stroke="#14213D" stroke-width="2.5" stroke-linejoin="round"/><rect x="22" y="18" width="4" height="12" rx="1.4" fill="#14213D"/><circle cx="24" cy="35" r="2.4" fill="#14213D"/></svg>`,
-     o:[`prohibition sign.`,`warning sign.`,`obligation sign.`,`fire-fighting sign.`],
-     a:1, e:`A yellow triangle with a black pictogram is a warning sign.`},
-    {t:"Safety", q:`Which colour is used for prohibition or to show danger?`,
-     o:[`Green.`,`Blue.`,`Red.`,`Yellow.`],
-     a:2, e:`Red is used for prohibition and to point out danger.`},
-    {t:"Environment", q:`What is air pollution?`,
-     o:[`Clean air in the mountains.`,`The presence of harmful or irritating substances in the air.`,`A kind of weather.`,`Air with lots of oxygen.`],
-     a:1, e:`Air pollution = harmful or irritating substances in the air.`},
-    {t:"Environment", q:`What is "sustainability"?`,
-     o:[`Using up resources as fast as possible.`,`Meeting our needs without exhausting natural resources.`,`Building more and more factories.`,`Throwing away old things.`],
-     a:1, e:`Sustainability means using resources without depleting them.`},
-    {t:"Environment", q:`In the book, "barren" soil is soil that…`,
-     o:[`is great for growing crops.`,`has no plants growing in it.`,`is always wet.`,`is full of animals.`],
-     a:1, e:`"Barren" describes soil where no plants can grow.`},
-    {t:"Safety", q:`A round sign with a red ring tells you…`,
-     o:[`something you must do.`,`something you must never do.`,`where the exit is.`,`where the extinguisher is.`],
-     a:1, e:`A round sign with a red ring is a prohibition sign: never do it.`},
-    {t:"Safety", q:`What does a round blue sign mean?`,
-     o:[`A warning.`,`An obligation — something you must do.`,`A prohibition.`,`An emergency exit.`],
-     a:1, e:`Round blue signs are obligation signs: something you must do.`},
-    {t:"Safety", q:`Which colour is used for emergency information, like exits and first aid?`,
-     o:[`Red.`,`Green.`,`Yellow.`,`Blue.`],
-     a:1, e:`Green is used for emergency information (exits and first aid).`}
-  ];
-
-  // ---- Matching data ----
-  var TYPES = [
-    {id:1, label:"Warning sign", svg:`<svg viewBox="0 0 48 48"><path d="M24 5 44 41H4Z" fill="#F2B01E" stroke="#14213D" stroke-width="2.5" stroke-linejoin="round"/><rect x="22" y="18" width="4" height="12" rx="1.4" fill="#14213D"/><circle cx="24" cy="35" r="2.4" fill="#14213D"/></svg>`},
-    {id:2, label:"Prohibition sign", svg:`<svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="18" fill="#fff" stroke="#D23B37" stroke-width="4.5"/><line x1="12" y1="12" x2="36" y2="36" stroke="#D23B37" stroke-width="4.5"/></svg>`},
-    {id:3, label:"Obligation sign", svg:`<svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="19" fill="#1565C0"/><path d="M16 24.5 22 30.5 33 18" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>`},
-    {id:4, label:"Emergency information sign", svg:`<svg viewBox="0 0 48 48"><rect x="6" y="6" width="36" height="36" rx="5" fill="#1F9254"/><path d="M31 24H17m0 0 6-6m-6 6 6 6" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>`},
-    {id:5, label:"Fire-fighting sign", svg:`<svg viewBox="0 0 48 48"><rect x="6" y="6" width="36" height="36" fill="#D23B37"/><path d="M24 12v20m-8-8h16" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`}
-  ];
-  var DESCS = [
-    {k:"a", type:3, text:`Round and blue, white pictogram — something you must do.`},
-    {k:"b", type:1, text:`Yellow triangle, black pictogram — a possible danger.`},
-    {k:"c", type:4, text:`Square and green — emergency exits and first aid.`},
-    {k:"d", type:2, text:`Round with a red ring — something you must never do.`},
-    {k:"e", type:5, text:`Square and red — hoses and fire extinguishers.`}
-  ];
-
-  var MCQ_COUNT=QUESTIONS.length, MATCH_COUNT=TYPES.length, TOTAL=MCQ_COUNT+MATCH_COUNT;
-
-  // ---- State ----
-  var deck=[], idx=0, mcqScore=0, matchScore=0, answered=false, locked=false;
-  var KEYS=["a","b","c","d"];
+  var BOOT = window.__BOOTSTRAP__ || null;
 
   var $=function(id){return document.getElementById(id);};
-  function show(id){["start","quiz","matching","results"].forEach(function(s){$(s).classList.toggle("hidden",s!==id);});
+  function show(id){["home","quiz","matching","results"].forEach(function(s){$(s).classList.toggle("hidden",s!==id);});
     window.scrollTo({top:0,behavior:"instant"in window?"instant":"auto"});}
   function pad(n){return (n<10?"0":"")+n;}
-
+  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c];});}
   function shuffle(arr){var a=arr.slice();for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t;}return a;}
 
-  // Best score (per browser)
-  function getBest(){try{var v=localStorage.getItem("techQuizBest_v2");return v?parseInt(v,10):null;}catch(e){return null;}}
-  function setBest(v){try{localStorage.setItem("techQuizBest_v2",String(v));}catch(e){}}
-  function renderBest(el){var b=getBest();el.textContent=b!=null?("Best score on this device: "+b+"/"+TOTAL):"";}
+  function loadRegistry(){return BOOT?Promise.resolve(BOOT.registry):fetch("data/subjects.json").then(function(r){return r.json();});}
+  function loadUnit(file){return BOOT?Promise.resolve(BOOT.units[file]):fetch(file).then(function(r){return r.json();});}
 
-  // ---- Build a question with shuffled options ----
-  function buildDeck(){
-    deck = shuffle(QUESTIONS).map(function(item){
-      var opts = item.o.map(function(text,i){return {text:text, correct:i===item.a};});
-      return {t:item.t, q:item.q, e:item.e, opts:shuffle(opts)};
+  // ---- State ----
+  var CUR=null, TYPES=[], deck=[], idx=0, mcqScore=0, matchScore=0, answered=false, locked=false;
+  var MCQ_COUNT=0, MATCH_COUNT=0, TOTAL=0;
+  var KEYS=["a","b","c","d","e","f"];
+
+  // ---- Best score (per subject+unit) ----
+  function bestKey(){return "sq_best_"+(CUR?CUR.subjectId+"_"+CUR.unitId:"x");}
+  function getBest(){try{var v=localStorage.getItem(bestKey());return v?parseInt(v,10):null;}catch(e){return null;}}
+  function setBest(v){try{localStorage.setItem(bestKey(),String(v));}catch(e){}}
+
+  // ---- HOME ----
+  function renderHome(reg){
+    $("homeTitle").textContent=reg.title||"Study Quizzes";
+    $("homeSub").textContent=reg.subtitle||"";
+    var host=$("subjectList"); host.innerHTML="";
+    (reg.subjects||[]).forEach(function(sub){
+      var block=document.createElement("div"); block.className="subject";
+      var head='<div class="subject-head"><div class="subject-ico">'+(sub.icon||"📘")+'</div>'+
+               '<div class="subject-name">'+esc(sub.name)+'</div>'+
+               (sub.lang?'<div class="subject-lang">'+esc(sub.lang)+'</div>':'')+'</div>';
+      var grid=document.createElement("div"); grid.className="unit-grid";
+      (sub.units||[]).forEach(function(u){
+        var card=document.createElement("button"); card.className="unit-card"; card.type="button";
+        card.innerHTML='<span class="unit-num">'+esc(u.unit||u.id)+'</span>'+
+          '<span class="unit-info"><span class="unit-title">'+esc(u.title)+'</span>'+
+          '<span class="unit-meta">'+(u.count?u.count+" questions":"")+'</span></span>'+
+          '<span class="unit-go">›</span>';
+        card.addEventListener("click",function(){openUnit(u.file);});
+        grid.appendChild(card);
+      });
+      block.innerHTML=head; block.appendChild(grid); host.appendChild(block);
     });
+  }
+
+  function openUnit(file){
+    loadUnit(file).then(startQuiz).catch(function(){
+      $("homeNote").textContent="Could not load this topic. If you opened the file directly, run it from GitHub Pages or a local server.";
+    });
+  }
+
+  // ---- Build deck ----
+  function buildDeck(){
+    deck = shuffle(CUR.questions).map(function(item){
+      var opts = item.o.map(function(text,i){return {text:text, correct:i===item.a};});
+      return {t:item.t, q:item.q, e:item.e, img:item.img, svg:item.svg, opts:shuffle(opts)};
+    });
+  }
+
+  function startQuiz(unit){
+    CUR=unit;
+    TYPES=(unit.matching&&unit.matching.types)?unit.matching.types:[];
+    MCQ_COUNT=unit.questions.length; MATCH_COUNT=TYPES.length; TOTAL=MCQ_COUNT+MATCH_COUNT;
+    idx=0; mcqScore=0; matchScore=0;
+    $("qTotal").textContent=MCQ_COUNT;
+    buildDeck(); renderQ(); show("quiz");
   }
 
   function renderQ(){
     var item=deck[idx];
     answered=false; locked=false;
-    $("topicTag").textContent=item.t;
+    $("topicTag").textContent=item.t||CUR.subject;
     $("qNow").textContent=pad(idx+1);
     $("qText").textContent=item.q;
-
-    // Show image or SVG if question has one
-    var imgContainer=$("qText").querySelector(".question-img, .question-svg");
-    if(imgContainer) imgContainer.remove();
     if(item.img){
-      var imgEl=document.createElement("img");
-      imgEl.src=item.img;
-      imgEl.alt="Question image";
-      imgEl.className="question-img";
-      $("qText").appendChild(imgEl);
+      var im=document.createElement("img"); im.src=item.img; im.alt=""; im.className="question-img"; $("qText").appendChild(im);
     } else if(item.svg){
-      var svgContainer=document.createElement("div");
-      svgContainer.className="question-svg";
-      svgContainer.innerHTML=item.svg;
-      $("qText").appendChild(svgContainer);
+      var sv=document.createElement("div"); sv.className="question-svg"; sv.innerHTML=item.svg; $("qText").appendChild(sv);
     }
-
     $("rulerFill").style.width=((idx)/deck.length*100)+"%";
-    var fb=$("feedback"); fb.className="feedback";
-    var next=$("nextBtn"); next.disabled=true; next.textContent=(idx===deck.length-1)?"Go to signs":"Next";
-
+    $("feedback").className="feedback";
+    var next=$("nextBtn"); next.disabled=true; next.textContent=(idx===deck.length-1)?(TYPES.length?"Go to signs":"See score"):"Next";
     var box=$("opts"); box.innerHTML="";
     item.opts.forEach(function(opt,i){
-      var b=document.createElement("button");
-      b.className="opt"; b.type="button";
-      b.innerHTML='<span class="key">'+KEYS[i]+'</span><span>'+opt.text+'</span>';
+      var b=document.createElement("button"); b.className="opt"; b.type="button";
+      b.innerHTML='<span class="key">'+KEYS[i]+'</span><span>'+esc(opt.text)+'</span>';
       b.addEventListener("click",function(){choose(i);});
       box.appendChild(b);
     });
@@ -431,126 +316,98 @@
   function choose(i){
     if(locked) return;
     locked=true; answered=true;
-    var item=deck[idx];
-    var buttons=$("opts").querySelectorAll(".opt");
-    var correctIndex=-1;
+    var item=deck[idx], buttons=$("opts").querySelectorAll(".opt"), correctIndex=-1;
     item.opts.forEach(function(o,k){if(o.correct)correctIndex=k;});
     var isRight=item.opts[i].correct;
     if(isRight) mcqScore++;
-
-    buttons.forEach(function(btn,k){
-      btn.disabled=true;
+    buttons.forEach(function(btn,k){btn.disabled=true;
       if(k===correctIndex) btn.classList.add("correct");
       else if(k===i) btn.classList.add("wrong");
-      else btn.classList.add("dim");
-    });
-
-    var fb=$("feedback");
-    fb.className="feedback show "+(isRight?"good":"poor");
-    fb.innerHTML='<b>'+(isRight?"Correct! ":"Not quite. ")+'</b>'+item.e;
-    $("nextBtn").disabled=false;
-    $("nextBtn").focus();
+      else btn.classList.add("dim");});
+    var fb=$("feedback"); fb.className="feedback show "+(isRight?"good":"poor");
+    fb.innerHTML='<b>'+(isRight?"Correct! ":"Not quite. ")+'</b>'+esc(item.e||"");
+    $("nextBtn").disabled=false; $("nextBtn").focus();
   }
 
   function next(){
     if(!answered) return;
     if(idx<deck.length-1){ idx++; renderQ(); }
-    else { $("rulerFill").style.width="100%"; show("matching"); }
+    else { $("rulerFill").style.width="100%"; if(TYPES.length){ renderMatching(); show("matching"); } else toResults(); }
   }
 
   // ---- Matching ----
   function renderMatching(){
+    var m=CUR.matching||{};
+    $("matchTitle").textContent=m.title||"Matching";
+    $("matchPrompt").textContent=m.prompt||"";
+    $("matchCounter").textContent="Matching · "+TYPES.length+" points";
     var wrap=$("matchRows"); wrap.innerHTML="";
-    var optionsHtml='<option value="">— choose —</option>'+TYPES.map(function(ty){
-      return '<option value="'+ty.id+'">'+ty.label+'</option>';
-    }).join("");
+    var optionsHtml='<option value="">— choose —</option>'+shuffle(TYPES).map(function(ty){
+      return '<option value="'+ty.id+'">'+esc(ty.label)+'</option>';}).join("");
     TYPES.forEach(function(ty){
-      var row=document.createElement("div");
-      row.className="match-row"; row.dataset.type=ty.id;
-      var svgIcon=ty.svg?'<div class="match-icon">'+ty.svg+'</div>':'';
-      row.innerHTML=svgIcon+
-        '<select aria-label="'+ty.label+'">'+optionsHtml+'</select>'+
-        '<span class="solved"></span>';
+      var row=document.createElement("div"); row.className="match-row"; row.dataset.type=ty.id;
+      row.innerHTML='<div class="match-icon">'+(ty.svg||"")+'</div>'+
+        '<div class="match-pick"><select aria-label="sign">'+optionsHtml+'</select><span class="solved"></span></div>';
       wrap.appendChild(row);
     });
-    $("finishBtn").textContent="Check & finish";
-    $("finishBtn").dataset.stage="check";
+    $("finishBtn").textContent="Check & finish"; $("finishBtn").dataset.stage="check";
   }
 
   function finishMatching(){
-    var stage=$("finishBtn").dataset.stage;
     var rows=$("matchRows").querySelectorAll(".match-row");
-    if(stage==="check"){
+    if($("finishBtn").dataset.stage==="check"){
       matchScore=0;
       rows.forEach(function(row){
-        var sel=row.querySelector("select");
-        var typeId=parseInt(row.dataset.type,10);
-        var chosenId=sel.value?parseInt(sel.value,10):null;
-        var right=chosenId===typeId;
-        row.classList.remove("ok","no");
-        row.classList.add(right?"ok":"no");
-        sel.disabled=true;
-        if(!right){
-          var correct=TYPES.filter(function(t){return t.id===typeId;})[0];
-          row.querySelector(".solved").textContent="Correct: "+correct.label;
-        }
+        var sel=row.querySelector("select"), typeId=parseInt(row.dataset.type,10);
+        var chosen=sel.value?parseInt(sel.value,10):null, right=chosen===typeId;
+        row.classList.remove("ok","no"); row.classList.add(right?"ok":"no"); sel.disabled=true;
+        if(!right){var c=TYPES.filter(function(t){return t.id===typeId;})[0];
+          row.querySelector(".solved").textContent="Correct: "+(c?c.label:"");}
         if(right) matchScore++;
       });
-      $("finishBtn").textContent="See my score";
-      $("finishBtn").dataset.stage="results";
-    } else {
-      toResults();
-    }
+      $("finishBtn").textContent="See my score"; $("finishBtn").dataset.stage="results";
+    } else { toResults(); }
   }
 
   // ---- Results ----
   function toResults(){
     var total=mcqScore+matchScore;
+    $("resTag").textContent=CUR.subject+" · "+(CUR.unit||"");
     $("scoreBig").innerHTML=total+'<small>/'+TOTAL+'</small>';
     $("mcqStat").textContent=mcqScore+"/"+MCQ_COUNT;
+    $("matchStatWrap").style.display=TYPES.length?"":"none";
     $("matchStat").textContent=matchScore+"/"+MATCH_COUNT;
     $("resDate").textContent=new Date().toLocaleDateString();
-
-    var badge=$("badge"), msg=$("resMsg"), label, bg, fg, text;
-    var excMark=Math.ceil(TOTAL*0.9), goodMark=Math.ceil(TOTAL*0.75), passMark=Math.ceil(TOTAL*0.5);
-    if(total>=excMark){label="Excellent";bg="var(--ok-bg)";fg="var(--ok)";text="Outstanding — you really know this unit. 🎉";}
-    else if(total>=goodMark){label="Very good";bg="var(--brand)";fg="var(--brand-ink)";text="Great work. Review the few you missed and you’re ready.";}
-    else if(total>=passMark){label="Pass";bg="var(--warn-bg)";fg="var(--warn)";text="Good effort — go over the tricky topics once more.";}
-    else {label="Keep practising";bg="var(--bad-bg)";fg="var(--bad)";text="Not there yet. Read the study guide and try again — you’ve got this.";}
-    badge.textContent=label; badge.style.background=bg; badge.style.color=fg;
-    msg.textContent=text;
-
+    var badge=$("badge"), label,bg,fg,text;
+    var exc=Math.ceil(TOTAL*0.9), good=Math.ceil(TOTAL*0.75), pass=Math.ceil(TOTAL*0.5);
+    if(total>=exc){label="Excellent";bg="var(--ok-bg)";fg="var(--ok)";text="Outstanding — you really know this topic. 🎉";}
+    else if(total>=good){label="Very good";bg="var(--brand)";fg="var(--brand-ink)";text="Great work. Review the few you missed and you’re ready.";}
+    else if(total>=pass){label="Pass";bg="var(--warn-bg)";fg="var(--warn)";text="Good effort — go over the tricky parts once more.";}
+    else {label="Keep practising";bg="var(--bad-bg)";fg="var(--bad)";text="Not there yet. Review the topic and try again — you’ve got this.";}
+    badge.textContent=label; badge.style.background=bg; badge.style.color=fg; $("resMsg").textContent=text;
     var prev=getBest();
-    if(prev==null||total>prev){ setBest(total); $("bestEnd").textContent="New best score on this device! ("+total+"/"+TOTAL+")"; }
-    else { $("bestEnd").textContent="Best score on this device: "+prev+"/"+TOTAL; }
-
+    if(prev==null||total>prev){setBest(total);$("bestEnd").textContent="New best score on this device! ("+total+"/"+TOTAL+")";}
+    else {$("bestEnd").textContent="Best score on this device: "+prev+"/"+TOTAL;}
     show("results");
   }
 
-  function startQuiz(){
-    buildDeck(); idx=0; mcqScore=0; matchScore=0;
-    $("qTotal").textContent=MCQ_COUNT;
-    renderQ(); renderMatching(); show("quiz");
-  }
-
   // ---- Wire up ----
-  $("startBtn").addEventListener("click",startQuiz);
-  $("againBtn").addEventListener("click",startQuiz);
-  $("reviewBtn").addEventListener("click",function(){renderBest($("bestStart"));show("start");});
   $("nextBtn").addEventListener("click",next);
   $("finishBtn").addEventListener("click",finishMatching);
-
-  // keyboard: 1-4 pick option, Enter = next
+  $("againBtn").addEventListener("click",function(){startQuiz(CUR);});
+  $("quitBtn").addEventListener("click",function(){show("home");});
+  $("homeBtn").addEventListener("click",function(){show("home");});
   document.addEventListener("keydown",function(ev){
-    if($("quiz").classList.contains("hidden")) return;
-    if(ev.key>="1"&&ev.key<="4"&&!locked){
-      var b=$("opts").querySelectorAll(".opt")[parseInt(ev.key,10)-1];
-      if(b) b.click();
-    } else if(ev.key==="Enter"&&answered){ next(); }
+    if(!$("quiz").classList.contains("hidden")){
+      if(ev.key>="1"&&ev.key<="4"&&!locked){var b=$("opts").querySelectorAll(".opt")[parseInt(ev.key,10)-1]; if(b) b.click();}
+      else if(ev.key==="Enter"&&answered){ next(); }
+    }
   });
 
-  $("qCountHero").textContent=MCQ_COUNT;
-  renderBest($("bestStart"));
+  // ---- Boot ----
+  loadRegistry().then(renderHome).catch(function(){
+    $("homeNote").textContent="Could not load the subject list. Run this site from GitHub Pages or a local server (not by double-clicking the file).";
+  });
 })();
 </script>
 </body>

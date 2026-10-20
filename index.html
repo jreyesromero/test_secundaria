@@ -239,7 +239,7 @@
         <span class="counter">Matching · 5 points</span>
       </div>
       <h1 style="font-size:clamp(22px,5.5vw,30px)">Match the safety signs</h1>
-      <p class="sub">Pick the description that fits each sign.</p>
+      <p class="sub">Choose the sign type that matches each icon.</p>
       <div id="matchRows" style="margin-top:14px"></div>
       <div class="btn-row">
         <button class="btn btn-primary" id="finishBtn">Check &amp; finish</button>
@@ -443,8 +443,8 @@
   // ---- Matching ----
   function renderMatching(){
     var wrap=$("matchRows"); wrap.innerHTML="";
-    var optionsHtml='<option value="">— choose —</option>'+DESCS.map(function(d){
-      return '<option value="'+d.k+'">'+d.k+') '+d.text+'</option>';
+    var optionsHtml='<option value="">— choose —</option>'+TYPES.map(function(ty){
+      return '<option value="'+ty.id+'">'+ty.label+'</option>';
     }).join("");
     TYPES.forEach(function(ty){
       var row=document.createElement("div");
@@ -467,14 +467,14 @@
       rows.forEach(function(row){
         var sel=row.querySelector("select");
         var typeId=parseInt(row.dataset.type,10);
-        var chosen=DESCS.filter(function(d){return d.k===sel.value;})[0];
-        var right= chosen && chosen.type===typeId;
+        var chosenId=sel.value?parseInt(sel.value,10):null;
+        var right=chosenId===typeId;
         row.classList.remove("ok","no");
         row.classList.add(right?"ok":"no");
         sel.disabled=true;
         if(!right){
-          var correct=DESCS.filter(function(d){return d.type===typeId;})[0];
-          row.querySelector(".solved").textContent="Correct: "+correct.k+")";
+          var correct=TYPES.filter(function(t){return t.id===typeId;})[0];
+          row.querySelector(".solved").textContent="Correct: "+correct.label;
         }
         if(right) matchScore++;
       });

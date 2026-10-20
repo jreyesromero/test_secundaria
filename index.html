@@ -161,6 +161,30 @@
     border: 2px solid var(--line);
     box-shadow: var(--shadow);
   }
+  .question-svg {
+    max-width: 280px;
+    height: 280px;
+    margin: 1.5rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .question-svg svg {
+    width: 100%;
+    height: auto;
+  }
+  .match-icon {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .match-icon svg {
+    width: 100%;
+    height: 100%;
+  }
 </style>
 </head>
 <body>
@@ -299,7 +323,7 @@
      o:[`When you touch live wiring or handle a power supply carelessly.`,`When you use a low-voltage battery.`,`When you tidy up the workshop.`,`When you wear gloves.`],
      a:0, e:`Electrical risk comes from live wiring or careless power handling.`},
     {t:"Safety", q:`A triangular yellow sign with a black pictogram is a…`,
-     img:`images/warnin_sign.jpeg`,
+     svg:`<svg viewBox="0 0 48 48"><path d="M24 5 44 41H4Z" fill="#F2B01E" stroke="#14213D" stroke-width="2.5" stroke-linejoin="round"/><rect x="22" y="18" width="4" height="12" rx="1.4" fill="#14213D"/><circle cx="24" cy="35" r="2.4" fill="#14213D"/></svg>`,
      o:[`prohibition sign.`,`warning sign.`,`obligation sign.`,`fire-fighting sign.`],
      a:1, e:`A yellow triangle with a black pictogram is a warning sign.`},
     {t:"Safety", q:`Which colour is used for prohibition or to show danger?`,
@@ -309,11 +333,11 @@
 
   // ---- Matching data ----
   var TYPES = [
-    {id:1, label:"Warning sign"},
-    {id:2, label:"Prohibition sign"},
-    {id:3, label:"Obligation sign"},
-    {id:4, label:"Emergency information sign"},
-    {id:5, label:"Fire-fighting sign"}
+    {id:1, label:"Warning sign", svg:`<svg viewBox="0 0 48 48"><path d="M24 5 44 41H4Z" fill="#F2B01E" stroke="#14213D" stroke-width="2.5" stroke-linejoin="round"/><rect x="22" y="18" width="4" height="12" rx="1.4" fill="#14213D"/><circle cx="24" cy="35" r="2.4" fill="#14213D"/></svg>`},
+    {id:2, label:"Prohibition sign", svg:`<svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="18" fill="#fff" stroke="#D23B37" stroke-width="4.5"/><line x1="12" y1="12" x2="36" y2="36" stroke="#D23B37" stroke-width="4.5"/></svg>`},
+    {id:3, label:"Obligation sign", svg:`<svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="19" fill="#1565C0"/><path d="M16 24.5 22 30.5 33 18" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>`},
+    {id:4, label:"Emergency information sign", svg:`<svg viewBox="0 0 48 48"><rect x="6" y="6" width="36" height="36" rx="5" fill="#1F9254"/><path d="M31 24H17m0 0 6-6m-6 6 6 6" fill="none" stroke="#fff" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"/></svg>`},
+    {id:5, label:"Fire-fighting sign", svg:`<svg viewBox="0 0 48 48"><rect x="6" y="6" width="36" height="36" fill="#D23B37"/><path d="M24 12v20m-8-8h16" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/></svg>`}
   ];
   var DESCS = [
     {k:"a", type:3, text:`Round and blue, white pictogram — something you must do.`},
@@ -356,8 +380,8 @@
     $("qNow").textContent=pad(idx+1);
     $("qText").textContent=item.q;
 
-    // Show image if question has one
-    var imgContainer=$("qText").querySelector(".question-img");
+    // Show image or SVG if question has one
+    var imgContainer=$("qText").querySelector(".question-img, .question-svg");
     if(imgContainer) imgContainer.remove();
     if(item.img){
       var imgEl=document.createElement("img");
@@ -365,6 +389,11 @@
       imgEl.alt="Question image";
       imgEl.className="question-img";
       $("qText").appendChild(imgEl);
+    } else if(item.svg){
+      var svgContainer=document.createElement("div");
+      svgContainer.className="question-svg";
+      svgContainer.innerHTML=item.svg;
+      $("qText").appendChild(svgContainer);
     }
 
     $("rulerFill").style.width=((idx)/deck.length*100)+"%";
@@ -420,7 +449,8 @@
     TYPES.forEach(function(ty){
       var row=document.createElement("div");
       row.className="match-row"; row.dataset.type=ty.id;
-      row.innerHTML='<div class="match-label"><span class="match-num">'+ty.id+'</span>'+ty.label+'</div>'+
+      var svgIcon=ty.svg?'<div class="match-icon">'+ty.svg+'</div>':'';
+      row.innerHTML=svgIcon+'<div class="match-label"><span class="match-num">'+ty.id+'</span>'+ty.label+'</div>'+
         '<select aria-label="'+ty.label+'">'+optionsHtml+'</select>'+
         '<span class="solved"></span>';
       wrap.appendChild(row);

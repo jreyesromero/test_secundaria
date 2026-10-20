@@ -149,6 +149,18 @@
 
   .hidden{display:none}
   @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+  .question-img {
+    max-width: 280px;
+    max-height: 280px;
+    width: 100%;
+    height: auto;
+    margin: 1.5rem auto;
+    display: block;
+    border-radius: 8px;
+    border: 2px solid var(--line);
+    box-shadow: var(--shadow);
+  }
 </style>
 </head>
 <body>
@@ -287,6 +299,7 @@
      o:[`When you touch live wiring or handle a power supply carelessly.`,`When you use a low-voltage battery.`,`When you tidy up the workshop.`,`When you wear gloves.`],
      a:0, e:`Electrical risk comes from live wiring or careless power handling.`},
     {t:"Safety", q:`A triangular yellow sign with a black pictogram is a…`,
+     img:`images/warnin_sign.jpeg`,
      o:[`prohibition sign.`,`warning sign.`,`obligation sign.`,`fire-fighting sign.`],
      a:1, e:`A yellow triangle with a black pictogram is a warning sign.`},
     {t:"Safety", q:`Which colour is used for prohibition or to show danger?`,
@@ -342,6 +355,18 @@
     $("topicTag").textContent=item.t;
     $("qNow").textContent=pad(idx+1);
     $("qText").textContent=item.q;
+
+    // Show image if question has one
+    var imgContainer=$("qText").querySelector(".question-img");
+    if(imgContainer) imgContainer.remove();
+    if(item.img){
+      var imgEl=document.createElement("img");
+      imgEl.src=item.img;
+      imgEl.alt="Question image";
+      imgEl.className="question-img";
+      $("qText").appendChild(imgEl);
+    }
+
     $("rulerFill").style.width=((idx)/deck.length*100)+"%";
     var fb=$("feedback"); fb.className="feedback";
     var next=$("nextBtn"); next.disabled=true; next.textContent=(idx===deck.length-1)?"Go to signs":"Next";

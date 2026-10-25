@@ -325,7 +325,9 @@
       else if(k===i) btn.classList.add("wrong");
       else btn.classList.add("dim");});
     var fb=$("feedback"); fb.className="feedback show "+(isRight?"good":"poor");
-    fb.innerHTML='<b>'+(isRight?"Correct! ":"Not quite. ")+'</b>'+esc(item.e||"");
+    var msgs={"es":{right:"¡Correcto! ",wrong:"No es correcto. "},"en":{right:"Correct! ",wrong:"Not quite. "}};
+    var lang=CUR.lang||"en", msg=msgs[lang]||msgs["en"];
+    fb.innerHTML='<b>'+(isRight?msg.right:msg.wrong)+'</b>'+esc(item.e||"");
     $("nextBtn").disabled=false; $("nextBtn").focus();
   }
 

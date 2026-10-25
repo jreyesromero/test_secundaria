@@ -13,3 +13,6 @@ Thumbs.db
 
 # Dependencies (por si en el futuro añades herramientas)
 node_modules/
+
+# Claude Code
+.claude/

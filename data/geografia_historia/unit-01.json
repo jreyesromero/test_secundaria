@@ -1,0 +1,290 @@
+{
+  "subject": "Geografía e Historia",
+  "subjectId": "geografia_historia",
+  "unitId": "unit-01",
+  "unit": "Tema 1",
+  "title": "El Islam: los musulmanes en la Edad Media",
+  "lang": "es",
+  "questions": [
+    {
+      "t": "Arabia preislámica",
+      "q": "¿Cuáles eran las dos tipos de tribus en Arabia antes del islam?",
+      "o": ["Nómadas y sedentarias", "Beduinos (interior) y tribus de costa (litoral)", "Comerciantes y guerreros", "Árabes y no árabes"],
+      "a": 1,
+      "e": "Los beduinos practicaban pastoreo nómada en el interior con religión fetichista; las tribus de costa se dedicaban a agricultura y comercio con religión politeísta."
+    },
+    {
+      "t": "Arabia preislámica",
+      "q": "¿Cuál era el único elemento común de culto de todas las tribus árabes?",
+      "o": ["La creencia en Alá", "El culto a ídolos en La Kaaba", "El comercio caravanero", "La lengua árabe escrita"],
+      "a": 1,
+      "e": "El culto a la Piedra Negra en el santuario de La Kaaba en La Meca era el único elemento religioso común de todas las tribus."
+    },
+    {
+      "t": "Mahoma",
+      "q": "¿En qué año nació Mahoma y con quién se casó?",
+      "o": ["570, con una princesa persa", "570, con Jadicha, una viuda rica dedicada al comercio caravanero", "580, con una comerciante griega", "575, con una nómada"],
+      "a": 1,
+      "e": "Mahoma nació en 570, quedó huérfano pronto y se casó con Jadicha, una viuda rica que le permitió dedicarse al comercio."
+    },
+    {
+      "t": "Mahoma",
+      "q": "¿Dónde tuvo Mahoma el encuentro con el arcángel Gabriel en 610?",
+      "o": ["En la Kaaba", "En el Monte Hira", "En el desierto del Neguev", "En Yatrib"],
+      "a": 1,
+      "e": "En uno de sus retiros en el Monte Hira, cerca de La Meca, Mahoma tuvo una visión donde Gabriel le ordenó predicar la doctrina islámica."
+    },
+    {
+      "t": "Mahoma",
+      "q": "¿En qué año se produjo la Hégira y qué marca?",
+      "o": ["611, marca el inicio del predicamiento de Mahoma", "622, marca el inicio del calendario musulmán", "632, marca la muerte de Mahoma", "650, marca la escritura del Corán"],
+      "a": 1,
+      "e": "La Hégira (622) fue la huida de Mahoma de La Meca a Medina; marca el año 0 del calendario musulmán y el verdadero comienzo de la comunidad islámica."
+    },
+    {
+      "t": "Islam",
+      "q": "¿Qué significa la palabra 'islam'?",
+      "o": ["Comunidad de creyentes", "Sumisión a la voluntad de un Dios único (Alá)", "Ley divina revelada", "Guerra santa"],
+      "a": 1,
+      "e": "Islam viene de 'aslama' que significa 'someterse' o 'entregarse a': sumisión a la voluntad de Alá como único Dios verdadero."
+    },
+    {
+      "t": "Preceptos religiosos",
+      "q": "¿Cuántos son los cinco preceptos del islam y cuál NO está incluido?",
+      "o": ["Profesión de fe, oración, limosna, ayuno y peregrinación", "Profesión de fe, oración, peregrinación, caridad y castidad", "Oración cinco veces, ayuno, peregrinación, limosna y veneración a Mahoma", "Profesión de fe, adoración de ídolos, oración, ayuno y caridad"],
+      "a": 0,
+      "e": "Los cinco preceptos son: profesión de fe en Alá y Mahoma, oración 5 veces diarias hacia La Meca, limosna, ayuno en Ramadán, y peregrinación a La Meca al menos una vez."
+    },
+    {
+      "t": "Preceptos religiosos",
+      "q": "¿Cuándo deben orar los musulmanes los viernes, según el islam?",
+      "o": ["De forma individual en cualquier momento", "Oración comunitaria obligatoria en la mezquita", "Solo al amanecer", "Cinco veces pero solo los viernes"],
+      "a": 1,
+      "e": "Los viernes los musulmanes deben realizar la oración comunitaria en la mezquita, presidida por el imán, especialmente los hombres."
+    },
+    {
+      "t": "Normas del islam",
+      "q": "¿Cuál de estas prácticas está permitida según las normas del islam?",
+      "o": ["Beber alcohol moderadamente", "Comer carne de cerdo en festividades", "La poligamia (hasta 4 mujeres)", "Los juegos de azar controlados"],
+      "a": 2,
+      "e": "El islam permite la poligamia (hasta 4 mujeres si el hombre puede mantenerlas), pero prohíbe alcohol, cerdo y juegos de azar."
+    },
+    {
+      "t": "Libros sagrados",
+      "q": "¿Cuántas azoras contiene el Corán?",
+      "o": ["96", "72", "114", "122"],
+      "a": 2,
+      "e": "El Corán consta de 114 azoras (capítulos o suras), divididas en aleyas (versículos), que contienen la doctrina revelada a Mahoma."
+    },
+    {
+      "t": "Sunna",
+      "q": "¿Qué es la Sunna en relación con el islam?",
+      "o": ["El significado de la palabra islam", "La ley divina del Corán", "Tradiciones basadas en los dichos y hechos del Profeta Mahoma", "El primer capítulo del Corán"],
+      "a": 2,
+      "e": "La Sunna es una recopilación de tradiciones que recogen lo que el Profeta Mahoma dijo e hizo; es una fuente fundamental del derecho islámico junto al Corán."
+    },
+    {
+      "t": "Expansión",
+      "q": "¿Quién fue el califa durante el Califato Ortodoxo y cuál era su relación con Mahoma?",
+      "o": ["Emires independientes, sin relación directa", "Los califas eran familiares de Mahoma", "Sucesores elegidos por los comerciantes", "Gobernadores designados por Persia"],
+      "a": 1,
+      "e": "Durante el Califato Ortodoxo (632-661), los califas eran familiares de Mahoma, considerados sus sucesores legales y legítimos."
+    },
+    {
+      "t": "Expansión",
+      "q": "¿Qué dinastía estableció la sucesión hereditaria del califato durante 661-750?",
+      "o": ["Los chiitas", "Los abasíes", "Los omeyas", "Los turcos"],
+      "a": 2,
+      "e": "El Califato Omeya (661-750) fue fundado por la dinastía Omeya (grandes mercaderes árabes), que estableció la sucesión hereditaria del poder."
+    },
+    {
+      "t": "Expansión",
+      "q": "¿Cuándo terminó el Califato Abasí y quién lo conquistó?",
+      "o": ["1055, por los turcos selyúcidas", "1258, por los mongoles de Bagdad", "1453, por los otomanos", "750, por los omeyas"],
+      "a": 0,
+      "e": "El Califato Abasí duró desde 750 hasta 1055, cuando fue conquistado por los turcos selyúcidas; sin embargo, los abasíes se mantuvieron bajo dominio turco hasta 1258."
+    },
+    {
+      "t": "Chiitas vs Sunitas",
+      "q": "¿Quién era Abderramán y qué fundó después de escapar de la purga abasida?",
+      "o": ["Un califa abasí que conquistó Bagdad", "Un miembro de la familia Omeya que huyó y fundó el Emirato Independiente de Córdoba", "Un sultán turco que conquistó Damasco", "Un jefe beduino que creó una tribu"],
+      "a": 1,
+      "e": "Abderramán, miembro de la familia Omeya, escapó de la matanza abasida y fundó el Emirato Independiente de Córdoba en la Península Ibérica."
+    },
+    {
+      "t": "Administración",
+      "q": "¿Cuál es el máximo cargo en la administración islámica y sus funciones?",
+      "o": ["Visir: primer ministro", "Califa: máximo poder político y religioso, descendiente del profeta", "Cadí: administrador de justicia", "Emir: gobernador provincial"],
+      "a": 1,
+      "e": "El Califa es el máximo cargo, con poder político y religioso absoluto, considerado descendiente del Profeta Mahoma o su sucesor legítimo."
+    },
+    {
+      "t": "Administración",
+      "q": "¿Quién era el 'visir' en la estructura administrativa musulmana?",
+      "o": ["El gobernador militar de una provincia", "El primer ministro encargado de la política", "El juez que administraba justicia", "El muecín que llamaba a la oración"],
+      "a": 1,
+      "e": "El visir era el primer ministro o alto funcionario que asesoraba al califa en asuntos políticos y administrativos."
+    },
+    {
+      "t": "Administración",
+      "q": "¿Cuál era la función del 'cadí' en el imperio musulmán?",
+      "o": ["Llamar a la oración desde el minarete", "Administrar justicia según la ley islámica", "Gobernar una provincia o kora", "Ser consejero del califa"],
+      "a": 1,
+      "e": "El cadí era el juez que administraba la justicia en las provincias, aplicando la ley islámica (Sharia) en los conflictos entre musulmanes y no musulmanes."
+    },
+    {
+      "t": "Administración",
+      "q": "¿Quién era el 'muecín' o 'almuédano'?",
+      "o": ["El gobernador de una provincia", "El encargado de llamar a la oración desde el minarete", "El guardián de los tesoros del califa", "El maestro de ceremonias"],
+      "a": 1,
+      "e": "El muecín (o almuédano) era la persona encargada de llamar a los fieles a la oración cinco veces al día desde el minarete de la mezquita."
+    },
+    {
+      "t": "Sociedad",
+      "q": "¿Quiénes eran los 'mawalis' en la sociedad musulmana?",
+      "o": ["Cristianos y judíos protegidos que pagaban un impuesto especial", "Convertidos al islam que no eran árabes", "Esclavos prisioneros de guerra", "Comerciantes extranjeros"],
+      "a": 1,
+      "e": "Los mawalis eran personas no árabes que se convirtieron al islam; ocupaban una posición intermedia en la jerarquía social, por debajo de la aristocracia árabe."
+    },
+    {
+      "t": "Sociedad",
+      "q": "¿Quiénes eran los 'dimmies' y qué impuesto pagaban?",
+      "o": ["Convertidos al islam que pagaban media tax", "Cristianos y judíos ('gentes de libro') que mantenían su religión y pagaban la 'yizya'", "Esclavos que trabajaban en campos", "Mercaderes que pagaban arancel"],
+      "a": 1,
+      "e": "Los dimmies eran cristianos y judíos que conservaban su religión, leyes y propiedades a cambio de pagar un impuesto extra llamado 'yizya' (jizya)."
+    },
+    {
+      "t": "Sociedad",
+      "q": "¿Cuál era la estructura de clases en la sociedad musulmana?",
+      "o": ["Igualdad total de todos los musulmanes", "Aristocracia árabe, mawalis, dimmies, esclavos", "Solo ricos y pobres", "Religiosos y laicos"],
+      "a": 1,
+      "e": "Había un sistema jerárquico: aristocracia árabe (máximo poder), mawalis (convertidos no árabes), dimmies (cristianos/judíos), y esclavos (nivel más bajo)."
+    },
+    {
+      "t": "Economía",
+      "q": "¿Cuál era la base económica del imperio musulmán?",
+      "o": ["El comercio marítimo internacional", "La agricultura, que empleaba a la mayoría de la población", "La ganadería nómada de camellos", "La artesanía de lujo"],
+      "a": 1,
+      "e": "La agricultura fue la base de la economía musulmana, ocupando a la mayoría de la población, aunque el comercio también fue muy importante."
+    },
+    {
+      "t": "Economía",
+      "q": "¿Qué cultivos fueron introducidos o mejorados por los musulmanes?",
+      "o": ["Solo cereales", "Trigo duro, arroz, algodón, caña de azúcar, azafrán, cítricos, verduras", "Solo frutas tropicales", "Principalmente legumbres"],
+      "a": 1,
+      "e": "Introdujeron una gran diversidad de cultivos: trigo duro, arroz, algodón, caña de azúcar, azafrán, moreras, cítricos (naranjas, limones), verduras, etc."
+    },
+    {
+      "t": "Técnicas agrarias",
+      "q": "¿Cuáles eran las nuevas técnicas de riego utilizadas por los musulmanes?",
+      "o": ["Solo el riego manual con cubos", "Norias, acequias, aljibes y pozos", "Solo canales abiertos", "Sistemas de drenaje"],
+      "a": 1,
+      "e": "Mejoraron las técnicas: norias (ruedas movidas por agua), acequias (canales), aljibes (cisternas para almacenar agua) y pozos perforados."
+    },
+    {
+      "t": "Comercio",
+      "q": "¿Cuáles eran los sistemas de pago utilizados en el comercio musulmán?",
+      "o": ["Solo oro y plata", "Dinar (moneda de oro), letra de cambio y cheque", "Solo trueque", "Monedas de cobre"],
+      "a": 1,
+      "e": "Utilizaban el dinar como moneda común, la letra de cambio y el cheque para facilitar el comercio a larga distancia sin transportar metales."
+    },
+    {
+      "t": "Ciudad",
+      "q": "¿Cuál era la estructura básica de la ciudad musulmana?",
+      "o": ["Solo una área amurallada sin distinción", "Medina (interior amurallado) con alcazaba, mercado, templos; arrabales (exterior)", "Una sola plaza central", "Barrios dispersos sin murallas"],
+      "a": 1,
+      "e": "La ciudad se dividía en medina (área amurallada con alcazaba, mezquita, zoco, baños) y arrabales (barrios fuera de murallas para gente de bajos ingresos)."
+    },
+    {
+      "t": "Mezquita",
+      "q": "¿Cuáles eran las partes principales de una mezquita?",
+      "o": ["Solo la sala de oración", "Patio (Shan) con fuente, sala de oración (Haram), minarete", "Solo un edificio rectangular", "Únicamente el techo"],
+      "a": 1,
+      "e": "Constaba de: patio/shan (espacio abierto con fuente para abluciones y alminar), sala de oración/haram (cubierta), muro de orientación (quibla) con mihrab."
+    },
+    {
+      "t": "Elementos de la mezquita",
+      "q": "¿Qué era el 'mihrab' en la estructura de la mezquita?",
+      "o": ["Una columna decorativa", "Un nicho que identifica la quibla (orientación a La Meca)", "Un tipo de luz", "Una puerta lateral"],
+      "a": 1,
+      "e": "El mihrab era un nicho semicircular en el muro de la quibla que señala la dirección hacia La Meca, donde se encuentra el Corán abierto."
+    },
+    {
+      "t": "Elementos de la mezquita",
+      "q": "¿Cuál era la función del 'mimbar' en la mezquita?",
+      "o": ["Almacenar agua", "Un púlpito donde se sitúa el imán para dirigir la oración", "Una fuente de agua", "Un tipo de ventana"],
+      "a": 1,
+      "e": "El mimbar era un púlpito o plataforma elevada desde donde el imán dirigía la oración comunitaria, especialmente los viernes."
+    },
+    {
+      "t": "Arquitectura",
+      "q": "¿Qué es la 'epigrafía' en la decoración islámica?",
+      "o": ["Figuras geométricas", "Diseños vegetales", "Inscripciones con versículos del Corán", "Motivos animales"],
+      "a": 2,
+      "e": "La epigrafía consiste en inscripciones caligráficas con versículos del Corán o palabras sagradas, muy utilizadas en arquitectura e interiores."
+    },
+    {
+      "t": "Decoración",
+      "q": "¿Cuáles eran los tres principales tipos de decoración islámica?",
+      "o": ["Figuras humanas, arcos y columnatas", "Atauriques, lacería y epigrafía", "Pintura, escultura y vidrio", "Oro, plata y piedras preciosas"],
+      "a": 1,
+      "e": "Los tres tipos eran: atauriques (diseños vegetales estilizados), lacería (figuras geométricas entrelazadas) y epigrafía (inscripciones caligráficas)."
+    },
+    {
+      "t": "Mujeres en el islam",
+      "q": "¿Cuál era la situación de la mujer en la familia musulmana medieval?",
+      "o": ["Completa igualdad con los hombres", "Destinada a la familia, hogar y maternidad, con espacios separados en mezquitas", "Exclusión total de la sociedad", "Prohibidas de aprender"],
+      "a": 1,
+      "e": "La mujer estaba destinada a familia y hogar; en la mezquita tenían espacios separados de los hombres; pero se les permitían profesiones como canto, danza, medicina y poesía."
+    },
+    {
+      "t": "Mujeres",
+      "q": "¿Cuál fue la aportación de Hafsa de Guadalajara?",
+      "o": ["Fue gobernadora de una ciudad", "Fue una poetisa del siglo X, representante de mujeres musulmanas en la literatura", "Fundó una mezquita", "Fue guerrera en batallas"],
+      "a": 1,
+      "e": "Hafsa Bint Hamdun (Hafsa de Guadalajara) fue una poetisa del siglo X, ejemplo del reconocimiento que recibían mujeres destacadas en literatura y artes."
+    },
+    {
+      "t": "Lugares santos",
+      "q": "¿Cuáles son los tres lugares más sagrados del islam?",
+      "o": ["La Meca, Damasco y Jerusalén", "La Meca (Kaaba), Medina y Jerusalén (Cúpula de la Roca)", "Solo La Meca", "Bagdad, Córdoba y Granada"],
+      "a": 1,
+      "e": "Los tres lugares más sagrados son: La Meca (Kaaba - obligatorio peregrinaje), Medina (tumba del Profeta) y Jerusalén (Cúpula de la Roca - viaje de Mahoma)."
+    },
+    {
+      "t": "Batalla",
+      "q": "¿En qué año se produjo la Batalla de Poitiers y qué significó?",
+      "o": ["711, derrota de los cristianos", "732, derrota musulmana que detuvo la expansión hacia Europa Occidental", "750, victoria abasí", "827, conquista de Sicilia"],
+      "a": 1,
+      "e": "La Batalla de Poitiers (732) fue una derrota decisiva de los musulmanes que detuvo su expansión hacia el norte de Europa Occidental."
+    },
+    {
+      "t": "Ciudades principales",
+      "q": "¿Cuáles fueron las capitales de los tres principales califatos?",
+      "o": ["Medina, Damasco, Bagdad", "La Meca, Córdoba, Estambul", "Yatrib, Jerusalén, Alepo", "Damasco, Damasco, Damasco"],
+      "a": 0,
+      "e": "Califato Ortodoxo: Medina (capital religiosa); Califato Omeya: Damasco; Califato Abasí: Bagdad (más tarde Samarra)."
+    },
+    {
+      "t": "Artesanía",
+      "q": "¿Cuáles eran los principales productos artesanales musulmanes?",
+      "o": ["Solo vidrio y cerámica", "Tejidos de algodón y lino, alfombras, tapices, cuero, cerámica, objetos de marfil, perfumes", "Solo metales preciosos", "Principalmente alimentos elaborados"],
+      "a": 1,
+      "e": "La artesanía musulmana era diversa y superior a las manufacturas cristianas: tejidos, alfombras, tapices, cuero, cerámica vidriada, marfil y perfumes."
+    },
+    {
+      "t": "¿Árabe = Musulmán?",
+      "q": "¿Es correcto referirse a todos los musulmanes como árabes?",
+      "o": ["Sí, todos los musulmanes son árabes", "No, el islam se extendió entre muchos pueblos no árabes (bereberes, esclavos, persas, etc.)", "Depende del período histórico", "Solo los convertidos son no árabes"],
+      "a": 1,
+      "e": "No. Aunque el islam nació en Arabia, se extendió entre muchos pueblos diferentes (bereberes, persas, turcos, etc.). Mawalis y otros pueblos convertidos no eran árabes."
+    },
+    {
+      "t": "Agua en las ciudades",
+      "q": "¿Cuál era la infraestructura clave para el agua en las ciudades musulmanas?",
+      "o": ["Ríos naturales únicamente", "Norias, acequias, aljibes y pozos que abastecían fuentes, baños y riego", "Solo pozos profundos", "Sistemas de goteo"],
+      "a": 1,
+      "e": "Las ciudades musulmanas disponían de sofisticada infraestructura: norias para extraer agua, acequias para distribuirla, aljibes para almacenamiento, garantizando agua en fuentes, baños y agricultura."
+    }
+  ]
+}

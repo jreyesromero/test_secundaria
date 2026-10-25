@@ -16,6 +16,21 @@
           "count": 25
         }
       ]
+    },
+    {
+      "id": "geografia_historia",
+      "name": "Geografía e Historia",
+      "lang": "es",
+      "icon": "🌍",
+      "units": [
+        {
+          "id": "unit-01",
+          "unit": "Tema 1",
+          "title": "El Islam: los musulmanes en la Edad Media",
+          "file": "data/geografia_historia/unit-01.json",
+          "count": 40
+        }
+      ]
     }
   ]
 }

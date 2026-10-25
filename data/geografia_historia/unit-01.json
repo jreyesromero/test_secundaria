@@ -8,38 +8,38 @@
   "questions": [
     {
       "t": "Arabia preislámica",
-      "q": "¿Cuáles eran las dos tipos de tribus en Arabia antes del islam?",
-      "o": ["Beduinos (interior, pastoreo) y de costa (litoral, comercio)", "Nómadas del norte y sedentarias del sur", "Guerreras y comerciantes", "Urbanas y rurales"],
+      "q": "¿Qué dos tipos de tribus había en Arabia antes del islam?",
+      "o": ["Beduinos (interior) y de costa (litoral)", "Norteñas y sureñas", "Cristianas y paganas", "Ricas y pobres"],
       "a": 0,
-      "e": "Los beduinos practicaban pastoreo nómada en el interior con religión fetichista; las tribus de costa se dedicaban a agricultura y comercio con religión politeísta."
+      "e": "Los beduinos vivían nómadas en el interior criando camellos; las tribus de costa practicaban comercio y agricultura."
     },
     {
       "t": "Arabia preislámica",
-      "q": "¿Cuál era el único elemento común de culto de todas las tribus árabes?",
-      "o": ["La creencia en Alá", "El culto a ídolos en La Kaaba", "El comercio caravanero", "La lengua árabe escrita"],
-      "a": 1,
-      "e": "El culto a la Piedra Negra en el santuario de La Kaaba en La Meca era el único elemento religioso común de todas las tribus."
+      "q": "¿Cuál era el lugar de culto común para todas las tribus árabes?",
+      "o": ["La Kaaba en La Meca", "El Templo de Jerusalén", "La catedral de Damasco", "Los monasterios cristianos"],
+      "a": 0,
+      "e": "La Kaaba en La Meca era el único santuario que todas las tribus árabes respetaban, donde adoraban ídolos en la Piedra Negra."
     },
     {
       "t": "Mahoma",
-      "q": "¿En qué año nació Mahoma y con quién se casó?",
-      "o": ["580, con una comerciante griega que lo ayudó en el comercio caravanero", "570, con Jadicha, una viuda rica", "575, con una nómada hija de un jefe tribal", "562, con una princesa persa"],
-      "a": 1,
-      "e": "Mahoma nació en 570, quedó huérfano pronto y se casó con Jadicha, una viuda rica que le permitió dedicarse al comercio."
+      "q": "¿Con quién se casó Mahoma?",
+      "o": ["Con Jadicha, una viuda rica", "Con una princesa persa", "Con la hija del califa", "Con una esclava"],
+      "a": 0,
+      "e": "Mahoma se casó con Jadicha, una viuda rica y comerciante que le permitió dedicarse al comercio de caravanas."
     },
     {
       "t": "Mahoma",
-      "q": "¿Dónde tuvo Mahoma el encuentro con el arcángel Gabriel en 610?",
-      "o": ["En la Kaaba", "En el Monte Hira", "En el desierto del Neguev", "En Yatrib"],
-      "a": 1,
-      "e": "En uno de sus retiros en el Monte Hira, cerca de La Meca, Mahoma tuvo una visión donde Gabriel le ordenó predicar la doctrina islámica."
+      "q": "¿Dónde tuvo Mahoma su primer encuentro religioso?",
+      "o": ["En el Monte Hira, cerca de La Meca", "En La Kaaba", "En Damasco", "En el Sinaí"],
+      "a": 0,
+      "e": "En el Monte Hira, Mahoma se retiraba a meditar y allí tuvo la visión del arcángel Gabriel que le ordenó predicar el islam."
     },
     {
       "t": "Mahoma",
-      "q": "¿En qué año se produjo la Hégira y qué marca?",
-      "o": ["611, marca el inicio del predicamiento de Mahoma", "622, marca el inicio del calendario musulmán", "632, marca la muerte de Mahoma", "650, marca la escritura del Corán"],
-      "a": 1,
-      "e": "La Hégira (622) fue la huida de Mahoma de La Meca a Medina; marca el año 0 del calendario musulmán y el verdadero comienzo de la comunidad islámica."
+      "q": "¿Qué fue la Hégira?",
+      "o": ["La huida de Mahoma de La Meca a Medina en 622", "La muerte de Mahoma en 632", "El primer libro sagrado del islam", "El edificio de la primera mezquita"],
+      "a": 0,
+      "e": "La Hégira (622) fue la huida de Mahoma de La Meca a Medina; marca el año 0 del calendario musulmán y el comienzo oficial de la comunidad islámica."
     },
     {
       "t": "Islam",
@@ -50,10 +50,10 @@
     },
     {
       "t": "Preceptos religiosos",
-      "q": "¿Cuáles son los cinco preceptos fundamentales del islam?",
-      "o": ["Fe, oración, limosna, ayuno y peregrinación", "Fe, oración, caridad, castidad y ayuno", "Fe, oración, caridad, ayuno y veneración", "Oración, limosna, ayuno, peregrinación y castidad"],
+      "q": "¿Cuáles son los cinco preceptos del islam?",
+      "o": ["Fe, oración, limosna, ayuno y peregrinación", "Fe, esperanza, caridad, castidad y sabiduría", "Oración, ayuno, limosna, guerra santa y sacrificio", "Fe, bautismo, comunión, confesión y penitencia"],
       "a": 0,
-      "e": "Los cinco preceptos son: profesión de fe en Alá y Mahoma, oración 5 veces diarias hacia La Meca, limosna, ayuno en Ramadán, y peregrinación a La Meca al menos una vez."
+      "e": "Los cinco preceptos son: profesión de fe, oración 5 veces diarias, limosna, ayuno en Ramadán y peregrinación a La Meca."
     },
     {
       "t": "Preceptos religiosos",
@@ -106,17 +106,17 @@
     },
     {
       "t": "Chiitas vs Sunitas",
-      "q": "¿Quién era Abderramán y qué fundó después de escapar de la purga abasida?",
-      "o": ["Un califa abasí que conquistó Bagdad", "Un miembro de la familia Omeya que huyó y fundó el Emirato Independiente de Córdoba", "Un sultán turco que conquistó Damasco", "Un jefe beduino que creó una tribu"],
-      "a": 1,
-      "e": "Abderramán, miembro de la familia Omeya, escapó de la matanza abasida y fundó el Emirato Independiente de Córdoba en la Península Ibérica."
+      "q": "¿Qué fundó Abderramán después de escapar de los abasíes?",
+      "o": ["El Emirato Independiente de Córdoba", "El Califato de Bagdad", "El Reino de Granada", "El Sultanato de Estambul"],
+      "a": 0,
+      "e": "Abderramán, miembro de la familia Omeya, escapó de la matanza abasida y fundó el Emirato Independiente de Córdoba en la Península Ibérica (756)."
     },
     {
       "t": "Administración",
-      "q": "¿Cuál es el máximo cargo en la administración islámica?",
-      "o": ["Visir (primer ministro y asesor del califa)", "Califa (máximo poder político y religioso)", "Cadí (juez que aplica la ley islámica)", "Emir (gobernador de una provincia)"],
-      "a": 1,
-      "e": "El Califa es el máximo cargo, con poder político y religioso absoluto, considerado descendiente del Profeta Mahoma o su sucesor legítimo."
+      "q": "¿Quién es el máximo gobernante en el imperio musulmán?",
+      "o": ["El Califa", "El Visir", "El Cadí", "El Emir"],
+      "a": 0,
+      "e": "El Califa es el máximo poder político y religioso, considerado sucesor del Profeta Mahoma."
     },
     {
       "t": "Administración",
@@ -190,17 +190,17 @@
     },
     {
       "t": "Ciudad",
-      "q": "¿Cuál era la estructura básica de la ciudad musulmana?",
-      "o": ["Una sola plaza central rodeada de viviendas", "Medina amurallada y arrabales externos", "Barrios dispersos sin murallas ni estructura", "Solo una fortaleza defensiva central"],
-      "a": 1,
-      "e": "La ciudad se dividía en medina (área amurallada con alcazaba, mezquita, zoco, baños) y arrabales (barrios fuera de murallas para gente de bajos ingresos)."
+      "q": "¿Cómo se dividía la ciudad musulmana?",
+      "o": ["Medina (interior amurallado) y arrabales (exterior)", "Una sola zona sin divisiones", "Barrios norteños, sureños y centrales", "Por religión: cristiana, judía y musulmana"],
+      "a": 0,
+      "e": "La medina era el interior amurallado con alcazaba, mezquita y mercado; los arrabales eran barrios fuera de las murallas."
     },
     {
       "t": "Mezquita",
-      "q": "¿Cuáles eran las partes principales de una mezquita?",
-      "o": ["Patio, sala de oración, minarete y fuente", "Solo la sala de oración cubierta", "Un único edificio rectangular sin divisiones", "Solo un alminar para llamar a la oración"],
+      "q": "¿Cuáles son las partes principales de una mezquita?",
+      "o": ["Patio, sala de oración y minarete", "Solo la sala de oración", "Una sola sala sin patio", "Solo el minarete"],
       "a": 0,
-      "e": "Constaba de: patio/shan (espacio abierto con fuente para abluciones y alminar), sala de oración/haram (cubierta), muro de orientación (quibla) con mihrab."
+      "e": "La mezquita tiene: patio abierto con fuente para abluciones, sala de oración cubierta (haram) y minarete para llamar a la oración."
     },
     {
       "t": "Elementos de la mezquita",
@@ -253,10 +253,10 @@
     },
     {
       "t": "Batalla",
-      "q": "¿En qué año se produjo la Batalla de Poitiers y qué significó?",
-      "o": ["711, derrota de los cristianos", "732, derrota musulmana que detuvo la expansión hacia Europa Occidental", "750, victoria abasí", "827, conquista de Sicilia"],
-      "a": 1,
-      "e": "La Batalla de Poitiers (732) fue una derrota decisiva de los musulmanes que detuvo su expansión hacia el norte de Europa Occidental."
+      "q": "¿Qué fue la Batalla de Poitiers?",
+      "o": ["Una derrota musulmana que detuvo la expansión hacia Europa", "Una victoria musulmana en Francia", "Una batalla en el norte de África", "Un conflicto interno entre califatos"],
+      "a": 0,
+      "e": "La Batalla de Poitiers (732) fue una derrota decisiva de los musulmanes que frenó su expansión hacia Europa Occidental."
     },
     {
       "t": "Ciudades principales",
@@ -281,10 +281,10 @@
     },
     {
       "t": "Agua en las ciudades",
-      "q": "¿Cuál era la infraestructura clave para el agua en las ciudades musulmanas?",
-      "o": ["Principalmente ríos naturales cercanos a las ciudades", "Norias, acequias, aljibes y pozos", "Solo pozos profundos para agua subterránea", "Sistemas de goteo en pequeña escala"],
-      "a": 1,
-      "e": "Las ciudades musulmanas disponían de sofisticada infraestructura: norias para extraer agua, acequias para distribuirla, aljibes para almacenamiento, garantizando agua en fuentes, baños y agricultura."
+      "q": "¿Cómo traían el agua a las ciudades musulmanas?",
+      "o": ["Con norias, acequias y aljibes", "Solo con pozos naturales", "Con ríos canalizados", "Con lluvia almacenada"],
+      "a": 0,
+      "e": "Utilizaban norias (ruedas), acequias (canales) y aljibes (cisternas) para extraer, transportar y almacenar agua en las ciudades."
     }
   ]
 }

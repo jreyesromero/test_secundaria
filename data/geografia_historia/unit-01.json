@@ -9,8 +9,8 @@
     {
       "t": "Arabia preislámica",
       "q": "¿Cuáles eran las dos tipos de tribus en Arabia antes del islam?",
-      "o": ["Nómadas y sedentarias", "Beduinos (interior) y tribus de costa (litoral)", "Comerciantes y guerreros", "Árabes y no árabes"],
-      "a": 1,
+      "o": ["Beduinos (interior, pastoreo) y de costa (litoral, comercio)", "Nómadas del norte y sedentarias del sur", "Guerreras y comerciantes", "Urbanas y rurales"],
+      "a": 0,
       "e": "Los beduinos practicaban pastoreo nómada en el interior con religión fetichista; las tribus de costa se dedicaban a agricultura y comercio con religión politeísta."
     },
     {
@@ -23,7 +23,7 @@
     {
       "t": "Mahoma",
       "q": "¿En qué año nació Mahoma y con quién se casó?",
-      "o": ["570, con una princesa persa", "570, con Jadicha, una viuda rica dedicada al comercio caravanero", "580, con una comerciante griega", "575, con una nómada"],
+      "o": ["580, con una comerciante griega que lo ayudó en el comercio caravanero", "570, con Jadicha, una viuda rica", "575, con una nómada hija de un jefe tribal", "562, con una princesa persa"],
       "a": 1,
       "e": "Mahoma nació en 570, quedó huérfano pronto y se casó con Jadicha, una viuda rica que le permitió dedicarse al comercio."
     },
@@ -50,8 +50,8 @@
     },
     {
       "t": "Preceptos religiosos",
-      "q": "¿Cuántos son los cinco preceptos del islam y cuál NO está incluido?",
-      "o": ["Profesión de fe, oración, limosna, ayuno y peregrinación", "Profesión de fe, oración, peregrinación, caridad y castidad", "Oración cinco veces, ayuno, peregrinación, limosna y veneración a Mahoma", "Profesión de fe, adoración de ídolos, oración, ayuno y caridad"],
+      "q": "¿Cuáles son los cinco preceptos fundamentales del islam?",
+      "o": ["Fe, oración, limosna, ayuno y peregrinación", "Fe, oración, caridad, castidad y ayuno", "Fe, oración, caridad, ayuno y veneración", "Oración, limosna, ayuno, peregrinación y castidad"],
       "a": 0,
       "e": "Los cinco preceptos son: profesión de fe en Alá y Mahoma, oración 5 veces diarias hacia La Meca, limosna, ayuno en Ramadán, y peregrinación a La Meca al menos una vez."
     },
@@ -113,8 +113,8 @@
     },
     {
       "t": "Administración",
-      "q": "¿Cuál es el máximo cargo en la administración islámica y sus funciones?",
-      "o": ["Visir: primer ministro", "Califa: máximo poder político y religioso, descendiente del profeta", "Cadí: administrador de justicia", "Emir: gobernador provincial"],
+      "q": "¿Cuál es el máximo cargo en la administración islámica?",
+      "o": ["Visir (primer ministro y asesor del califa)", "Califa (máximo poder político y religioso)", "Cadí (juez que aplica la ley islámica)", "Emir (gobernador de una provincia)"],
       "a": 1,
       "e": "El Califa es el máximo cargo, con poder político y religioso absoluto, considerado descendiente del Profeta Mahoma o su sucesor legítimo."
     },
@@ -191,15 +191,15 @@
     {
       "t": "Ciudad",
       "q": "¿Cuál era la estructura básica de la ciudad musulmana?",
-      "o": ["Solo una área amurallada sin distinción", "Medina (interior amurallado) con alcazaba, mercado, templos; arrabales (exterior)", "Una sola plaza central", "Barrios dispersos sin murallas"],
+      "o": ["Una sola plaza central rodeada de viviendas", "Medina amurallada y arrabales externos", "Barrios dispersos sin murallas ni estructura", "Solo una fortaleza defensiva central"],
       "a": 1,
       "e": "La ciudad se dividía en medina (área amurallada con alcazaba, mezquita, zoco, baños) y arrabales (barrios fuera de murallas para gente de bajos ingresos)."
     },
     {
       "t": "Mezquita",
       "q": "¿Cuáles eran las partes principales de una mezquita?",
-      "o": ["Solo la sala de oración", "Patio (Shan) con fuente, sala de oración (Haram), minarete", "Solo un edificio rectangular", "Únicamente el techo"],
-      "a": 1,
+      "o": ["Patio, sala de oración, minarete y fuente", "Solo la sala de oración cubierta", "Un único edificio rectangular sin divisiones", "Solo un alminar para llamar a la oración"],
+      "a": 0,
       "e": "Constaba de: patio/shan (espacio abierto con fuente para abluciones y alminar), sala de oración/haram (cubierta), muro de orientación (quibla) con mihrab."
     },
     {
@@ -282,7 +282,7 @@
     {
       "t": "Agua en las ciudades",
       "q": "¿Cuál era la infraestructura clave para el agua en las ciudades musulmanas?",
-      "o": ["Ríos naturales únicamente", "Norias, acequias, aljibes y pozos que abastecían fuentes, baños y riego", "Solo pozos profundos", "Sistemas de goteo"],
+      "o": ["Principalmente ríos naturales cercanos a las ciudades", "Norias, acequias, aljibes y pozos", "Solo pozos profundos para agua subterránea", "Sistemas de goteo en pequeña escala"],
       "a": 1,
       "e": "Las ciudades musulmanas disponían de sofisticada infraestructura: norias para extraer agua, acequias para distribuirla, aljibes para almacenamiento, garantizando agua en fuentes, baños y agricultura."
     }

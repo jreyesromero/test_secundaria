@@ -16,7 +16,19 @@
         {"title": "Código", "definition": "Conjunto de signos y reglas que permiten construir mensajes (español, Morse, etc)."},
         {"title": "Canal", "definition": "Medio físico a través del cual se transmite el mensaje: papel, aire, cable telefónico."},
         {"title": "Contexto", "definition": "Circunstancias culturales, espaciales y temporales que influyen en la interpretación del mensaje."}
-      ]
+      ],
+      "exercises": {
+        "type": "matching",
+        "title": "Ejercicio: Empareja conceptos",
+        "pairs": [
+          {"left": "Emisor", "right": "Persona que recibe el mensaje"},
+          {"left": "Receptor", "right": "Medio de transmisión"},
+          {"left": "Código", "right": "Información transmitida"},
+          {"left": "Canal", "right": "Conjunto de signos y reglas"},
+          {"left": "Mensaje", "right": "Persona que emite"},
+          {"left": "Contexto", "right": "Circunstancias que influyen"}
+        ]
+      }
     },
     {
       "category": "2. Funciones del lenguaje",
@@ -44,7 +56,16 @@
         {"title": "Morfema", "definition": "Segmento morfológico que aporta información gramatical sobre género, número, persona, tiempo."},
         {"title": "Prefijo", "definition": "Morfema derivativo que precede al lexema. Ej: des-, in-, pre-, ante-."},
         {"title": "Sufijo", "definition": "Morfema derivativo que sigue al lexema. Ej: -idad, -ista, -mente, -ción."}
-      ]
+      ],
+      "exercises": {
+        "type": "fill_blanks",
+        "title": "Ejercicio: Completa las oraciones",
+        "items": [
+          {"text": "El ___ es la parte invariable de la palabra que contiene el significado léxico.", "answer": "lexema", "options": ["lexema", "morfema", "prefijo", "sufijo"]},
+          {"text": "Los ___ son segmentos que aportan información gramatical.", "answer": "morfemas", "options": ["lexemas", "morfemas", "prefijos", "afijos"]},
+          {"text": "Un ___ precede al lexema, como 'des-' o 'in-'.", "answer": "prefijo", "options": ["prefijo", "sufijo", "morfema", "lexema"]}
+        ]
+      }
     },
     {
       "category": "5. Formación de palabras",
@@ -63,7 +84,17 @@
         {"title": "Antónimos", "definition": "Palabras con significados contrarios. Ej: frío-caliente, comprar-vender."},
         {"title": "Hiperónimo", "definition": "Palabra de significado más general que incluye otras. Ej: fruta incluye manzana."},
         {"title": "Hipónimo", "definition": "Palabra de significado más específico que su hiperónimo. Ej: manzana es hipónimo de fruta."}
-      ]
+      ],
+      "exercises": {
+        "type": "matching",
+        "title": "Ejercicio: Empareja con la definición correcta",
+        "pairs": [
+          {"left": "Sinónimos", "right": "Palabras con significados contrarios"},
+          {"left": "Antónimos", "right": "Palabra de significado más general"},
+          {"left": "Hiperónimo", "right": "Palabras con significado similar"},
+          {"left": "Hipónimo", "right": "Palabra de significado más específico"}
+        ]
+      }
     },
     {
       "category": "7. Fenómenos semánticos",
@@ -80,7 +111,16 @@
         {"title": "Sentido", "definition": "Interpretación del significado que depende del contexto e intención."},
         {"title": "Denotación", "definition": "Significado objetivo que recoge toda la comunidad lingüística."},
         {"title": "Connotación", "definition": "Asociaciones afectivas, culturales o sociales que provoca una palabra. Ej: 'balón' ≠ 'competición'."}
-      ]
+      ],
+      "exercises": {
+        "type": "fill_blanks",
+        "title": "Ejercicio: Completa con los términos correctos",
+        "items": [
+          {"text": "El ___ de una palabra es la definición que aparece en el diccionario.", "answer": "significado", "options": ["significado", "sentido", "contexto", "denotación"]},
+          {"text": "El ___ depende de la intención del hablante y el contexto en que se usa.", "answer": "sentido", "options": ["significado", "sentido", "diccionario", "léxico"]},
+          {"text": "La ___ es la asociación afectiva o cultural que tiene una palabra.", "answer": "connotación", "options": ["denotación", "connotación", "semántica", "pragmática"]}
+        ]
+      }
     },
     {
       "category": "9. Cambio semántico",

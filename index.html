@@ -345,7 +345,7 @@
     }
     CUR.cards.forEach(function(cat){
       var catDiv=document.createElement("div");
-      catDiv.style.marginBottom="20px";
+      catDiv.style.marginBottom="28px";
       var title=document.createElement("h3");
       title.textContent=cat.category||"";
       title.style.fontSize="clamp(16px,4vw,18px)";
@@ -366,8 +366,83 @@
         grid.appendChild(card);
       });
       catDiv.appendChild(grid);
+      if(cat.exercises){renderExercise(cat.exercises,catDiv);}
       cont.appendChild(catDiv);
     });
+  }
+
+  function renderExercise(ex,container){
+    var exDiv=document.createElement("div");
+    exDiv.style.marginTop="16px";
+    exDiv.style.padding="14px";
+    exDiv.style.background="color-mix(in srgb,var(--brand) 6%,var(--surface))";
+    exDiv.style.borderRadius="10px";
+    exDiv.style.borderLeft="4px solid var(--brand)";
+    var exTitle=document.createElement("p");
+    exTitle.textContent=ex.title||"Ejercicio";
+    exTitle.style.fontSize="13px";
+    exTitle.style.fontWeight="600";
+    exTitle.style.margin="0 0 10px";
+    exTitle.style.color="var(--brand)";
+    exDiv.appendChild(exTitle);
+    if(ex.type==="fill_blanks"){
+      (ex.items||[]).forEach(function(item,i){
+        var itemDiv=document.createElement("div");
+        itemDiv.style.marginBottom="10px";
+        var q=document.createElement("p");
+        q.innerHTML=item.text;
+        q.style.fontSize="14px";
+        q.style.margin="0 0 6px";
+        q.style.lineHeight="1.5";
+        itemDiv.appendChild(q);
+        var select=document.createElement("select");
+        select.style.width="100%";
+        select.style.padding="8px";
+        select.style.fontSize="13px";
+        select.style.borderRadius="6px";
+        select.style.border="1px solid var(--line)";
+        select.style.background="var(--surface)";
+        select.appendChild(document.createElement("option")).textContent="Elige una respuesta";
+        (item.options||[]).forEach(function(opt){
+          var o=document.createElement("option");
+          o.value=opt;
+          o.textContent=opt;
+          select.appendChild(o);
+        });
+        itemDiv.appendChild(select);
+        exDiv.appendChild(itemDiv);
+      });
+    } else if(ex.type==="matching"){
+      var table=document.createElement("div");
+      table.style.display="grid";
+      table.style.gridTemplateColumns="1fr 1fr";
+      table.style.gap="8px";
+      (ex.pairs||[]).forEach(function(p){
+        var lDiv=document.createElement("div");
+        lDiv.style.padding="8px";
+        lDiv.style.background="var(--surface)";
+        lDiv.style.borderRadius="6px";
+        lDiv.style.fontSize="13px";
+        lDiv.textContent=esc(p.left);
+        table.appendChild(lDiv);
+        var rSelect=document.createElement("select");
+        rSelect.style.padding="8px";
+        rSelect.style.fontSize="13px";
+        rSelect.style.borderRadius="6px";
+        rSelect.style.border="1px solid var(--line)";
+        rSelect.style.background="var(--surface)";
+        rSelect.appendChild(document.createElement("option")).textContent="—";
+        (ex.pairs||[]).forEach(function(pp){
+          var o=document.createElement("option");
+          o.value=pp.right;
+          o.textContent=esc(pp.right);
+          rSelect.appendChild(o);
+        });
+        table.appendChild(rSelect);
+      });
+      exDiv.appendChild(table);
+    }
+    container.appendChild(exDiv);
   }
 
   function showCards(){

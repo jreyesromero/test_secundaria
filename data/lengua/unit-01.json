@@ -5,8 +5,8 @@
   "unit": "Tema 1",
   "title": "Comunicación, lenguaje y significado",
   "lang": "es",
-  "summary": "La comunicación es el proceso mediante el cual intercambiamos mensajes. Este tema trata sobre los elementos esenciales de la comunicación, las funciones del lenguaje, y cómo significado y sentido se relacionan en los textos.\n\n**Elementos de la comunicación:** El emisor transmite un mensaje al receptor a través de un canal, usando un código compartido. El contexto influye en cómo se interpreta el mensaje.\n\n**Funciones del lenguaje:** El lenguaje cumple distintas funciones según la intención: representativa (informar), emotiva (expresar sentimientos), conativa (influir), fática (iniciar o mantener contacto), metalingüística (hablar del lenguaje), y poética (embellecer la forma).\n\n**Propiedades del texto:** Todo texto debe ser adecuado (adaptarse al receptor), coherente (sus partes guardan relación lógica) y cohesivo (estar bien conectado mediante marcadores discursivos).\n\n**Palabra y significado:** Las palabras están formadas por un lexema (raíz invariable que da significado) y morfemas (afijos que añaden información gramatical). El significado es la definición del diccionario; el sentido depende del contexto y la intención del hablante.",
-  "diagram": "<svg viewBox=\"0 0 400 280\" style=\"background:#f5f7fa;border-radius:8px\" xmlns=\"http://www.w3.org/2000/svg\"><defs><marker id=\"arrowhead\" markerWidth=\"10\" markerHeight=\"10\" refX=\"9\" refY=\"3\" orient=\"auto\"><polygon points=\"0 0, 10 3, 0 6\" fill=\"#1565C0\" /></marker></defs><text x=\"200\" y=\"24\" font-size=\"18\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#14213D\">Elementos de la Comunicación</text><g><rect x=\"20\" y=\"50\" width=\"70\" height=\"50\" rx=\"6\" fill=\"#E3F2FD\" stroke=\"#1565C0\" stroke-width=\"2\"/><text x=\"55\" y=\"80\" font-size=\"13\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1565C0\">Emisor</text></g><g><polygon points=\"120,75 100,60 100,90\" fill=\"#1565C0\" marker-end=\"url(#arrowhead)\"/><line x1=\"100\" y1=\"75\" x2=\"130\" y2=\"75\" stroke=\"#1565C0\" stroke-width=\"2\" marker-end=\"url(#arrowhead)\"/><text x=\"115\" y=\"65\" font-size=\"11\" fill=\"#5A6478\">Mensaje</text></g><g><rect x=\"130\" y=\"50\" width=\"70\" height=\"50\" rx=\"6\" fill=\"#E3F2FD\" stroke=\"#1565C0\" stroke-width=\"2\"/><text x=\"165\" y=\"80\" font-size=\"13\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1565C0\">Código</text></g><g><polygon points=\"220,75 200,60 200,90\" fill=\"#1565C0\" marker-end=\"url(#arrowhead)\"/><line x1=\"200\" y1=\"75\" x2=\"230\" y2=\"75\" stroke=\"#1565C0\" stroke-width=\"2\" marker-end=\"url(#arrowhead)\"/><text x=\"215\" y=\"65\" font-size=\"11\" fill=\"#5A6478\">Canal</text></g><g><rect x=\"230\" y=\"50\" width=\"70\" height=\"50\" rx=\"6\" fill=\"#E3F2FD\" stroke=\"#1565C0\" stroke-width=\"2\"/><text x=\"265\" y=\"80\" font-size=\"13\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1565C0\">Receptor</text></g><g><rect x=\"20\" y=\"140\" width=\"280\" height=\"60\" rx=\"6\" fill=\"#FFF8E1\" stroke=\"#F57C00\" stroke-width=\"2\"/><text x=\"160\" y=\"160\" font-size=\"13\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#F57C00\">Contexto</text><text x=\"160\" y=\"177\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5A6478\">(circunstancias culturales, espaciales, temporales)</text></g><text x=\"200\" y=\"228\" font-size=\"12\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#14213D\">Funciones del lenguaje</text><g><rect x=\"20\" y=\"240\" width=\"55\" height=\"30\" rx=\"4\" fill=\"#E8F5E9\" stroke=\"#4CAF50\" stroke-width=\"1.5\"/><text x=\"47.5\" y=\"260\" font-size=\"10\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#2E7D32\">Referencial</text></g><g><rect x=\"85\" y=\"240\" width=\"55\" height=\"30\" rx=\"4\" fill=\"#FCE4EC\" stroke=\"#E91E63\" stroke-width=\"1.5\"/><text x=\"112.5\" y=\"260\" font-size=\"10\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#880E4F\">Emotiva</text></g><g><rect x=\"150\" y=\"240\" width=\"55\" height=\"30\" rx=\"4\" fill=\"#E0F2F1\" stroke=\"#009688\" stroke-width=\"1.5\"/><text x=\"177.5\" y=\"260\" font-size=\"10\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#00695C\">Conativa</text></g><g><rect x=\"215\" y=\"240\" width=\"55\" height=\"30\" rx=\"4\" fill=\"#F3E5F5\" stroke=\"#9C27B0\" stroke-width=\"1.5\"/><text x=\"242.5\" y=\"260\" font-size=\"10\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#4A148C\">Fática</text></g><g><rect x=\"280\" y=\"240\" width=\"100\" height=\"30\" rx=\"4\" fill=\"#FFF3E0\" stroke=\"#FF9800\" stroke-width=\"1.5\"/><text x=\"330\" y=\"260\" font-size=\"10\" font-weight=\"500\" text-anchor=\"middle\" fill=\"#E65100\">Metalingüística</text></g></svg>",
+  "summary": "**La comunicación** es el proceso mediante el cual intercambiamos mensajes entre emisor y receptor.\n\n**Elementos de la comunicación:**\n• Emisor: quien emite el mensaje\n• Receptor: quien lo recibe\n• Mensaje: la información transmitida\n• Código: conjunto de signos y reglas (ej: español, Morse)\n• Canal: medio físico (papel, aire, cable telefónico)\n• Contexto: circunstancias culturales, espaciales, temporales que influyen en la interpretación\n\n**Funciones del lenguaje:**\n• Referencial: informar sobre la realidad (\"Las clases empiezan mañana\")\n• Emotiva: expresar sentimientos del emisor (\"¡Qué fácil!\")\n• Conativa: influir en el receptor (\"Luis, ten cuidado\")\n• Fática: iniciar/mantener contacto (\"Sí, sí, siga, que le escucho\")\n• Metalingüística: hablar del lenguaje (\"La palabra madre es llana\")\n• Poética: embellecer la forma (\"La Tierra: girasol; poma madura\")\n\n**Propiedades del texto:**\n• Adecuación: que el texto se adapte al receptor y circunstancias\n• Coherencia: que esté ordenado y sus partes guarden relación lógica\n• Cohesión: que esté bien conectado mediante conectores textuales (primero, sin embargo, por lo tanto, además, en cambio)\n\n**Estructura de la palabra:**\n• Lexema/raíz: parte invariable con significado léxico (cas- en \"casa, casita, caserío\")\n• Morfemas/afijos: segmentos que aportan información gramatical\n  - Prefijos: preceden al lexema (des-, in-, pre-, ante-)\n  - Sufijos: siguen al lexema (-idad, -ista, -mente, -ción)\n\n**Formación de palabras:**\n• Derivación: crear palabras con prefijos y sufijos (descansar, inútil, felicidad)\n• Composición: unir dos o más palabras simples (trotamundos, correveidile)\n• Parasíntesis: combinar composición y derivación (enjambrador = en- + jambre + -dor)\n• Siglas: letras iniciales de palabras (ONG, IRPF)\n• Acrónimos: palabras formadas con fragmentos (informática + automática = informática)\n\n**Familia léxica:**\nPalabras formadas del mismo lexema: \"just-\": justicia, justiciero, injusto, ajusticiar\n\n**Relaciones de significado:**\n• Sinónimos: significado igual o parecido (bonito, hermoso; elegir, escoger)\n• Antónimos: significados contrarios (frío-caliente, comprar-vender)\n• Hiperónimos: palabra de significado general (fruta incluye manzana, pera, plátano)\n• Hipónimos: palabras de significado más específico\n\n**Fenómenos semánticos:**\n• Monosemia: una palabra con un único significado (apendicitis, calcio)\n• Polisemia: una palabra con varios significados relacionados (banco: asiento o institución)\n• Homonimia: palabras de distinto origen con igual forma (real de \"cosa\" vs real de \"rey\")\n\n**Significado y sentido:**\n• Significado: definición objetiva del diccionario (denotación)\n• Sentido: interpretación que depende del contexto e intención\n• Connotación: asociaciones afectivas, culturales de una palabra (\"balón\" ≠ \"cansancio\" aunque sean sinónimos)\n\n**Cambio semántico:**\nUna palabra adquiere nuevo significado. Causas:\n• Históricas: realidades desaparecidas se adaptan (\"pluma\" de escritura → pluma de metal)\n• Culturales: palabras tabú reemplazadas (\"retrete, váter\" reemplazan otras)\n\n**Recursos literarios:**\n• Metáfora: sustituye significado por otro semejante (\"tocar los violines\" por las copas)\n• Metonimia: sustituye por otro con relación (\"tomar un café\" por la taza)\n\n**El diccionario:**\n• Entrada: artículo con la palabra (lema) y sus definiciones (acepciones)\n• Orden: alfabético por todas las letras\n• Tipos: de uso (palabras comunes), etimológicos (origen), de dudas (resolvepropio), de sinónimos\n• RAE: Real Academia Española vela por la lengua española",
+  "diagram": "<svg viewBox=\"0 0 600 400\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#f5f7fa;border-radius:8px\"><defs><marker id=\"arr\" markerWidth=\"10\" markerHeight=\"10\" refX=\"9\" refY=\"3\" orient=\"auto\"><polygon points=\"0 0, 10 3, 0 6\" fill=\"#1565C0\" /></marker></defs><text x=\"300\" y=\"30\" font-size=\"20\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#14213D\">Elementos de la Comunicación</text><rect x=\"30\" y=\"60\" width=\"80\" height=\"60\" rx=\"8\" fill=\"#E3F2FD\" stroke=\"#1565C0\" stroke-width=\"2\"/><text x=\"70\" y=\"95\" font-size=\"14\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1565C0\">Emisor</text><path d=\"M 120 90 L 140 90\" stroke=\"#1565C0\" stroke-width=\"2\" marker-end=\"url(#arr)\"/><text x=\"130\" y=\"80\" font-size=\"11\" fill=\"#5A6478\">Msg</text><rect x=\"150\" y=\"60\" width=\"80\" height=\"60\" rx=\"8\" fill=\"#E3F2FD\" stroke=\"#1565C0\" stroke-width=\"2\"/><text x=\"190\" y=\"95\" font-size=\"14\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1565C0\">Código</text><path d=\"M 240 90 L 260 90\" stroke=\"#1565C0\" stroke-width=\"2\" marker-end=\"url(#arr)\"/><text x=\"250\" y=\"80\" font-size=\"11\" fill=\"#5A6478\">Canal</text><rect x=\"270\" y=\"60\" width=\"80\" height=\"60\" rx=\"8\" fill=\"#E3F2FD\" stroke=\"#1565C0\" stroke-width=\"2\"/><text x=\"310\" y=\"95\" font-size=\"14\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1565C0\">Receptor</text><rect x=\"30\" y=\"160\" width=\"320\" height=\"70\" rx=\"8\" fill=\"#FFF8E1\" stroke=\"#F57C00\" stroke-width=\"2\"/><text x=\"190\" y=\"185\" font-size=\"14\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#F57C00\">Contexto (cultural, espacial, temporal)</text><text x=\"190\" y=\"210\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5A6478\">Influye en cómo se interpreta el mensaje</text><text x=\"30\" y=\"280\" font-size=\"14\" font-weight=\"600\" fill=\"#14213D\">Funciones del lenguaje:</text><rect x=\"30\" y=\"295\" width=\"100\" height=\"35\" rx=\"6\" fill=\"#E8F5E9\" stroke=\"#4CAF50\" stroke-width=\"2\"/><text x=\"80\" y=\"318\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#2E7D32\">Referencial</text><rect x=\"140\" y=\"295\" width=\"100\" height=\"35\" rx=\"6\" fill=\"#FCE4EC\" stroke=\"#E91E63\" stroke-width=\"2\"/><text x=\"190\" y=\"318\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#880E4F\">Emotiva</text><rect x=\"250\" y=\"295\" width=\"100\" height=\"35\" rx=\"6\" fill=\"#E0F2F1\" stroke=\"#009688\" stroke-width=\"2\"/><text x=\"300\" y=\"318\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#00695C\">Conativa</text><rect x=\"360\" y=\"295\" width=\"100\" height=\"35\" rx=\"6\" fill=\"#F3E5F5\" stroke=\"#9C27B0\" stroke-width=\"2\"/><text x=\"410\" y=\"318\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#4A148C\">Fática</text><rect x=\"470\" y=\"295\" width=\"100\" height=\"35\" rx=\"6\" fill=\"#FFF3E0\" stroke=\"#FF9800\" stroke-width=\"2\"/><text x=\"520\" y=\"318\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#E65100\">Metalingüística</text><text x=\"30\" y=\"370\" font-size=\"11\" fill=\"#5A6478\"><tspan x=\"30\">Referencial: Informar • Emotiva: Expresar sentimientos • Conativa: Influir en el receptor</tspan><tspan x=\"30\" dy=\"16\">Fática: Iniciar/mantener contacto • Metalingüística: Hablar del lenguaje</tspan></text></svg>",
   "questions": [
     {
       "t": "Asertividad",
@@ -45,20 +45,44 @@
       "e": "El código es el conjunto de signos y reglas que permiten construir mensajes, como la gramática en la comunicación verbal."
     },
     {
-      "t": "Lenguaje",
-      "q": "¿Cuál es la función principal del lenguaje de carácter oral?",
+      "t": "Comunicación",
+      "q": "¿Qué es el canal en la comunicación?",
       "o": [
-        "Es un sistema de escritura representativo del lenguaje oral",
-        "Es anterior al lenguaje escrito en la historia de la humanidad",
-        "Es menos importante que el lenguaje escrito en la comunicación",
-        "Fue inventado después de que apareciera la escritura"
+        "La persona que emite el mensaje",
+        "El idioma utilizado para comunicarse",
+        "El elemento físico a través del cual se transmite el mensaje",
+        "El significado del mensaje"
+      ],
+      "a": 2,
+      "e": "El canal es el elemento físico a través del cual se transmite el mensaje: el papel de una carta, el hilo telefónico, el aire en la comunicación oral."
+    },
+    {
+      "t": "Comunicación",
+      "q": "¿Cuál es la función del contexto en la comunicación?",
+      "o": [
+        "Determinar quién es el emisor",
+        "Definir el código a utilizar",
+        "Influir en cómo se interpreta el mensaje",
+        "Elegir el canal de comunicación"
+      ],
+      "a": 2,
+      "e": "El contexto está formado por las circunstancias (de espacio, tiempo, culturales, políticas) en las que ocurre el mensaje y afecta su interpretación."
+    },
+    {
+      "t": "Lenguaje",
+      "q": "¿Cuál es la característica principal del lenguaje oral?",
+      "o": [
+        "Requiere papel y lápiz",
+        "Es de carácter oral; la escritura apareció después para representarlo",
+        "No permite comunicar sentimientos",
+        "Es menos importante que la escritura"
       ],
       "a": 1,
-      "e": "El lenguaje es de carácter oral; la escritura apareció muchos siglos después como un sistema para representarlo."
+      "e": "El lenguaje es de carácter oral en principio; la escritura apareció muchos siglos después como un sistema para representarlo."
     },
     {
       "t": "Funciones del lenguaje",
-      "q": "¿Qué función del lenguaje predomina en el enunciado 'Las clases empiezan mañana'?",
+      "q": "¿Qué función del lenguaje predomina en 'Las clases empiezan mañana'?",
       "o": [
         "Emotiva",
         "Referencial",
@@ -66,7 +90,7 @@
         "Poética"
       ],
       "a": 1,
-      "e": "La función referencial o representativa pretende informar sobre la realidad; predomina en textos informativos y descriptivos."
+      "e": "La función referencial o representativa pretende informar sobre la realidad; predomina en textos informativos."
     },
     {
       "t": "Funciones del lenguaje",
@@ -94,7 +118,7 @@
     },
     {
       "t": "Funciones del lenguaje",
-      "q": "¿Cuál es la función del lenguaje en la frase 'Sí, sí, siga, que le escucho'?",
+      "q": "¿Cuál es la función del lenguaje en 'Sí, sí, siga, que le escucho'?",
       "o": [
         "Referencial",
         "Fática o de contacto",
@@ -102,11 +126,35 @@
         "Poética"
       ],
       "a": 1,
-      "e": "La función fática o de contacto inicia, mantiene o cierra la comunicación sin transmitir información relevante."
+      "e": "La función fática inicia, mantiene o cierra la comunicación sin transmitir información relevante."
+    },
+    {
+      "t": "Funciones del lenguaje",
+      "q": "¿Qué función tiene 'La palabra madre es llana'?",
+      "o": [
+        "Emotiva",
+        "Referencial",
+        "Metalingüística",
+        "Conativa"
+      ],
+      "a": 2,
+      "e": "La función metalingüística se refiere a las palabras utilizadas en el texto oral o escrito, hablando del lenguaje mismo."
+    },
+    {
+      "t": "Funciones del lenguaje",
+      "q": "¿Cuál es la función del lenguaje que busca embellecer la forma del mensaje?",
+      "o": [
+        "Conativa",
+        "Metalingüística",
+        "Poética",
+        "Fática"
+      ],
+      "a": 2,
+      "e": "La función poética embellece la forma del mensaje, como en la literatura: 'La Tierra: girasol; poma madura'."
     },
     {
       "t": "Propiedades del texto",
-      "q": "¿Qué propiedad del texto se refiere a que el mensaje se adapte al receptor y sus circunstancias?",
+      "q": "¿Qué propiedad del texto se refiere a que se adapte al receptor y sus circunstancias?",
       "o": [
         "Coherencia",
         "Adecuación",
@@ -114,59 +162,95 @@
         "Claridad"
       ],
       "a": 1,
-      "e": "La adecuación es la propiedad del texto que permite saber si se adapta a las personas a quienes va dirigido y a las circunstancias."
+      "e": "La adecuación es la propiedad que permite saber si el texto se adapta a las personas a quienes va dirigido."
     },
     {
       "t": "Propiedades del texto",
-      "q": "¿Qué propiedad del texto se consigue mediante conectores textuales como 'primero', 'en último lugar' o 'para finalizar'?",
+      "q": "¿Qué propiedad tiene un texto cuando está ordenado y sus partes guardan relación lógica?",
       "o": [
         "Adecuación",
         "Coherencia",
         "Cohesión",
         "Concisión"
       ],
-      "a": 2,
-      "e": "Los conectores textuales son palabras que sirven para unir las partes del texto y establecer relaciones entre ellas, conseguindo cohesión."
+      "a": 1,
+      "e": "La coherencia es la propiedad del texto ordenado, donde todas las partes guardan relación entre sí y con el tema principal."
+    },
+    {
+      "t": "Propiedades del texto",
+      "q": "¿Qué son los conectores textuales o marcadores del discurso?",
+      "o": [
+        "Palabras que cambian el significado",
+        "Palabras que sirven para unir las partes del texto y establecer relaciones",
+        "Símbolos que no tienen significado",
+        "Errores de escritura"
+      ],
+      "a": 1,
+      "e": "Los conectores textuales son palabras o expresiones que sirven para unir las distintas partes de un texto, como 'primero', 'en cambio', 'por lo tanto'."
+    },
+    {
+      "t": "Propiedades del texto",
+      "q": "¿Cuál es un ejemplo de conector de orden?",
+      "o": [
+        "Sin embargo",
+        "Primero, en último lugar",
+        "Aunque",
+        "Es decir"
+      ],
+      "a": 1,
+      "e": "Los conectores de orden sirven para ordenar las partes: 'primero, en último lugar, para finalizar, posteriormente'."
+    },
+    {
+      "t": "Propiedades del texto",
+      "q": "¿Qué conectores se usan para oponer una idea?",
+      "o": [
+        "De orden",
+        "De contraste",
+        "De explicación",
+        "De adición"
+      ],
+      "a": 1,
+      "e": "Los conectores de contraste se oponen a una idea: 'pero, sin embargo, antes bien, en cambio'."
     },
     {
       "t": "Palabra",
       "q": "¿Qué es el lexema o raíz de una palabra?",
       "o": [
-        "La parte variable de la palabra que cambia según el género o número",
+        "La parte variable que cambia según género o número",
         "La parte invariable que contiene el significado léxico",
-        "El conjunto de morfemas que forman la palabra",
-        "La letra inicial de la palabra"
+        "El conjunto de morfemas",
+        "La letra inicial"
       ],
       "a": 1,
-      "e": "El lexema o raíz es la parte invariable de la palabra que contiene el significado léxico fundamental."
+      "e": "El lexema o raíz es la parte invariable que contiene el significado léxico fundamental de la palabra."
     },
     {
       "t": "Palabra",
       "q": "¿Qué son los morfemas gramaticales?",
       "o": [
-        "Palabras simples que no tienen morfemas",
-        "Segmentos morfológicos que contienen significado léxico",
-        "Segmentos que aportan información gramatical como género, número o persona",
-        "Palabras compuestas formadas por dos raíces"
+        "Palabras simples sin morfemas",
+        "Segmentos que contienen significado léxico",
+        "Segmentos que aportan información gramatical sobre género, número, persona",
+        "Palabras compuestas"
       ],
       "a": 2,
-      "e": "Los morfemas gramaticales o afijos aportan información sobre género, número, persona, tiempo, modo y aspecto."
+      "e": "Los morfemas gramaticales o afijos aportan información gramatical como género, número, persona, tiempo, modo y aspecto."
     },
     {
       "t": "Formación de palabras",
-      "q": "¿Qué es la derivación en la formación de palabras?",
+      "q": "¿Qué es la derivación?",
       "o": [
-        "La unión de dos o más palabras simples",
+        "La unión de dos palabras simples",
         "La creación de palabras nuevas usando prefijos y sufijos",
-        "La repetición de la misma palabra en un texto",
-        "La transformación de una palabra extranjera al español"
+        "La repetición de palabras",
+        "La transformación de palabras extranjeras"
       ],
       "a": 1,
-      "e": "La derivación es el procedimiento que emplea la lengua para crear palabras nuevas utilizando prefijos (como 'des-') y sufijos (como '-idad')."
+      "e": "La derivación es el procedimiento para crear palabras nuevas añadiendo prefijos (des-, in-) y sufijos (-idad, -ista) a un lexema."
     },
     {
       "t": "Formación de palabras",
-      "q": "¿Cuál es un ejemplo de prefijo en español?",
+      "q": "¿Cuál es un ejemplo de prefijo derivativo?",
       "o": [
         "-ción",
         "-mente",
@@ -174,19 +258,55 @@
         "-ista"
       ],
       "a": 2,
-      "e": "Los prefijos son morfemas derivativos que preceden al lexema o raíz: 'pre-decir', 'in-cauto', 'ante-poner'."
+      "e": "Los prefijos son morfemas que preceden al lexema: 'pre-decir, in-cauto, ante-poner, des-cansar'."
     },
     {
       "t": "Formación de palabras",
-      "q": "¿Qué es la composición en la formación de palabras?",
+      "q": "¿Cuál es un ejemplo de sufijo derivativo?",
       "o": [
-        "La adición de prefijos a una palabra",
-        "La unión de dos o más palabras simples",
-        "La transformación del significado de una palabra",
-        "La repetición de morfemas en una palabra"
+        "in-",
+        "des-",
+        "-mente",
+        "pre-"
+      ],
+      "a": 2,
+      "e": "Los sufijos se colocan después del lexema: 'feliz-mente, libro-ero, flac-ucho, árbol-eda'."
+    },
+    {
+      "t": "Formación de palabras",
+      "q": "¿Qué es la composición?",
+      "o": [
+        "Añadir prefijos a una palabra",
+        "La unión de dos o más palabras simples para formar una palabra nueva",
+        "Cambiar el significado de una palabra",
+        "Repetir morfemas"
       ],
       "a": 1,
-      "e": "La composición es el procedimiento de creación de palabras nuevas que consiste en la unión de dos o más palabras simples."
+      "e": "La composición es la unión de dos o más palabras simples para crear una nueva: 'trotamundos, correveidile'."
+    },
+    {
+      "t": "Formación de palabras",
+      "q": "¿Cuál es la diferencia entre compuestos propios y sintagmáticos?",
+      "o": [
+        "No hay diferencia",
+        "Propios: una sola palabra (trotamundos); sintagmáticos: dos palabras separadas con un guión (físico-químico)",
+        "Propios son antiguos; sintagmáticos son modernos",
+        "Propios son verbos; sintagmáticos son nombres"
+      ],
+      "a": 1,
+      "e": "Compuestos propios: resultado es una sola palabra (trotamundos). Sintagmáticos: palabras separadas por guión (físico-químico)."
+    },
+    {
+      "t": "Formación de palabras",
+      "q": "¿Qué es la parasíntesis?",
+      "o": [
+        "La composición de dos palabras",
+        "Un prefijo solo sin sufijo",
+        "Combinar simultáneamente composición y derivación",
+        "La transformación de palabras"
+      ],
+      "a": 2,
+      "e": "La parasíntesis combina composición y derivación: 'milenarista' (milenio + -ario -ista), 'enjambre' (en- + jambre)."
     },
     {
       "t": "Familia léxica",
@@ -195,14 +315,14 @@
         "Un conjunto de palabras de origen extranjero",
         "Un conjunto de palabras formadas a partir del mismo lexema o raíz",
         "Un conjunto de palabras con significado opuesto",
-        "Un conjunto de palabras que riman entre sí"
+        "Un conjunto de palabras que riman"
       ],
       "a": 1,
-      "e": "La familia léxica es el conjunto de palabras que han sido formadas a partir de un mismo lexema o raíz."
+      "e": "La familia léxica es el conjunto de palabras formadas a partir de un mismo lexema: just-, agua-, simpl-, jabón-."
     },
     {
       "t": "Relaciones de significado",
-      "q": "¿Cuál es la relación entre las palabras 'bonito' y 'hermoso'?",
+      "q": "¿Cuál es la relación entre 'bonito' y 'hermoso'?",
       "o": [
         "Son antónimos",
         "Son sinónimos",
@@ -214,7 +334,7 @@
     },
     {
       "t": "Relaciones de significado",
-      "q": "¿Cuál es la relación de significado entre 'frío' y 'caliente'?",
+      "q": "¿Cuál es la relación entre 'frío' y 'caliente'?",
       "o": [
         "Son sinónimos",
         "Son antónimos",
@@ -222,7 +342,7 @@
         "Son hipónimos"
       ],
       "a": 1,
-      "e": "Las palabras antónimas tienen significados contrarios u opuestos: 'frío-caliente', 'comprar-vender'."
+      "e": "Las palabras antónimas tienen significados contrarios u opuestos: 'frío-caliente, comprar-vender'."
     },
     {
       "t": "Relaciones de significado",
@@ -234,31 +354,43 @@
         "Manzana es un hiperónimo de fruta"
       ],
       "a": 2,
-      "e": "Un hiperónimo es una palabra de significado más general que incluye otras de significado más específico: 'fruta' es hiperónimo de 'manzana'."
+      "e": "Un hiperónimo es una palabra de significado más general que incluye otras más específicas: 'fruta' es hiperónimo de 'manzana'."
+    },
+    {
+      "t": "Relaciones de significado",
+      "q": "¿Qué son hipónimos?",
+      "o": [
+        "Palabras con significado general",
+        "Palabras con significados contrarios",
+        "Palabras con significado más específico que otro hiperónimo",
+        "Palabras con el mismo significado"
+      ],
+      "a": 2,
+      "e": "Los hipónimos son palabras de significado más específico que su hiperónimo: 'manzana, pera, plátano' son hipónimos de 'fruta'."
     },
     {
       "t": "Significado",
-      "q": "¿Cuál es la diferencia entre significado y sentido de una palabra?",
+      "q": "¿Cuál es la diferencia entre significado y sentido?",
       "o": [
-        "Son términos sinónimos sin diferencia",
-        "Significado es la definición del diccionario; sentido depende de la intención del hablante y el contexto",
-        "Significado es constante; sentido es la palabra escrita",
-        "Sentido es solo para palabras escritas; significado para palabras habladas"
+        "Son sinónimos sin diferencia",
+        "Significado es la definición del diccionario; sentido depende de la intención y contexto",
+        "Significado es para hablados; sentido para escritos",
+        "El sentido es permanente; significado cambia"
       ],
       "a": 1,
-      "e": "El significado es la definición en el diccionario; el sentido depende de la intencionalidad del hablante y el contexto de uso."
+      "e": "Significado es la definición objetiva del diccionario; sentido depende de la intencionalidad del hablante y el contexto."
     },
     {
       "t": "Significado",
-      "q": "¿Cuál es el significado denotativo de una palabra?",
+      "q": "¿Cuál es el significado denotativo?",
       "o": [
-        "Las emociones que provoca la palabra",
-        "La definición objetiva que aparece en el diccionario",
-        "El sentido figurado de la palabra",
-        "Las asociaciones culturales de la palabra"
+        "Las emociones que provoca",
+        "La definición objetiva del diccionario",
+        "El sentido figurado",
+        "Las asociaciones culturales"
       ],
       "a": 1,
-      "e": "El significado denotativo es la definición objetiva de la palabra, la que aparece en el diccionario."
+      "e": "El significado denotativo es la definición objetiva, la que aparece en el diccionario."
     },
     {
       "t": "Significado",
@@ -274,75 +406,99 @@
     },
     {
       "t": "Fenómenos semánticos",
+      "q": "¿Qué es la monosemia?",
+      "o": [
+        "Una palabra con varios significados",
+        "Dos palabras con igual forma",
+        "Una palabra con un único significado",
+        "Palabras con significados opuestos"
+      ],
+      "a": 2,
+      "e": "Las palabras monósemicas poseen un único significado, como 'apendicitis' o 'calcio'. Se usan frecuentemente en textos científicos."
+    },
+    {
+      "t": "Fenómenos semánticos",
       "q": "¿Qué es la polisemia?",
       "o": [
         "Cuando una palabra tiene significados contrarios",
         "Cuando dos palabras tienen el mismo significado",
         "Cuando una palabra tiene dos o más significados relacionados",
-        "Cuando dos palabras suenan igual pero tienen distinto significado"
+        "Cuando dos palabras suenan igual"
       ],
       "a": 2,
       "e": "La polisemia es cuando una palabra amplia el número de aplicaciones y acepciones; ejemplo: 'banco' (asiento o institución financiera)."
     },
     {
       "t": "Fenómenos semánticos",
-      "q": "¿Cuál es la diferencia entre polisemia y homonimia?",
+      "q": "¿Qué es la homonimia?",
       "o": [
-        "No hay diferencia, son sinónimos",
-        "Polisemia: palabras relacionadas por significado; homonimia: palabras sin relación de significado",
-        "Homonimia: palabras que riman; polisemia: palabras sinónimas",
-        "Polisemia: solo en palabras escritas; homonimia: solo en palabras habladas"
+        "Palabras con significados similares",
+        "Palabras de distinto origen que coinciden en forma",
+        "Palabras que riman entre sí",
+        "Palabras con el mismo significado"
       ],
       "a": 1,
-      "e": "Polisemia: misma palabra, varios significados relacionados. Homonimia: palabras de distinto origen coinciden en forma."
+      "e": "Homonimia: palabras de distinto origen que coinciden en forma. Ejemplo: 'real' (de res = cosa; real de rex = rey)."
     },
     {
       "t": "Cambio semántico",
       "q": "¿Qué es el cambio semántico?",
       "o": [
-        "La repetición de una palabra en un texto",
-        "Cuando una palabra adquiere un significado nuevo; el antiguo puede permanecer o desaparecer",
-        "La transformación de una palabra extranjera al español",
-        "El cambio de pronunciación de una palabra"
+        "La repetición de una palabra",
+        "Cuando una palabra adquiere un nuevo significado",
+        "La transformación de palabras extranjeras",
+        "El cambio de pronunciación"
       ],
       "a": 1,
-      "e": "El cambio semántico se produce cuando una palabra adquiere un significado nuevo; el significado antiguo puede permanecer o desaparecer."
+      "e": "El cambio semántico se produce cuando una palabra adquiere un significado nuevo; el antiguo puede permanecer o desaparecer."
     },
     {
       "t": "Cambio semántico",
       "q": "¿Cuál es una causa histórica del cambio semántico?",
       "o": [
-        "La moda de hablar en cada generación",
-        "Que realidades desaparecidas se adapten para referirse a nuevas situaciones",
-        "El cambio de clima de una región",
-        "La invención de nuevas reglas de gramática"
+        "La moda de hablar",
+        "Que realidades desaparecidas se adapten para nuevas situaciones",
+        "El cambio de clima",
+        "Nuevas reglas de gramática"
       ],
       "a": 1,
-      "e": "Las causas históricas provocan cambios en palabras que designaban realidades desaparecidas y se adaptan para nuevas realidades."
+      "e": "Las causas históricas: realidades desaparecidas se adaptan para nuevas realidades. Ej: 'pluma' (de escritura → instrumento de metal)."
+    },
+    {
+      "t": "Cambio semántico",
+      "q": "¿Cuál es una causa cultural del cambio semántico?",
+      "o": [
+        "El paso del tiempo",
+        "Palabras tabú reemplazadas por nuevas",
+        "La pronunciación cambia",
+        "Las letras del alfabeto cambian"
+      ],
+      "a": 1,
+      "e": "Las causas culturales/sociales: palabras tabú son reemplazadas. Ej: 'retrete' y 'váter' reemplazan otras palabras menos aceptables."
     },
     {
       "t": "Recursos literarios",
       "q": "¿Qué es la metáfora?",
       "o": [
-        "La repetición de la misma palabra en una oración",
+        "La repetición de palabras",
         "Sustituir el significado de una palabra por otro con el que guarda semejanza",
-        "Usar una palabra en sentido literal y figurado simultáneamente",
-        "La exageración del significado de una palabra"
+        "Usar una palabra en sentido literal y figurado",
+        "La exageración del significado"
       ],
       "a": 1,
-      "e": "La metáfora sustituye el significado de una palabra por otro con el que guarda semejanza, sin usar 'como': 'Tomar un café en lugar de los violines'."
+      "e": "La metáfora sustituye el significado por otro con el que guarda semejanza: 'Tomar un café en lugar de los violines' (café = copita)."
     },
     {
       "t": "Recursos literarios",
       "q": "¿Qué es la metonimia?",
       "o": [
         "El uso de palabras con significado opuesto",
-        "Sustituir el significado por otro que guarda relación pero no es la semejanza",
-        "La repetición de sonidos similares en una oración",
-        "El cambio de significado de una palabra con el tiempo"
+        "Sustituir por otro significado que guarda relación pero no semejanza",
+        "La repetición de sonidos",
+        "El cambio de significado con el tiempo"
       ],
       "a": 1,
-      "e": "La metonimia sustituye el significado por otro con el que guarda relación: 'Tomar un café' (por la taza), 'tocar el violín' (por la persona)."
+      "e": "La metonimia sustituye por otro con relación: 'Tomar un café' (por la taza), 'tocar el violín' (por la persona que lo toca)."
     },
     {
       "t": "Diccionario",
@@ -351,7 +507,7 @@
         "La portada del diccionario",
         "El artículo donde se estudia una palabra y aparecen sus acepciones",
         "La lista de palabras sinónimas",
-        "El apéndice final del diccionario"
+        "El apéndice final"
       ],
       "a": 1,
       "e": "Una entrada es el artículo del diccionario donde aparece la palabra (lema) y se definen sus significados (acepciones)."
@@ -362,11 +518,47 @@
       "o": [
         "Las palabras se ordenan solo por la primera letra",
         "Las palabras se ordenan alfabéticamente por todas sus letras",
-        "Las palabras se ordenan por temas o categorías",
-        "Las palabras se ordenan por tamaño o longitud"
+        "Las palabras se ordenan por temas",
+        "Las palabras se ordenan por tamaño"
       ],
       "a": 1,
       "e": "En un diccionario en papel las palabras se ordenan alfabéticamente, no solo en la primera letra, sino en todas las demás."
+    },
+    {
+      "t": "Diccionario",
+      "q": "¿Cuáles son las principales características de los diccionarios de uso?",
+      "o": [
+        "Explican el origen de las palabras",
+        "Recogen palabras y acepciones más utilizadas",
+        "Incluyen solo palabras antiguas",
+        "Solo definen verbos"
+      ],
+      "a": 1,
+      "e": "Los diccionarios de uso de la lengua recogen las palabras y acepciones más utilizadas; ejemplo: Diccionario de uso del español, María Moliner."
+    },
+    {
+      "t": "Diccionario",
+      "q": "¿Qué tipo de diccionario explica el origen y la evolución de las palabras?",
+      "o": [
+        "Diccionario de dudas",
+        "Diccionario de sinónimos",
+        "Diccionario etimológico",
+        "Diccionario de uso"
+      ],
+      "a": 2,
+      "e": "Los diccionarios etimológicos informan sobre el origen y evolución de las palabras, como el Diccionario crítico etimológico castellano."
+    },
+    {
+      "t": "Diccionario",
+      "q": "¿Qué institución es responsable de velar por la lengua española?",
+      "o": [
+        "El Ministerio de Educación",
+        "La Real Academia Española (RAE)",
+        "La Asociación de Escritores",
+        "El Gobierno de España"
+      ],
+      "a": 1,
+      "e": "La Real Academia Española (RAE) es la institución que vela por la lengua española y publica diccionarios de referencia."
     }
   ]
 }

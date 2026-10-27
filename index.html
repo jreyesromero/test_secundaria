@@ -334,7 +334,9 @@
     $("summaryUnit").textContent=(CUR.unit?CUR.unit+": ":"")+CUR.subject;
     var cont=$("summaryContent");
     if(CUR.summary){
-      cont.innerHTML=CUR.summary.replace(/\n\n/g,"</p><p>").replace(/^/,"<p>").replace(/$/,"</p>");
+      var html=CUR.summary.replace(/\*\*(.+?)\*\*/g,"<strong>$1</strong>").replace(/• /g,"<br>• ");
+      html="<p>"+html.replace(/\n\n/g,"</p><p>").replace(/\n/g,"<br>")+"</p>";
+      cont.innerHTML=html;
     }else{cont.innerHTML="";}
     var diagram=$("summaryDiagram");
     if(CUR.diagram){diagram.innerHTML=CUR.diagram;}else{diagram.innerHTML="";}

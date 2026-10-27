@@ -57,37 +57,15 @@
         {"title": "Prefijo", "definition": "Morfema derivativo que precede al lexema. Ej: des-, in-, pre-, ante-."},
         {"title": "Sufijo", "definition": "Morfema derivativo que sigue al lexema. Ej: -idad, -ista, -mente, -ción."}
       ],
-      "exercises": [
-        {
-          "type": "fill_blanks",
-          "title": "Ejercicio 1: Completa las definiciones",
-          "items": [
-            {"text": "El ___ es la parte invariable de la palabra que contiene el significado léxico.", "answer": "lexema", "options": ["lexema", "morfema", "prefijo", "sufijo"]},
-            {"text": "Los ___ son segmentos que aportan información gramatical.", "answer": "morfemas", "options": ["lexemas", "morfemas", "prefijos", "afijos"]},
-            {"text": "Un ___ precede al lexema, como 'des-' o 'in-'.", "answer": "prefijo", "options": ["prefijo", "sufijo", "morfema", "lexema"]}
-          ]
-        },
-        {
-          "type": "fill_blanks",
-          "title": "Ejercicio 2: Identifica los prefijos",
-          "items": [
-            {"text": "Contraespionaje = ___ + espionaje", "answer": "contra-", "options": ["contra-", "con-", "co-", "com-"]},
-            {"text": "Antiaéreo = ___ + aéreo", "answer": "anti-", "options": ["anti-", "ante-", "ant-", "anti"]},
-            {"text": "Ultramar = ___ + mar", "answer": "ultra-", "options": ["ultra-", "ultr-", "ultra", "ult-"]},
-            {"text": "Imprescindible = ___ + prescindible", "answer": "im-", "options": ["im-", "in-", "i-", "ir-"]}
-          ]
-        },
-        {
-          "type": "fill_blanks",
-          "title": "Ejercicio 3: Identifica los sufijos",
-          "items": [
-            {"text": "Sordera = sordo + ___", "answer": "-eza", "options": ["-eza", "-ería", "-dad", "-idad"]},
-            {"text": "Doctorado = doctor + ___", "answer": "-ado", "options": ["-ado", "-ada", "-ido", "-edo"]},
-            {"text": "Montaje = montar + ___", "answer": "-aje", "options": ["-aje", "-aje", "-aje", "-uje"]},
-            {"text": "Instrumental = instrumento + ___", "answer": "-al", "options": ["-al", "-il", "-ol", "-ul"]}
-          ]
-        }
-      ]
+      "exercises": {
+        "type": "fill_blanks",
+        "title": "Ejercicio: Completa las oraciones",
+        "items": [
+          {"text": "El ___ es la parte invariable de la palabra que contiene el significado léxico.", "answer": "lexema", "options": ["lexema", "morfema", "prefijo", "sufijo"]},
+          {"text": "Los ___ son segmentos que aportan información gramatical.", "answer": "morfemas", "options": ["lexemas", "morfemas", "prefijos", "afijos"]},
+          {"text": "Un ___ precede al lexema, como 'des-' o 'in-'.", "answer": "prefijo", "options": ["prefijo", "sufijo", "morfema", "lexema"]}
+        ]
+      }
     },
     {
       "category": "5. Formación de palabras",
@@ -97,60 +75,6 @@
         {"title": "Parasíntesis", "definition": "Combinar composición y derivación. Ej: enjambrador (en- + jambre + -dor)."},
         {"title": "Sigla", "definition": "Palabra formada con las letras iniciales de otras palabras. Ej: ONG, IRPF."},
         {"title": "Acrónimo", "definition": "Palabra formada con fragmentos de otras palabras. Ej: informática (información + automática)."}
-      ],
-      "exercises": [
-        {
-          "type": "fill_blanks",
-          "title": "Ejercicio 1: Forma adjetivos con sufijos",
-          "items": [
-            {"text": "camino + -al = ___", "answer": "caminal", "options": ["caminal", "camineal", "caminil", "caminol"]},
-            {"text": "banco + -ario = ___", "answer": "bancario", "options": ["bancario", "banqueario", "banquario", "bancero"]},
-            {"text": "pesca + -ero = ___", "answer": "pescadero", "options": ["pescador", "pescadero", "pescero", "pesca"]},
-            {"text": "verdad + -ero = ___", "answer": "verdadero", "options": ["verdadero", "verdadero", "verdadoso", "verdadil"]}
-          ]
-        },
-        {
-          "type": "fill_blanks",
-          "title": "Ejercicio 2: Forma sustantivos con sufijos",
-          "items": [
-            {"text": "importante + -ancia = ___", "answer": "importancia", "options": ["importancia", "importancia", "importancia", "importancia"]},
-            {"text": "ladrar + -ido = ___", "answer": "ladrido", "options": ["ladrido", "ladrador", "ladrida", "ladrimiento"]},
-            {"text": "maullar + -ido = ___", "answer": "maullido", "options": ["maullido", "maulador", "maulada", "maulería"]},
-            {"text": "moneda + -ero = ___", "answer": "monedero", "options": ["monedero", "monedador", "monedería", "monedista"]}
-          ]
-        },
-        {
-          "type": "fill_blanks",
-          "title": "Ejercicio 3: Clasifica por tipo de formación",
-          "prompt": "Indica si está formada por: P (Prefijación), S (Sufijación) o P+S (ambas)",
-          "items": [
-            {"text": "Aceitoso (aceite + -oso)", "answer": "S", "options": ["P", "S", "P+S", "C"]},
-            {"text": "Superpuesto (super- + puesto)", "answer": "P", "options": ["P", "S", "P+S", "C"]},
-            {"text": "Extraordinariamente (extraordinario + -mente)", "answer": "P+S", "options": ["P", "S", "P+S", "C"]},
-            {"text": "Bajeza (bajo + -eza)", "answer": "S", "options": ["P", "S", "P+S", "C"]}
-          ]
-        },
-        {
-          "type": "fill_blanks",
-          "title": "Ejercicio 4: Descompón palabras compuestas",
-          "items": [
-            {"text": "Vaivén = ___ + ___", "answer": "vai vén", "options": ["vai vén", "va ivén", "vaiv én", "vai ve"]},
-            {"text": "Girasol = ___ + ___", "answer": "gira sol", "options": ["gira sol", "gi rasol", "girab ol", "gir asol"]},
-            {"text": "Altibajo = ___ + ___", "answer": "alti bajo", "options": ["alti bajo", "alt ibajo", "altib ajo", "al tibajo"]},
-            {"text": "Hierbabuena = ___ + ___", "answer": "hierba buena", "options": ["hierba buena", "hier babuena", "hierbab uena", "hierbu ena"]}
-          ]
-        },
-        {
-          "type": "fill_blanks",
-          "title": "Ejercicio 5: Identifica palabras compuestas",
-          "prompt": "Di si es compuesta (C) o derivada (D)",
-          "items": [
-            {"text": "Boquiabierto (boca + abierto)", "answer": "C", "options": ["C", "D", "S", "P"]},
-            {"text": "Girasol (gira + sol)", "answer": "C", "options": ["C", "D", "S", "P"]},
-            {"text": "Caradura (cara + dura)", "answer": "C", "options": ["C", "D", "S", "P"]},
-            {"text": "Espantapájaros (espanta + pájaros)", "answer": "C", "options": ["C", "D", "S", "P"]}
-          ]
-        }
       ]
     },
     {

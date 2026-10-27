@@ -366,13 +366,7 @@
         grid.appendChild(card);
       });
       catDiv.appendChild(grid);
-      if(cat.exercises){
-        if(Array.isArray(cat.exercises)){
-          cat.exercises.forEach(function(ex){renderExercise(ex,catDiv);});
-        }else{
-          renderExercise(cat.exercises,catDiv);
-        }
-      }
+      if(cat.exercises){renderExercise(cat.exercises,catDiv);}
       cont.appendChild(catDiv);
     });
   }

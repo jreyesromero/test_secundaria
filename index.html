@@ -345,38 +345,14 @@
     }
     CUR.cards.forEach(function(cat){
       var catDiv=document.createElement("div");
-      catDiv.style.marginBottom="28px";
-      var headerDiv=document.createElement("div");
-      headerDiv.style.display="flex";
-      headerDiv.style.justifyContent="space-between";
-      headerDiv.style.alignItems="center";
-      headerDiv.style.marginBottom="12px";
+      catDiv.style.marginBottom="20px";
       var title=document.createElement("h3");
       title.textContent=cat.category||"";
       title.style.fontSize="clamp(16px,4vw,18px)";
       title.style.fontWeight="600";
-      title.style.margin="0";
+      title.style.marginBottom="12px";
       title.style.color="var(--brand)";
-      headerDiv.appendChild(title);
-      if(cat.exercises_search){
-        var exBtn=document.createElement("a");
-        exBtn.textContent="📝 Ejercicios";
-        exBtn.href="https://www.liveworksheets.com/search.asp?content="+encodeURIComponent(cat.exercises_search);
-        exBtn.target="_blank";
-        exBtn.rel="noopener noreferrer";
-        exBtn.style.fontSize="13px";
-        exBtn.style.padding="6px 12px";
-        exBtn.style.background="var(--brand)";
-        exBtn.style.color="var(--brand-ink)";
-        exBtn.style.textDecoration="none";
-        exBtn.style.borderRadius="8px";
-        exBtn.style.fontWeight="600";
-        exBtn.style.transition="filter .15s";
-        exBtn.addEventListener("mouseover",function(){exBtn.style.filter="brightness(1.06)";});
-        exBtn.addEventListener("mouseout",function(){exBtn.style.filter="brightness(1)";});
-        headerDiv.appendChild(exBtn);
-      }
-      catDiv.appendChild(headerDiv);
+      catDiv.appendChild(title);
       var grid=document.createElement("div");
       grid.style.display="grid";
       grid.style.gridTemplateColumns="repeat(auto-fit,minmax(160px,1fr))";

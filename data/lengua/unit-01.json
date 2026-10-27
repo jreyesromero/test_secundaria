@@ -6,6 +6,108 @@
   "title": "Comunicación, lenguaje y significado",
   "lang": "es",
   "summary": "**La comunicación** es el proceso mediante el cual intercambiamos mensajes entre emisor y receptor.\n\n**Elementos de la comunicación:**\n• Emisor: quien emite el mensaje\n• Receptor: quien lo recibe\n• Mensaje: la información transmitida\n• Código: conjunto de signos y reglas (ej: español, Morse)\n• Canal: medio físico (papel, aire, cable telefónico)\n• Contexto: circunstancias culturales, espaciales, temporales que influyen en la interpretación\n\n**Funciones del lenguaje:**\n• Referencial: informar sobre la realidad (\"Las clases empiezan mañana\")\n• Emotiva: expresar sentimientos del emisor (\"¡Qué fácil!\")\n• Conativa: influir en el receptor (\"Luis, ten cuidado\")\n• Fática: iniciar/mantener contacto (\"Sí, sí, siga, que le escucho\")\n• Metalingüística: hablar del lenguaje (\"La palabra madre es llana\")\n• Poética: embellecer la forma (\"La Tierra: girasol; poma madura\")\n\n**Propiedades del texto:**\n• Adecuación: que el texto se adapte al receptor y circunstancias\n• Coherencia: que esté ordenado y sus partes guarden relación lógica\n• Cohesión: que esté bien conectado mediante conectores textuales (primero, sin embargo, por lo tanto, además, en cambio)\n\n**Estructura de la palabra:**\n• Lexema/raíz: parte invariable con significado léxico (cas- en \"casa, casita, caserío\")\n• Morfemas/afijos: segmentos que aportan información gramatical\n  - Prefijos: preceden al lexema (des-, in-, pre-, ante-)\n  - Sufijos: siguen al lexema (-idad, -ista, -mente, -ción)\n\n**Formación de palabras:**\n• Derivación: crear palabras con prefijos y sufijos (descansar, inútil, felicidad)\n• Composición: unir dos o más palabras simples (trotamundos, correveidile)\n• Parasíntesis: combinar composición y derivación (enjambrador = en- + jambre + -dor)\n• Siglas: letras iniciales de palabras (ONG, IRPF)\n• Acrónimos: palabras formadas con fragmentos (informática + automática = informática)\n\n**Familia léxica:**\nPalabras formadas del mismo lexema: \"just-\": justicia, justiciero, injusto, ajusticiar\n\n**Relaciones de significado:**\n• Sinónimos: significado igual o parecido (bonito, hermoso; elegir, escoger)\n• Antónimos: significados contrarios (frío-caliente, comprar-vender)\n• Hiperónimos: palabra de significado general (fruta incluye manzana, pera, plátano)\n• Hipónimos: palabras de significado más específico\n\n**Fenómenos semánticos:**\n• Monosemia: una palabra con un único significado (apendicitis, calcio)\n• Polisemia: una palabra con varios significados relacionados (banco: asiento o institución)\n• Homonimia: palabras de distinto origen con igual forma (real de \"cosa\" vs real de \"rey\")\n\n**Significado y sentido:**\n• Significado: definición objetiva del diccionario (denotación)\n• Sentido: interpretación que depende del contexto e intención\n• Connotación: asociaciones afectivas, culturales de una palabra (\"balón\" ≠ \"cansancio\" aunque sean sinónimos)\n\n**Cambio semántico:**\nUna palabra adquiere nuevo significado. Causas:\n• Históricas: realidades desaparecidas se adaptan (\"pluma\" de escritura → pluma de metal)\n• Culturales: palabras tabú reemplazadas (\"retrete, váter\" reemplazan otras)\n\n**Recursos literarios:**\n• Metáfora: sustituye significado por otro semejante (\"tocar los violines\" por las copas)\n• Metonimia: sustituye por otro con relación (\"tomar un café\" por la taza)\n\n**El diccionario:**\n• Entrada: artículo con la palabra (lema) y sus definiciones (acepciones)\n• Orden: alfabético por todas las letras\n• Tipos: de uso (palabras comunes), etimológicos (origen), de dudas (resolvepropio), de sinónimos\n• RAE: Real Academia Española vela por la lengua española",
+  "cards": [
+    {
+      "category": "1. Comunicación",
+      "terms": [
+        {"title": "Emisor", "definition": "Persona o ser que emite el mensaje."},
+        {"title": "Receptor", "definition": "Persona que recibe el mensaje."},
+        {"title": "Mensaje", "definition": "Información que se transmite entre emisor y receptor."},
+        {"title": "Código", "definition": "Conjunto de signos y reglas que permiten construir mensajes (español, Morse, etc)."},
+        {"title": "Canal", "definition": "Medio físico a través del cual se transmite el mensaje: papel, aire, cable telefónico."},
+        {"title": "Contexto", "definition": "Circunstancias culturales, espaciales y temporales que influyen en la interpretación del mensaje."}
+      ]
+    },
+    {
+      "category": "2. Funciones del lenguaje",
+      "terms": [
+        {"title": "Referencial", "definition": "Informa sobre la realidad. Ej: 'Las clases empiezan mañana'."},
+        {"title": "Emotiva", "definition": "Expresa sentimientos y emociones del emisor. Ej: '¡Qué fácil ha sido!'"},
+        {"title": "Conativa", "definition": "Busca influir en el receptor mediante órdenes o peticiones. Ej: 'Luis, ten cuidado'."},
+        {"title": "Fática", "definition": "Inicia, mantiene o cierra la comunicación. Ej: 'Sí, sí, siga, que le escucho'."},
+        {"title": "Metalingüística", "definition": "Habla del lenguaje mismo. Ej: 'La palabra madre es llana'."},
+        {"title": "Poética", "definition": "Embellece la forma del mensaje. Ej: 'La Tierra: girasol; poma madura'."}
+      ]
+    },
+    {
+      "category": "3. Propiedades del texto",
+      "terms": [
+        {"title": "Adecuación", "definition": "El texto se adapta al receptor y a las circunstancias en que se emite."},
+        {"title": "Coherencia", "definition": "El texto está ordenado y sus partes guardan relación lógica entre sí."},
+        {"title": "Cohesión", "definition": "El texto está bien conectado mediante conectores textuales (primero, sin embargo, por lo tanto)."}
+      ]
+    },
+    {
+      "category": "4. Estructura de la palabra",
+      "terms": [
+        {"title": "Lexema/Raíz", "definition": "Parte invariable de la palabra que contiene el significado léxico. Ej: 'cas-' en casa, casita, caserío."},
+        {"title": "Morfema", "definition": "Segmento morfológico que aporta información gramatical sobre género, número, persona, tiempo."},
+        {"title": "Prefijo", "definition": "Morfema derivativo que precede al lexema. Ej: des-, in-, pre-, ante-."},
+        {"title": "Sufijo", "definition": "Morfema derivativo que sigue al lexema. Ej: -idad, -ista, -mente, -ción."}
+      ]
+    },
+    {
+      "category": "5. Formación de palabras",
+      "terms": [
+        {"title": "Derivación", "definition": "Crear palabras nuevas añadiendo prefijos y sufijos. Ej: descansar, inútil, felicidad."},
+        {"title": "Composición", "definition": "Unir dos o más palabras simples para formar una nueva. Ej: trotamundos, correveidile."},
+        {"title": "Parasíntesis", "definition": "Combinar composición y derivación. Ej: enjambrador (en- + jambre + -dor)."},
+        {"title": "Sigla", "definition": "Palabra formada con las letras iniciales de otras palabras. Ej: ONG, IRPF."},
+        {"title": "Acrónimo", "definition": "Palabra formada con fragmentos de otras palabras. Ej: informática (información + automática)."}
+      ]
+    },
+    {
+      "category": "6. Relaciones de significado",
+      "terms": [
+        {"title": "Sinónimos", "definition": "Palabras con significado igual o parecido. Ej: bonito, hermoso; elegir, escoger."},
+        {"title": "Antónimos", "definition": "Palabras con significados contrarios. Ej: frío-caliente, comprar-vender."},
+        {"title": "Hiperónimo", "definition": "Palabra de significado más general que incluye otras. Ej: fruta incluye manzana."},
+        {"title": "Hipónimo", "definition": "Palabra de significado más específico que su hiperónimo. Ej: manzana es hipónimo de fruta."}
+      ]
+    },
+    {
+      "category": "7. Fenómenos semánticos",
+      "terms": [
+        {"title": "Monosemia", "definition": "Una palabra con un único significado. Ej: apendicitis, calcio."},
+        {"title": "Polisemia", "definition": "Una palabra con varios significados relacionados. Ej: banco (asiento o institución)."},
+        {"title": "Homonimia", "definition": "Palabras de distinto origen que coinciden en forma. Ej: real (de 'cosa') vs real (de 'rey')."}
+      ]
+    },
+    {
+      "category": "8. Significado y sentido",
+      "terms": [
+        {"title": "Significado", "definition": "Definición objetiva de la palabra en el diccionario."},
+        {"title": "Sentido", "definition": "Interpretación del significado que depende del contexto e intención."},
+        {"title": "Denotación", "definition": "Significado objetivo que recoge toda la comunidad lingüística."},
+        {"title": "Connotación", "definition": "Asociaciones afectivas, culturales o sociales que provoca una palabra. Ej: 'balón' ≠ 'competición'."}
+      ]
+    },
+    {
+      "category": "9. Cambio semántico",
+      "terms": [
+        {"title": "Cambio histórico", "definition": "Realidades desaparecidas se adaptan para nuevas situaciones. Ej: 'pluma' (de escritura → de metal)."},
+        {"title": "Cambio cultural", "definition": "Palabras tabú son reemplazadas por nuevas. Ej: 'retrete, váter' reemplazan otras."},
+        {"title": "Eufemismo", "definition": "Palabra menos negativa que reemplaza a otra considerada ofensiva. Ej: 'servicio' por 'váter'."}
+      ]
+    },
+    {
+      "category": "10. Recursos literarios",
+      "terms": [
+        {"title": "Metáfora", "definition": "Sustituye significado por otro con el que guarda semejanza. Ej: 'tocar los violines' por 'las copas'."},
+        {"title": "Metonimia", "definition": "Sustituye significado por otro que guarda relación. Ej: 'tomar un café' por 'la taza'."}
+      ]
+    },
+    {
+      "category": "11. El diccionario",
+      "terms": [
+        {"title": "Entrada", "definition": "Artículo del diccionario donde aparece la palabra (lema) y sus definiciones (acepciones)."},
+        {"title": "Diccionario de uso", "definition": "Recoge palabras y acepciones más utilizadas. Ej: Diccionario de uso del español, María Moliner."},
+        {"title": "Diccionario etimológico", "definition": "Explica el origen y evolución de las palabras."},
+        {"title": "Diccionario de dudas", "definition": "Resuelve dificultades del idioma."},
+        {"title": "RAE", "definition": "Real Academia Española: institución que vela por la lengua española."}
+      ]
+    }
+  ],
   "diagram": "<svg viewBox=\"0 0 600 400\" xmlns=\"http://www.w3.org/2000/svg\" style=\"background:#f5f7fa;border-radius:8px\"><defs><marker id=\"arr\" markerWidth=\"10\" markerHeight=\"10\" refX=\"9\" refY=\"3\" orient=\"auto\"><polygon points=\"0 0, 10 3, 0 6\" fill=\"#1565C0\" /></marker></defs><text x=\"300\" y=\"30\" font-size=\"20\" font-weight=\"700\" text-anchor=\"middle\" fill=\"#14213D\">Elementos de la Comunicación</text><rect x=\"30\" y=\"60\" width=\"80\" height=\"60\" rx=\"8\" fill=\"#E3F2FD\" stroke=\"#1565C0\" stroke-width=\"2\"/><text x=\"70\" y=\"95\" font-size=\"14\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1565C0\">Emisor</text><path d=\"M 120 90 L 140 90\" stroke=\"#1565C0\" stroke-width=\"2\" marker-end=\"url(#arr)\"/><text x=\"130\" y=\"80\" font-size=\"11\" fill=\"#5A6478\">Msg</text><rect x=\"150\" y=\"60\" width=\"80\" height=\"60\" rx=\"8\" fill=\"#E3F2FD\" stroke=\"#1565C0\" stroke-width=\"2\"/><text x=\"190\" y=\"95\" font-size=\"14\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1565C0\">Código</text><path d=\"M 240 90 L 260 90\" stroke=\"#1565C0\" stroke-width=\"2\" marker-end=\"url(#arr)\"/><text x=\"250\" y=\"80\" font-size=\"11\" fill=\"#5A6478\">Canal</text><rect x=\"270\" y=\"60\" width=\"80\" height=\"60\" rx=\"8\" fill=\"#E3F2FD\" stroke=\"#1565C0\" stroke-width=\"2\"/><text x=\"310\" y=\"95\" font-size=\"14\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#1565C0\">Receptor</text><rect x=\"30\" y=\"160\" width=\"320\" height=\"70\" rx=\"8\" fill=\"#FFF8E1\" stroke=\"#F57C00\" stroke-width=\"2\"/><text x=\"190\" y=\"185\" font-size=\"14\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#F57C00\">Contexto (cultural, espacial, temporal)</text><text x=\"190\" y=\"210\" font-size=\"11\" text-anchor=\"middle\" fill=\"#5A6478\">Influye en cómo se interpreta el mensaje</text><text x=\"30\" y=\"280\" font-size=\"14\" font-weight=\"600\" fill=\"#14213D\">Funciones del lenguaje:</text><rect x=\"30\" y=\"295\" width=\"100\" height=\"35\" rx=\"6\" fill=\"#E8F5E9\" stroke=\"#4CAF50\" stroke-width=\"2\"/><text x=\"80\" y=\"318\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#2E7D32\">Referencial</text><rect x=\"140\" y=\"295\" width=\"100\" height=\"35\" rx=\"6\" fill=\"#FCE4EC\" stroke=\"#E91E63\" stroke-width=\"2\"/><text x=\"190\" y=\"318\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#880E4F\">Emotiva</text><rect x=\"250\" y=\"295\" width=\"100\" height=\"35\" rx=\"6\" fill=\"#E0F2F1\" stroke=\"#009688\" stroke-width=\"2\"/><text x=\"300\" y=\"318\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#00695C\">Conativa</text><rect x=\"360\" y=\"295\" width=\"100\" height=\"35\" rx=\"6\" fill=\"#F3E5F5\" stroke=\"#9C27B0\" stroke-width=\"2\"/><text x=\"410\" y=\"318\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#4A148C\">Fática</text><rect x=\"470\" y=\"295\" width=\"100\" height=\"35\" rx=\"6\" fill=\"#FFF3E0\" stroke=\"#FF9800\" stroke-width=\"2\"/><text x=\"520\" y=\"318\" font-size=\"11\" font-weight=\"600\" text-anchor=\"middle\" fill=\"#E65100\">Metalingüística</text><text x=\"30\" y=\"370\" font-size=\"11\" fill=\"#5A6478\"><tspan x=\"30\">Referencial: Informar • Emotiva: Expresar sentimientos • Conativa: Influir en el receptor</tspan><tspan x=\"30\" dy=\"16\">Fática: Iniciar/mantener contacto • Metalingüística: Hablar del lenguaje</tspan></text></svg>",
   "questions": [
     {

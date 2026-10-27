@@ -161,7 +161,6 @@
   .card-flip-front{color:var(--brand);font-weight:600;font-size:16px;font-family:"Space Grotesk",sans-serif}
   .card-flip-back{transform:rotateY(180deg);background:color-mix(in srgb,var(--brand) 8%,var(--surface));color:var(--ink);font-size:14px;line-height:1.6}
   .card-flip-back p{margin:0}
-  .card-hint{font-size:12px;color:var(--ink-soft);margin-top:8px;font-family:"IBM Plex Mono",monospace}
 
   @media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
@@ -360,7 +359,7 @@
       (cat.terms||[]).forEach(function(term){
         var card=document.createElement("div");
         card.className="card-flip";
-        card.innerHTML='<div class="card-flip-inner"><div class="card-flip-face card-flip-front">'+esc(term.title)+'<div class="card-hint">Haz click</div></div>'+
+        card.innerHTML='<div class="card-flip-inner"><div class="card-flip-face card-flip-front">'+esc(term.title)+'</div>'+
           '<div class="card-flip-face card-flip-back"><p>'+esc(term.definition)+'</p></div></div>';
         card.addEventListener("click",function(){card.classList.toggle("flipped");});
         grid.appendChild(card);

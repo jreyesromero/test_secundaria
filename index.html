@@ -179,17 +179,19 @@
       <p class="note" id="homeNote"></p>
     </section>
 
-    <!-- SUMMARY -->
-    <section id="summary" class="pad hidden">
-      <div style="margin-bottom:24px">
-        <h1 id="summaryTitle" style="font-size:clamp(22px,5.5vw,30px)"></h1>
-        <p class="sub" id="summaryUnit"></p>
+    <!-- MENU -->
+    <section id="menu" class="pad hidden">
+      <div style="margin-bottom:40px">
+        <h1 id="menuTitle" style="font-size:clamp(24px,6vw,36px);margin-bottom:8px"></h1>
+        <p class="sub" id="menuUnit"></p>
       </div>
-      <div id="summaryContent" style="line-height:1.7;color:var(--ink);margin-bottom:24px"></div>
-      <div id="summaryDiagram" style="margin:28px 0;border-radius:12px;overflow:hidden"></div>
-      <div class="btn-row">
-        <button class="btn btn-ghost" id="skipSummaryBtn">Skip to quiz</button>
-        <button class="btn btn-primary" id="startCardsBtn">Study cards</button>
+      <div style="display:flex;flex-direction:column;gap:14px;max-width:280px;margin:0 auto">
+        <button class="btn btn-primary" id="toCardsBtn" style="font-size:16px;padding:18px 24px">
+          📚 Tarjetas de estudio
+        </button>
+        <button class="btn btn-ghost" id="toQuizDirectBtn" style="font-size:16px;padding:18px 24px">
+          ❓ Quiz
+        </button>
       </div>
     </section>
 
@@ -261,7 +263,7 @@
   var BOOT = window.__BOOTSTRAP__ || null;
 
   var $=function(id){return document.getElementById(id);};
-  function show(id){["home","summary","cards","quiz","matching","results"].forEach(function(s){$(s).classList.toggle("hidden",s!==id);});
+  function show(id){["home","menu","cards","quiz","matching","results"].forEach(function(s){$(s).classList.toggle("hidden",s!==id);});
     window.scrollTo({top:0,behavior:"instant"in window?"instant":"auto"});}
   function pad(n){return (n<10?"0":"")+n;}
   function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c];});}
@@ -325,21 +327,12 @@
     idx=0; mcqScore=0; matchScore=0;
     $("qTotal").textContent=MCQ_COUNT;
     buildDeck();
-    if(unit.summary||unit.diagram){renderSummary(); show("summary");}
-    else{renderQ(); show("quiz");}
+    renderMenu(); show("menu");
   }
 
-  function renderSummary(){
-    $("summaryTitle").textContent=CUR.title||CUR.subject;
-    $("summaryUnit").textContent=(CUR.unit?CUR.unit+": ":"")+CUR.subject;
-    var cont=$("summaryContent");
-    if(CUR.summary){
-      var html=CUR.summary.replace(/\*\*(.+?)\*\*/g,"<strong>$1</strong>").replace(/• /g,"<br>• ");
-      html="<p>"+html.replace(/\n\n/g,"</p><p>").replace(/\n/g,"<br>")+"</p>";
-      cont.innerHTML=html;
-    }else{cont.innerHTML="";}
-    var diagram=$("summaryDiagram");
-    if(CUR.diagram){diagram.innerHTML=CUR.diagram;}else{diagram.innerHTML="";}
+  function renderMenu(){
+    $("menuTitle").textContent=CUR.title||CUR.subject;
+    $("menuUnit").textContent=(CUR.unit?CUR.unit+": ":"")+CUR.subject;
   }
 
   function renderCards(){
@@ -347,7 +340,7 @@
     $("cardsUnit").textContent=(CUR.unit?CUR.unit+": ":"")+CUR.subject;
     var cont=$("cardsContainer"); cont.innerHTML="";
     if(!CUR.cards||!CUR.cards.length){
-      cont.innerHTML='<p style="text-align:center;color:var(--ink-soft)">No cards available</p>';
+      cont.innerHTML='<p style="text-align:center;color:var(--ink-soft)">Sin tarjetas disponibles</p>';
       return;
     }
     CUR.cards.forEach(function(cat){
@@ -367,7 +360,7 @@
       (cat.terms||[]).forEach(function(term){
         var card=document.createElement("div");
         card.className="card-flip";
-        card.innerHTML='<div class="card-flip-inner"><div class="card-flip-face card-flip-front">'+esc(term.title)+'<div class="card-hint">Click to reveal</div></div>'+
+        card.innerHTML='<div class="card-flip-inner"><div class="card-flip-face card-flip-front">'+esc(term.title)+'<div class="card-hint">Haz click</div></div>'+
           '<div class="card-flip-face card-flip-back"><p>'+esc(term.definition)+'</p></div></div>';
         card.addEventListener("click",function(){card.classList.toggle("flipped");});
         grid.appendChild(card);
@@ -377,12 +370,11 @@
     });
   }
 
-  function toQuizFromSummary(){
-    if(CUR.cards&&CUR.cards.length){renderCards(); show("cards");}
-    else{renderQ(); show("quiz");}
+  function showCards(){
+    renderCards(); show("cards");
   }
 
-  function toQuizFromCards(){
+  function showQuizDirect(){
     renderQ(); show("quiz");
   }
 
@@ -495,10 +487,10 @@
   $("againBtn").addEventListener("click",function(){startQuiz(CUR);});
   $("quitBtn").addEventListener("click",function(){show("home");});
   $("homeBtn").addEventListener("click",function(){show("home");});
-  $("skipSummaryBtn").addEventListener("click",function(){renderQ(); show("quiz");});
-  $("startCardsBtn").addEventListener("click",toQuizFromSummary);
-  $("backCardsBtn").addEventListener("click",function(){renderSummary(); show("summary");});
-  $("toQuizBtn").addEventListener("click",toQuizFromCards);
+  $("toCardsBtn").addEventListener("click",showCards);
+  $("toQuizDirectBtn").addEventListener("click",showQuizDirect);
+  $("backCardsBtn").addEventListener("click",function(){renderMenu(); show("menu");});
+  $("toQuizBtn").addEventListener("click",function(){renderQ(); show("quiz");});
   document.addEventListener("keydown",function(ev){
     if(!$("quiz").classList.contains("hidden")){
       if(ev.key>="1"&&ev.key<="4"&&!locked){var b=$("opts").querySelectorAll(".opt")[parseInt(ev.key,10)-1]; if(b) b.click();}

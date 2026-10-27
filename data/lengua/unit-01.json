@@ -9,6 +9,7 @@
   "cards": [
     {
       "category": "1. Comunicación",
+      "exercises_search": "comunicación emisor receptor 2º ESO",
       "terms": [
         {"title": "Emisor", "definition": "Persona o ser que emite el mensaje."},
         {"title": "Receptor", "definition": "Persona que recibe el mensaje."},
@@ -20,6 +21,7 @@
     },
     {
       "category": "2. Funciones del lenguaje",
+      "exercises_search": "funciones del lenguaje referencial emotiva conativa 2º ESO",
       "terms": [
         {"title": "Referencial", "definition": "Informa sobre la realidad. Ej: 'Las clases empiezan mañana'."},
         {"title": "Emotiva", "definition": "Expresa sentimientos y emociones del emisor. Ej: '¡Qué fácil ha sido!'"},
@@ -31,6 +33,7 @@
     },
     {
       "category": "3. Propiedades del texto",
+      "exercises_search": "coherencia cohesión adecuación texto 2º ESO",
       "terms": [
         {"title": "Adecuación", "definition": "El texto se adapta al receptor y a las circunstancias en que se emite."},
         {"title": "Coherencia", "definition": "El texto está ordenado y sus partes guardan relación lógica entre sí."},
@@ -39,6 +42,7 @@
     },
     {
       "category": "4. Estructura de la palabra",
+      "exercises_search": "lexema morfema prefijo sufijo 2º ESO",
       "terms": [
         {"title": "Lexema/Raíz", "definition": "Parte invariable de la palabra que contiene el significado léxico. Ej: 'cas-' en casa, casita, caserío."},
         {"title": "Morfema", "definition": "Segmento morfológico que aporta información gramatical sobre género, número, persona, tiempo."},
@@ -48,6 +52,7 @@
     },
     {
       "category": "5. Formación de palabras",
+      "exercises_search": "derivación composición parasíntesis 2º ESO",
       "terms": [
         {"title": "Derivación", "definition": "Crear palabras nuevas añadiendo prefijos y sufijos. Ej: descansar, inútil, felicidad."},
         {"title": "Composición", "definition": "Unir dos o más palabras simples para formar una nueva. Ej: trotamundos, correveidile."},
@@ -58,6 +63,7 @@
     },
     {
       "category": "6. Relaciones de significado",
+      "exercises_search": "sinónimos antónimos hiperónimos 2º ESO",
       "terms": [
         {"title": "Sinónimos", "definition": "Palabras con significado igual o parecido. Ej: bonito, hermoso; elegir, escoger."},
         {"title": "Antónimos", "definition": "Palabras con significados contrarios. Ej: frío-caliente, comprar-vender."},
@@ -67,6 +73,7 @@
     },
     {
       "category": "7. Fenómenos semánticos",
+      "exercises_search": "polisemia homonimia monosemia 2º ESO",
       "terms": [
         {"title": "Monosemia", "definition": "Una palabra con un único significado. Ej: apendicitis, calcio."},
         {"title": "Polisemia", "definition": "Una palabra con varios significados relacionados. Ej: banco (asiento o institución)."},
@@ -75,6 +82,7 @@
     },
     {
       "category": "8. Significado y sentido",
+      "exercises_search": "significado sentido denotación connotación 2º ESO",
       "terms": [
         {"title": "Significado", "definition": "Definición objetiva de la palabra en el diccionario."},
         {"title": "Sentido", "definition": "Interpretación del significado que depende del contexto e intención."},
@@ -84,6 +92,7 @@
     },
     {
       "category": "9. Cambio semántico",
+      "exercises_search": "cambio semántico eufemismo 2º ESO",
       "terms": [
         {"title": "Cambio histórico", "definition": "Realidades desaparecidas se adaptan para nuevas situaciones. Ej: 'pluma' (de escritura → de metal)."},
         {"title": "Cambio cultural", "definition": "Palabras tabú son reemplazadas por nuevas. Ej: 'retrete, váter' reemplazan otras."},
@@ -92,6 +101,7 @@
     },
     {
       "category": "10. Recursos literarios",
+      "exercises_search": "metáfora metonimia recursos literarios 2º ESO",
       "terms": [
         {"title": "Metáfora", "definition": "Sustituye significado por otro con el que guarda semejanza. Ej: 'tocar los violines' por 'las copas'."},
         {"title": "Metonimia", "definition": "Sustituye significado por otro que guarda relación. Ej: 'tomar un café' por 'la taza'."}
@@ -99,6 +109,7 @@
     },
     {
       "category": "11. El diccionario",
+      "exercises_search": "diccionario entrada etimología 2º ESO",
       "terms": [
         {"title": "Entrada", "definition": "Artículo del diccionario donde aparece la palabra (lema) y sus definiciones (acepciones)."},
         {"title": "Diccionario de uso", "definition": "Recoge palabras y acepciones más utilizadas. Ej: Diccionario de uso del español, María Moliner."},

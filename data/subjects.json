@@ -31,6 +31,21 @@
           "count": 40
         }
       ]
+    },
+    {
+      "id": "lengua",
+      "name": "Lengua Española",
+      "lang": "es",
+      "icon": "📖",
+      "units": [
+        {
+          "id": "unit-01",
+          "unit": "Tema 1",
+          "title": "Comunicación, lenguaje y significado",
+          "file": "data/lengua/unit-01.json",
+          "count": 28
+        }
+      ]
     }
   ]
 }

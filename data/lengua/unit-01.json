@@ -1,0 +1,370 @@
+{
+  "subject": "Lengua Española",
+  "subjectId": "lengua",
+  "unitId": "unit-01",
+  "unit": "Tema 1",
+  "title": "Comunicación, lenguaje y significado",
+  "lang": "es",
+  "questions": [
+    {
+      "t": "Asertividad",
+      "q": "¿Cuál es la definición de asertividad?",
+      "o": [
+        "La capacidad de expresar opiniones, deseos y derechos sin agredir ni ser pasivo",
+        "La habilidad de manipular a otras personas para conseguir lo que queremos",
+        "La tendencia a guardar silencio en todas las situaciones sociales",
+        "La capacidad de mentir de forma convincente en cualquier contexto"
+      ],
+      "a": 0,
+      "e": "La asertividad es la capacidad de un ser humano de expresar sus opiniones, deseos y reclamar sus derechos de manera adecuada, sin agresividad ni pasividad."
+    },
+    {
+      "t": "Comunicación",
+      "q": "¿Cuál es el elemento de la comunicación que emite el mensaje?",
+      "o": [
+        "El canal",
+        "El emisor",
+        "El receptor",
+        "El código"
+      ],
+      "a": 1,
+      "e": "El emisor es la persona o ser que emite el mensaje. El receptor es quien lo recibe."
+    },
+    {
+      "t": "Comunicación",
+      "q": "¿Qué es el código en una comunicación?",
+      "o": [
+        "El medio físico a través del cual se transmite el mensaje",
+        "El conjunto de signos y reglas que forman los mensajes",
+        "Las circunstancias culturales en las que ocurre la comunicación",
+        "La reacción del receptor ante el mensaje recibido"
+      ],
+      "a": 1,
+      "e": "El código es el conjunto de signos y reglas que permiten construir mensajes, como la gramática en la comunicación verbal."
+    },
+    {
+      "t": "Lenguaje",
+      "q": "¿Cuál es la función principal del lenguaje de carácter oral?",
+      "o": [
+        "Es un sistema de escritura representativo del lenguaje oral",
+        "Es anterior al lenguaje escrito en la historia de la humanidad",
+        "Es menos importante que el lenguaje escrito en la comunicación",
+        "Fue inventado después de que apareciera la escritura"
+      ],
+      "a": 1,
+      "e": "El lenguaje es de carácter oral; la escritura apareció muchos siglos después como un sistema para representarlo."
+    },
+    {
+      "t": "Funciones del lenguaje",
+      "q": "¿Qué función del lenguaje predomina en el enunciado 'Las clases empiezan mañana'?",
+      "o": [
+        "Emotiva",
+        "Referencial",
+        "Conativa",
+        "Poética"
+      ],
+      "a": 1,
+      "e": "La función referencial o representativa pretende informar sobre la realidad; predomina en textos informativos y descriptivos."
+    },
+    {
+      "t": "Funciones del lenguaje",
+      "q": "¿Cuál es la función del lenguaje que intenta influir en el receptor?",
+      "o": [
+        "Referencial",
+        "Emotiva",
+        "Conativa o apelativa",
+        "Fática"
+      ],
+      "a": 2,
+      "e": "La función conativa o apelativa busca influir en el receptor, como en órdenes o peticiones: 'Luis, ten más cuidado'."
+    },
+    {
+      "t": "Funciones del lenguaje",
+      "q": "¿Qué función del lenguaje se usa para expresar sentimientos y emociones?",
+      "o": [
+        "Fática",
+        "Metalingüística",
+        "Emotiva o expresiva",
+        "Referencial"
+      ],
+      "a": 2,
+      "e": "La función emotiva o expresiva sirve para expresar sentimientos y emociones del emisor: '¡Qué fácil ha sido el examen!'"
+    },
+    {
+      "t": "Funciones del lenguaje",
+      "q": "¿Cuál es la función del lenguaje en la frase 'Sí, sí, siga, que le escucho'?",
+      "o": [
+        "Referencial",
+        "Fática o de contacto",
+        "Emotiva",
+        "Poética"
+      ],
+      "a": 1,
+      "e": "La función fática o de contacto inicia, mantiene o cierra la comunicación sin transmitir información relevante."
+    },
+    {
+      "t": "Propiedades del texto",
+      "q": "¿Qué propiedad del texto se refiere a que el mensaje se adapte al receptor y sus circunstancias?",
+      "o": [
+        "Coherencia",
+        "Adecuación",
+        "Cohesión",
+        "Claridad"
+      ],
+      "a": 1,
+      "e": "La adecuación es la propiedad del texto que permite saber si se adapta a las personas a quienes va dirigido y a las circunstancias."
+    },
+    {
+      "t": "Propiedades del texto",
+      "q": "¿Qué propiedad del texto se consigue mediante conectores textuales como 'primero', 'en último lugar' o 'para finalizar'?",
+      "o": [
+        "Adecuación",
+        "Coherencia",
+        "Cohesión",
+        "Concisión"
+      ],
+      "a": 2,
+      "e": "Los conectores textuales son palabras que sirven para unir las partes del texto y establecer relaciones entre ellas, conseguindo cohesión."
+    },
+    {
+      "t": "Palabra",
+      "q": "¿Qué es el lexema o raíz de una palabra?",
+      "o": [
+        "La parte variable de la palabra que cambia según el género o número",
+        "La parte invariable que contiene el significado léxico",
+        "El conjunto de morfemas que forman la palabra",
+        "La letra inicial de la palabra"
+      ],
+      "a": 1,
+      "e": "El lexema o raíz es la parte invariable de la palabra que contiene el significado léxico fundamental."
+    },
+    {
+      "t": "Palabra",
+      "q": "¿Qué son los morfemas gramaticales?",
+      "o": [
+        "Palabras simples que no tienen morfemas",
+        "Segmentos morfológicos que contienen significado léxico",
+        "Segmentos que aportan información gramatical como género, número o persona",
+        "Palabras compuestas formadas por dos raíces"
+      ],
+      "a": 2,
+      "e": "Los morfemas gramaticales o afijos aportan información sobre género, número, persona, tiempo, modo y aspecto."
+    },
+    {
+      "t": "Formación de palabras",
+      "q": "¿Qué es la derivación en la formación de palabras?",
+      "o": [
+        "La unión de dos o más palabras simples",
+        "La creación de palabras nuevas usando prefijos y sufijos",
+        "La repetición de la misma palabra en un texto",
+        "La transformación de una palabra extranjera al español"
+      ],
+      "a": 1,
+      "e": "La derivación es el procedimiento que emplea la lengua para crear palabras nuevas utilizando prefijos (como 'des-') y sufijos (como '-idad')."
+    },
+    {
+      "t": "Formación de palabras",
+      "q": "¿Cuál es un ejemplo de prefijo en español?",
+      "o": [
+        "-ción",
+        "-mente",
+        "pre-",
+        "-ista"
+      ],
+      "a": 2,
+      "e": "Los prefijos son morfemas derivativos que preceden al lexema o raíz: 'pre-decir', 'in-cauto', 'ante-poner'."
+    },
+    {
+      "t": "Formación de palabras",
+      "q": "¿Qué es la composición en la formación de palabras?",
+      "o": [
+        "La adición de prefijos a una palabra",
+        "La unión de dos o más palabras simples",
+        "La transformación del significado de una palabra",
+        "La repetición de morfemas en una palabra"
+      ],
+      "a": 1,
+      "e": "La composición es el procedimiento de creación de palabras nuevas que consiste en la unión de dos o más palabras simples."
+    },
+    {
+      "t": "Familia léxica",
+      "q": "¿Qué es una familia léxica?",
+      "o": [
+        "Un conjunto de palabras de origen extranjero",
+        "Un conjunto de palabras formadas a partir del mismo lexema o raíz",
+        "Un conjunto de palabras con significado opuesto",
+        "Un conjunto de palabras que riman entre sí"
+      ],
+      "a": 1,
+      "e": "La familia léxica es el conjunto de palabras que han sido formadas a partir de un mismo lexema o raíz."
+    },
+    {
+      "t": "Relaciones de significado",
+      "q": "¿Cuál es la relación entre las palabras 'bonito' y 'hermoso'?",
+      "o": [
+        "Son antónimos",
+        "Son sinónimos",
+        "Son hiperónimos",
+        "Son homónimos"
+      ],
+      "a": 1,
+      "e": "Las palabras sinónimas tienen el mismo o parecido significado: 'bonito, hermoso, elegir, escoger'."
+    },
+    {
+      "t": "Relaciones de significado",
+      "q": "¿Cuál es la relación de significado entre 'frío' y 'caliente'?",
+      "o": [
+        "Son sinónimos",
+        "Son antónimos",
+        "Son hiperónimos",
+        "Son hipónimos"
+      ],
+      "a": 1,
+      "e": "Las palabras antónimas tienen significados contrarios u opuestos: 'frío-caliente', 'comprar-vender'."
+    },
+    {
+      "t": "Relaciones de significado",
+      "q": "¿Cuál es la relación entre 'fruta' y 'manzana'?",
+      "o": [
+        "Son sinónimos",
+        "Son antónimos",
+        "Fruta es un hiperónimo de manzana",
+        "Manzana es un hiperónimo de fruta"
+      ],
+      "a": 2,
+      "e": "Un hiperónimo es una palabra de significado más general que incluye otras de significado más específico: 'fruta' es hiperónimo de 'manzana'."
+    },
+    {
+      "t": "Significado",
+      "q": "¿Cuál es la diferencia entre significado y sentido de una palabra?",
+      "o": [
+        "Son términos sinónimos sin diferencia",
+        "Significado es la definición del diccionario; sentido depende de la intención del hablante y el contexto",
+        "Significado es constante; sentido es la palabra escrita",
+        "Sentido es solo para palabras escritas; significado para palabras habladas"
+      ],
+      "a": 1,
+      "e": "El significado es la definición en el diccionario; el sentido depende de la intencionalidad del hablante y el contexto de uso."
+    },
+    {
+      "t": "Significado",
+      "q": "¿Cuál es el significado denotativo de una palabra?",
+      "o": [
+        "Las emociones que provoca la palabra",
+        "La definición objetiva que aparece en el diccionario",
+        "El sentido figurado de la palabra",
+        "Las asociaciones culturales de la palabra"
+      ],
+      "a": 1,
+      "e": "El significado denotativo es la definición objetiva de la palabra, la que aparece en el diccionario."
+    },
+    {
+      "t": "Significado",
+      "q": "¿Qué es el significado connotativo?",
+      "o": [
+        "La definición exacta del diccionario",
+        "Las asociaciones afectivas, culturales o personales que provoca una palabra",
+        "El significado de palabras compuestas",
+        "El cambio de significado con el tiempo"
+      ],
+      "a": 1,
+      "e": "El significado connotativo es la asociación afectiva, cultural, social que una palabra provoca en las personas hablantes."
+    },
+    {
+      "t": "Fenómenos semánticos",
+      "q": "¿Qué es la polisemia?",
+      "o": [
+        "Cuando una palabra tiene significados contrarios",
+        "Cuando dos palabras tienen el mismo significado",
+        "Cuando una palabra tiene dos o más significados relacionados",
+        "Cuando dos palabras suenan igual pero tienen distinto significado"
+      ],
+      "a": 2,
+      "e": "La polisemia es cuando una palabra amplia el número de aplicaciones y acepciones; ejemplo: 'banco' (asiento o institución financiera)."
+    },
+    {
+      "t": "Fenómenos semánticos",
+      "q": "¿Cuál es la diferencia entre polisemia y homonimia?",
+      "o": [
+        "No hay diferencia, son sinónimos",
+        "Polisemia: palabras relacionadas por significado; homonimia: palabras sin relación de significado",
+        "Homonimia: palabras que riman; polisemia: palabras sinónimas",
+        "Polisemia: solo en palabras escritas; homonimia: solo en palabras habladas"
+      ],
+      "a": 1,
+      "e": "Polisemia: misma palabra, varios significados relacionados. Homonimia: palabras de distinto origen coinciden en forma."
+    },
+    {
+      "t": "Cambio semántico",
+      "q": "¿Qué es el cambio semántico?",
+      "o": [
+        "La repetición de una palabra en un texto",
+        "Cuando una palabra adquiere un significado nuevo; el antiguo puede permanecer o desaparecer",
+        "La transformación de una palabra extranjera al español",
+        "El cambio de pronunciación de una palabra"
+      ],
+      "a": 1,
+      "e": "El cambio semántico se produce cuando una palabra adquiere un significado nuevo; el significado antiguo puede permanecer o desaparecer."
+    },
+    {
+      "t": "Cambio semántico",
+      "q": "¿Cuál es una causa histórica del cambio semántico?",
+      "o": [
+        "La moda de hablar en cada generación",
+        "Que realidades desaparecidas se adapten para referirse a nuevas situaciones",
+        "El cambio de clima de una región",
+        "La invención de nuevas reglas de gramática"
+      ],
+      "a": 1,
+      "e": "Las causas históricas provocan cambios en palabras que designaban realidades desaparecidas y se adaptan para nuevas realidades."
+    },
+    {
+      "t": "Recursos literarios",
+      "q": "¿Qué es la metáfora?",
+      "o": [
+        "La repetición de la misma palabra en una oración",
+        "Sustituir el significado de una palabra por otro con el que guarda semejanza",
+        "Usar una palabra en sentido literal y figurado simultáneamente",
+        "La exageración del significado de una palabra"
+      ],
+      "a": 1,
+      "e": "La metáfora sustituye el significado de una palabra por otro con el que guarda semejanza, sin usar 'como': 'Tomar un café en lugar de los violines'."
+    },
+    {
+      "t": "Recursos literarios",
+      "q": "¿Qué es la metonimia?",
+      "o": [
+        "El uso de palabras con significado opuesto",
+        "Sustituir el significado por otro que guarda relación pero no es la semejanza",
+        "La repetición de sonidos similares en una oración",
+        "El cambio de significado de una palabra con el tiempo"
+      ],
+      "a": 1,
+      "e": "La metonimia sustituye el significado por otro con el que guarda relación: 'Tomar un café' (por la taza), 'tocar el violín' (por la persona)."
+    },
+    {
+      "t": "Diccionario",
+      "q": "¿Qué es una entrada en el diccionario?",
+      "o": [
+        "La portada del diccionario",
+        "El artículo donde se estudia una palabra y aparecen sus acepciones",
+        "La lista de palabras sinónimas",
+        "El apéndice final del diccionario"
+      ],
+      "a": 1,
+      "e": "Una entrada es el artículo del diccionario donde aparece la palabra (lema) y se definen sus significados (acepciones)."
+    },
+    {
+      "t": "Diccionario",
+      "q": "¿Cuál es la característica del orden en un diccionario en papel?",
+      "o": [
+        "Las palabras se ordenan solo por la primera letra",
+        "Las palabras se ordenan alfabéticamente por todas sus letras",
+        "Las palabras se ordenan por temas o categorías",
+        "Las palabras se ordenan por tamaño o longitud"
+      ],
+      "a": 1,
+      "e": "En un diccionario en papel las palabras se ordenan alfabéticamente, no solo en la primera letra, sino en todas las demás."
+    }
+  ]
+}

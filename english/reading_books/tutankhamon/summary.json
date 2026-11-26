@@ -1,0 +1,114 @@
+{
+  "title": { "en": "Tutankhamun", "es": "Tutankamón" },
+  "author": "Julie Hart",
+  "overview": {
+    "en": "Tutankhamun becomes pharaoh of Egypt as a nine-year-old boy. His chief advisor Ai and his mother Queen Kia try to protect him, but the army commander Horemheb sees him as weak and wants power. Horemheb recruits the stable boy Rami to kill the young pharaoh. Rami loosens a wheel on the pharaoh's hunting chariot, and the resulting accident leads to Tutankhamun's death. Horemheb then rises to power: Ai dies, Horemheb becomes pharaoh, and he erases Tutankhamun's name from the official list of pharaohs. The truth only comes out in 1922, when an English archaeologist finds the young pharaoh's tomb. Main themes: ambition, envy, and the consequences of betrayal.",
+    "es": "Tutankamón se convierte en faraón de Egipto siendo un niño de nueve años. Su consejero principal, Ai, y su madre, la reina Kia, intentan protegerlo, pero el comandante del ejército, Horemheb, lo considera débil y quiere el poder. Horemheb recluta al mozo de cuadras Rami para matar al joven faraón. Rami afloja una rueda del carro de caza del faraón, y el accidente que se produce provoca la muerte de Tutankamón. Después, Horemheb asciende al poder: Ai muere, Horemheb se convierte en faraón y borra el nombre de Tutankamón de la lista oficial de faraones. La verdad sale a la luz en 1922, cuando un arqueólogo inglés encuentra la tumba del joven faraón. Temas principales: la ambición, la envidia y las consecuencias de la traición."
+  },
+  "characters": [
+    {
+      "name": "Tutankhamun",
+      "en": "The young pharaoh, crowned at nine. Likes games and archery; later learns to fight.",
+      "es": "El joven faraón, coronado con nueve años. Le gustan los juegos y el tiro con arco; después aprende a luchar."
+    },
+    {
+      "name": "Anka Sanamun",
+      "en": "Ai's granddaughter and Tutankhamun's wife. Lonely as queen; disappears after her second wedding.",
+      "es": "Nieta de Ai y esposa de Tutankamón. Vive sola como reina; desaparece tras su segunda boda."
+    },
+    {
+      "name": "Queen Kia",
+      "en": "Tutankhamun's mother. Protective, and distrusts Horemheb.",
+      "es": "Madre de Tutankamón. Protectora, desconfía de Horemheb."
+    },
+    {
+      "name": "Ai",
+      "en": "Chief advisor to the pharaoh. Becomes pharaoh after Tutankhamun's death, then dies heartbroken.",
+      "es": "Consejero principal del faraón. Se convierte en faraón tras la muerte de Tutankamón y después muere con el corazón roto."
+    },
+    {
+      "name": "Horemheb",
+      "en": "Army commander and the main villain. Plots the murder, then takes the throne.",
+      "es": "Comandante del ejército y el villano principal. Planea el asesinato y después se queda con el trono."
+    },
+    {
+      "name": "Rami",
+      "en": "Stable boy and soldier's son. Envious of Tutankhamun; hired to kill him, and later killed by the Nubians.",
+      "es": "Mozo de cuadras e hijo de un soldado. Envidia a Tutankamón; es contratado para matarlo y, más tarde, lo matan los nubios."
+    }
+  ],
+  "chapters": [
+    {
+      "n": 1,
+      "title": { "en": "The Young Pharaoh", "es": "El joven faraón" },
+      "en": "The old pharaoh dies, and his nine-year-old son Tutankhamun becomes the new pharaoh. He is frightened. His mother, Queen Kia, reassures him that Ai, the chief advisor, will help him. He prepares for the coronation ceremony.",
+      "es": "Muere el faraón y su hijo Tutankamón, de nueve años, pasa a ser el nuevo faraón. Tiene miedo. Su madre, la reina Kia, le asegura que Ai, el consejero principal, le ayudará. Se prepara para la ceremonia de coronación."
+    },
+    {
+      "n": 2,
+      "title": { "en": "The Ceremony", "es": "La ceremonia" },
+      "en": "Tut attends a big ceremony in the stadium. He feels small on the throne. The army parades, led by Horemheb, whom Tut dislikes. There are games, and Tut's favourite is archery. At the end he gives out medals and starts to think that being pharaoh might be fun.",
+      "es": "Tutankamón asiste a una gran ceremonia en el estadio. Se siente pequeño en el trono. Desfila el ejército, dirigido por Horemheb, al que Tut no soporta. Hay juegos, y su favorito es el tiro con arco. Al final entrega medallas y empieza a pensar que ser faraón podría ser divertido."
+    },
+    {
+      "n": 3,
+      "title": { "en": "Life in the Palace", "es": "La vida en el palacio" },
+      "en": "The royal family moves to a new palace in Memphis. Tut has daily lessons, but Ai makes the decisions. Tut prefers playing with Ai's granddaughter, Anka Sanamun, and with the stable boy, Rami, who is envious of Tut's luxurious life. Horemheb sees that Tut loses his fights and considers him weak.",
+      "es": "La familia real se traslada a un nuevo palacio en Menfis. Tut tiene clases a diario, pero Ai es quien toma las decisiones. Tut prefiere jugar con la nieta de Ai, Anka Sanamun, y con el mozo de cuadras, Rami, que envidia la vida de lujo de Tut. Horemheb ve que Tut pierde sus peleas y lo considera débil."
+    },
+    {
+      "n": 4,
+      "title": { "en": "Tutankhamun Learns to Fight", "es": "Tutankamón aprende a luchar" },
+      "en": "Tut overhears Ai and Horemheb: Horemheb says the boy is too weak to lead Egypt. Tut tries to fight a trainer, but Horemheb mocks him, then throws him against a wall. Tut is injured and ill for a week, and Queen Kia distrusts Horemheb even more. Tut then trains hard in wrestling, swordsmanship and archery, and falls in love with Anka Sanamun. Rami also loves her and resents Tut.",
+      "es": "Tut escucha a Ai y a Horemheb: Horemheb dice que el chico es demasiado débil para gobernar Egipto. Tut intenta pelear con un entrenador, pero Horemheb se burla de él y después lo lanza contra una pared. Tut se hiere y está enfermo una semana, y la reina Kia desconfía todavía más de Horemheb. Luego Tut entrena duro en lucha, esgrima y tiro con arco, y se enamora de Anka Sanamun. Rami también la ama y envidia a Tut."
+    },
+    {
+      "n": 5,
+      "title": { "en": "A Royal Wedding", "es": "Una boda real" },
+      "en": "Three years later, Tut (17) marries Anka Sanamun (16). As a wedding gift he hunts an ostrich to get feathers for a fan. Queen Kia gives him a lucky amulet. Horemheb is furious that Tut is becoming more popular, so he makes a plan with a soldier in Memphis, whose son Rami is recruited for a secret mission.",
+      "es": "Tres años después, Tut (17 años) se casa con Anka Sanamun (16 años). Como regalo de boda, caza un avestruz para conseguir plumas para un abanico. La reina Kia le da un amuleto de la suerte. Horemheb se enfurece porque Tut es cada vez más popular, así que prepara un plan con un soldado de Menfis, cuyo hijo, Rami, es reclutado para una misión secreta."
+    },
+    {
+      "n": 6,
+      "title": { "en": "The Secret Meeting", "es": "La reunión secreta" },
+      "en": "Horemheb meets Rami and offers him gold and a high position in the army if he kills Tutankhamun. Rami accepts, motivated by money and envy. He is also in love with Anka Sanamun and imagines that he will marry her after Tut's death.",
+      "es": "Horemheb se reúne con Rami y le ofrece oro y un alto cargo en el ejército si mata a Tutankamón. Rami acepta, movido por el dinero y la envidia. Además, está enamorado de Anka Sanamun y se imagina casándose con ella después de la muerte de Tut."
+    },
+    {
+      "n": 7,
+      "title": { "en": "The Valley of the Kings", "es": "El Valle de los Reyes" },
+      "en": "Tut and Anka take a royal boat tour along the Nile. They visit the tomb being built for Tut in the Valley of the Kings, and Anka is frightened by the dark tunnels. Meanwhile, Rami loosens a peg on the wheel of Tut's hunting chariot, planning an accident.",
+      "es": "Tut y Anka hacen un viaje real en barco por el Nilo. Visitan la tumba que se está construyendo para Tut en el Valle de los Reyes, y Anka se asusta de los oscuros túneles. Mientras tanto, Rami afloja un pasador de la rueda del carro de caza de Tut, planeando un accidente."
+    },
+    {
+      "n": 8,
+      "title": { "en": "The Accident in the Desert", "es": "El accidente en el desierto" },
+      "en": "Anka, bored and alone in the palace, takes Tut's hunting chariot into the desert. Tut rides after her. A snake frightens the horses, the chariot's wheel falls off, and the chariot crashes. Tut is badly injured. He develops a serious infection, and despite the doctors' efforts, he dies two weeks later.",
+      "es": "Anka, aburrida y sola en el palacio, se lleva el carro de caza de Tut al desierto. Tut sale tras ella a caballo. Una serpiente asusta a los caballos, la rueda del carro se desprende y el carro se estrella. Tut resulta gravemente herido. Desarrolla una infección grave y, pese a los esfuerzos de los médicos, muere dos semanas después."
+    },
+    {
+      "n": 9,
+      "title": { "en": "A Royal Funeral", "es": "Un funeral real" },
+      "en": "Anka is heartbroken. Horemheb suggests burying Tut in his own small tomb, and the ministers accept. Ai objects that the tomb is not appropriate for a pharaoh, but he is overruled. Tut's chariot, games and treasures are placed in the tomb, and the funeral procession goes to the Valley of the Kings. Anka protests that it is not Tut's tomb, but she is told to be quiet. She leaves the ostrich-feather fan inside and vows never to love again.",
+      "es": "Anka está destrozada. Horemheb propone enterrar a Tut en su propia tumba pequeña, y los ministros lo aceptan. Ai protesta porque no es una tumba adecuada para un faraón, pero no le hacen caso. El carro, los juegos y los tesoros de Tut se colocan en la tumba, y la procesión fúnebre se dirige al Valle de los Reyes. Anka protesta porque no es la tumba de Tut, pero le piden que guarde silencio. Deja el abanico de plumas dentro y jura que nunca volverá a amar."
+    },
+    {
+      "n": 10,
+      "title": { "en": "A New Pharaoh", "es": "Un nuevo faraón" },
+      "en": "At a government meeting, Ai proposes an investigation into Tut's death, but Horemheb says it was an accident and nobody questions Rami. The ministers choose Ai as the new pharaoh, because he is Tut's successor and the most experienced. Horemheb is unhappy: he plans to marry Anka Sanamun, Ai's granddaughter, to gain power.",
+      "es": "En una reunión del gobierno, Ai propone investigar la muerte de Tut, pero Horemheb dice que fue un accidente y nadie interroga a Rami. Los ministros eligen a Ai como nuevo faraón, porque es el sucesor de Tut y el más experimentado. Horemheb no está contento: planea casarse con Anka Sanamun, la nieta de Ai, para ganar poder."
+    },
+    {
+      "n": 11,
+      "title": { "en": "Horemheb the Hero", "es": "Horemheb, el héroe" },
+      "en": "For two years, Horemheb's army fights the Nubians. He sends Rami on a dangerous mission, and Rami is killed and thrown into the river, so the secret stays hidden. Horemheb returns as a hero and asks Ai for Anka's hand. Ai agrees, despite Anka's protests. On the wedding day, Anka leaves the banquet quietly, and nobody sees her again.",
+      "es": "Durante dos años, el ejército de Horemheb lucha contra los nubios. Horemheb envía a Rami a una misión peligrosa, y Rami muere y su cuerpo es arrojado al río, así que el secreto queda a salvo. Horemheb regresa como un héroe y pide a Ai la mano de Anka. Ai acepta, a pesar de las protestas de Anka. El día de la boda, Anka abandona el banquete en silencio y nadie vuelve a verla."
+    },
+    {
+      "n": 12,
+      "title": { "en": "Horemheb's Reign", "es": "El reinado de Horemheb" },
+      "en": "Ai dies of grief. Horemheb becomes pharaoh, takes over Ai's tomb, and orders Tutankhamun's name removed from the list of pharaohs, so people will forget him. Thousands of years later, in 1922, an English archaeologist finds Tutankhamun's tomb, with the ostrich-feather fan and the treasures, and the world learns the truth.",
+      "es": "Ai muere de pena. Horemheb se convierte en faraón, ocupa la tumba de Ai y ordena borrar el nombre de Tutankamón de la lista de faraones, para que la gente lo olvide. Miles de años después, en 1922, un arqueólogo inglés encuentra la tumba de Tutankamón, con el abanico de plumas y los tesoros, y el mundo conoce la verdad."
+    }
+  ]
+}
